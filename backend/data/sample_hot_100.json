@@ -1,0 +1,115 @@
+{
+  "chart_date": "2026-04-11",
+  "entries": [
+    {
+      "rank": 1,
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "album": "Still Hungover",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/ea/a6/1aeaa6cc-65e2-0d44-c658-4745ff48764f/198846688931.jpg/400x400cc.jpg",
+      "preview_url": null,
+      "weeks_on_chart": 24,
+      "peak_position": 1,
+      "last_week_position": 2
+    },
+    {
+      "rank": 2,
+      "title": "Swim",
+      "artist": "BTS",
+      "album": null,
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 2,
+      "peak_position": 1,
+      "last_week_position": 1
+    },
+    {
+      "rank": 3,
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "album": "Messy",
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 32,
+      "peak_position": 2,
+      "last_week_position": 3
+    },
+    {
+      "rank": 4,
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "album": null,
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 12,
+      "peak_position": 1,
+      "last_week_position": 4
+    },
+    {
+      "rank": 5,
+      "title": "Ordinary",
+      "artist": "Alex Warren",
+      "album": null,
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 59,
+      "peak_position": 1,
+      "last_week_position": 5
+    },
+    {
+      "rank": 6,
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga & Bruno Mars",
+      "album": null,
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 29,
+      "peak_position": 1,
+      "last_week_position": 6
+    },
+    {
+      "rank": 7,
+      "title": "A Bar Song (Tipsy)",
+      "artist": "Shaboozey",
+      "album": "Where I've Been, Isn't Where I'm Going",
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 43,
+      "peak_position": 1,
+      "last_week_position": 8
+    },
+    {
+      "rank": 8,
+      "title": "Lose Control",
+      "artist": "Teddy Swims",
+      "album": "I've Tried Everything But Therapy",
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 71,
+      "peak_position": 1,
+      "last_week_position": 7
+    },
+    {
+      "rank": 9,
+      "title": "Beautiful Things",
+      "artist": "Benson Boone",
+      "album": "Fireworks & Rollerblades",
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 62,
+      "peak_position": 2,
+      "last_week_position": 9
+    },
+    {
+      "rank": 10,
+      "title": "Greedy",
+      "artist": "Tate McRae",
+      "album": "Think Later",
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 35,
+      "peak_position": 3,
+      "last_week_position": 10
+    }
+  ]
+}
