@@ -12,3 +12,4 @@ backend/data/aux.db
 
 # Env
 **/.env
+**/.env.local
