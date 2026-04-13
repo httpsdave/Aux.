@@ -125,6 +125,9 @@ body {
   padding: 0.45rem 0.7rem;
   font: inherit;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pagination-actions button:disabled {
@@ -132,9 +135,21 @@ body {
   cursor: not-allowed;
 }
 
-.pagination-actions span {
-  color: var(--muted);
-  font-size: 0.9rem;
+.pagination-actions button.active {
+  background: var(--text);
+  color: var(--card);
+  border-color: var(--text);
+  pointer-events: none;
+}
+
+.page-numbers {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.page-numbers button {
+  padding: 0.45rem 0.75rem;
+  font-weight: 600;
 }
 
 .song-row {
@@ -273,7 +288,11 @@ body {
   color: #9a1f1f;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
+  .page-shell {
+    padding: 1.5rem 1rem 2rem;
+  }
+
   .song-row {
     grid-template-columns: 40px 80px 1fr;
     grid-template-areas:
@@ -282,43 +301,65 @@ body {
       "rank preview preview"
       "rank actions actions"
       "rank details details";
+    gap: 0.8rem;
+    padding: 1rem;
   }
 
   .rank {
     grid-area: rank;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    align-self: start;
+    margin-top: 0.4rem;
   }
 
   .cover-wrap {
     grid-area: cover;
+    justify-content: flex-start;
+  }
+
+  .cover {
+    width: 80px;
+    height: 80px;
   }
 
   .meta {
     grid-area: meta;
+    flex-direction: row;
+    align-items: flex-start;
   }
 
   .stats {
     grid-area: stats;
+    margin-top: 0.5rem;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    gap: 1.5rem;
   }
 
   .preview {
     grid-area: preview;
+    margin-top: 0.5rem;
+  }
+
+  .preview audio {
+    max-width: 100%;
   }
 
   .actions {
     grid-area: actions;
     justify-content: flex-start;
+    margin-top: 0.5rem;
   }
 
   .details-panel {
     grid-area: details;
-    grid-column: auto;
+    grid-column: 1 / -1;
   }
 }
 
 @media (max-width: 640px) {
   .hero h1 {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
   }
 
   .filters {
@@ -328,11 +369,43 @@ body {
   .chart-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.4rem;
+    gap: 0.5rem;
   }
 
   .pagination-bar {
     flex-direction: column;
     align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .page-numbers {
+    flex-wrap: wrap;
+  }
+
+  .song-row {
+    grid-template-columns: 35px 1fr;
+    grid-template-areas:
+      "rank meta"
+      "rank cover"
+      "rank stats"
+      "rank preview"
+      "rank actions"
+      "details details";
+  }
+
+  .meta {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .movement {
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+
+  .cover {
+    width: 120px;
+    height: 120px;
+    margin-top: 0.5rem;
   }
 }

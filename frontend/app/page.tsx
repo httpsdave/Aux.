@@ -114,18 +114,29 @@ export default function Home() {
               type="button"
               onClick={() => setPage((current) => Math.max(1, current - 1))}
               disabled={safePage === 1}
+              aria-label="Previous Page"
             >
-              Previous
+              &larr;
             </button>
-            <span>
-              Page {safePage} / {totalPages}
-            </span>
+            <div className="page-numbers">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+                <button
+                  key={p}
+                  type="button"
+                  className={p === safePage ? "active" : ""}
+                  onClick={() => setPage(p)}
+                >
+                  {p}
+                </button>
+              ))}
+            </div>
             <button
               type="button"
               onClick={() => setPage((current) => Math.min(totalPages, current + 1))}
               disabled={safePage === totalPages}
+              aria-label="Next Page"
             >
-              Next
+              &rarr;
             </button>
           </div>
         </section>
