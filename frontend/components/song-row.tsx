@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
+import AudioPlayer from "@/components/audio-player";
 import { SongEntry } from "@/lib/types";
 
 interface SongRowProps {
@@ -64,9 +65,7 @@ export default function SongRow({ song }: SongRowProps) {
 
       <div className="preview">
         {song.preview_url ? (
-          <audio controls preload="none" src={song.preview_url}>
-            Your browser does not support the audio element.
-          </audio>
+          <AudioPlayer url={song.preview_url} trackId={`${song.title}-${song.artist}`} />
         ) : (
           <span className="preview-missing" aria-label="Preview unavailable">
             Preview unavailable

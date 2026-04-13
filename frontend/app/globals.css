@@ -104,7 +104,7 @@ select:focus {
 .chart-header {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   margin: 1.3rem 0 0.8rem;
 }
 
@@ -256,9 +256,167 @@ select:focus {
   font-weight: 700;
 }
 
-.preview audio {
+/* Custom Audio Player */
+.custom-audio-player {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
   width: 100%;
-  max-width: 220px;
+  max-width: 320px;
+}
+
+.custom-audio-player .play-btn, 
+.custom-audio-player .vol-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  padding: 0.2rem;
+  transition: opacity 0.2s ease;
+}
+
+.custom-audio-player .play-btn:hover,
+.custom-audio-player .vol-btn:hover {
+  opacity: 0.6;
+}
+
+.barcode-waveform {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 28px;
+  gap: 2.5px;
+  cursor: pointer;
+}
+
+.barcode-bar {
+  flex: 1;
+  background: #cbcbc8;
+  border-radius: 2px;
+  transition: background 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.2s ease;
+  min-width: 2px;
+  transform-origin: center;
+}
+
+.barcode-bar.active {
+  background: var(--text);
+}
+
+.barcode-waveform:hover .barcode-bar {
+  transition: background 0.1s linear, transform 0.15s ease;
+}
+
+.barcode-waveform:active .barcode-bar,
+.barcode-bar.dragging {
+  transition: none; /* Instant feedback while dragging seamlessly */
+}
+
+/* Add a subtle visual shift when actively dragging or hovering */
+.barcode-waveform:hover .barcode-bar.active {
+  transform: scaleY(1.05); /* Make active path slightly punchier */
+}
+
+/* Volume upward popup */
+.volume-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.volume-popup {
+  position: absolute;
+  bottom: calc(100% + 15px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.2rem 0.5rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  animation: popIn 0.2s cubic-bezier(0.1, 0.7, 0.1, 1);
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: translate(-50%, 5px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+.volume-popup::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: var(--card) transparent transparent transparent;
+}
+
+.volume-popup::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -7px;
+  margin-top: 1.5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: var(--line) transparent transparent transparent;
+  z-index: -1;
+}
+
+.volume-slider-wrap {
+  width: 24px;
+  height: 110px;
+  position: relative;
+}
+
+/* CSS rotation to make horizontal slider vertical */
+.vol-slider {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 110px;
+  height: 8px;
+  background: #dbdbd8;
+  border-radius: 4px;
+  outline: none;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  cursor: pointer;
+}
+
+.vol-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--text);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.vol-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--text);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .preview span {
@@ -381,7 +539,7 @@ select:focus {
     margin-top: 0.5rem;
   }
 
-  .preview audio {
+  .custom-audio-player {
     max-width: 100%;
   }
 
@@ -414,38 +572,106 @@ select:focus {
 
   .pagination-bar {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 1rem;
+  }
+
+  .pagination-actions {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .page-numbers {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .song-row {
-    grid-template-columns: 35px 1fr;
+    grid-template-columns: 32px 64px 1fr;
     grid-template-areas:
-      "rank meta"
-      "rank cover"
-      "rank stats"
-      "rank preview"
-      "rank actions"
-      "details details";
+      "rank cover meta"
+      "rank cover meta" /* spanning extra safe rows */
+      "stats stats stats"
+      "preview preview preview"
+      "actions actions actions"
+      "details details details";
+    gap: 0.7rem;
+    padding: 1rem;
+    align-items: center;
   }
 
-  .meta {
-    flex-direction: column;
-    gap: 0.4rem;
+  .rank {
+    grid-area: rank;
+    font-size: 1.8rem;
+    align-self: center;
+    justify-self: center;
+    margin-top: 0;
   }
 
-  .movement {
-    font-size: 1.1rem;
-    line-height: 1;
+  .cover-wrap {
+    grid-area: cover;
+    justify-content: center;
   }
 
   .cover {
-    width: 120px;
-    height: 120px;
-    margin-top: 0.5rem;
+    width: 64px;
+    height: 64px;
+    margin-top: 0;
+    border-radius: 8px;
+  }
+
+  .meta {
+    grid-area: meta;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .meta h3 {
+    font-size: 1rem;
+  }
+
+  .meta p {
+    font-size: 0.8rem;
+  }
+
+  .movement {
+    font-size: 1rem;
+  }
+
+  .album {
+    display: none; /* Hide album on constraint mobile to save space */
+  }
+
+  .stats {
+    grid-area: stats;
+    margin-top: 0.3rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--line);
+    margin-bottom: 0.3rem;
+    justify-content: space-around;
+  }
+
+  .preview {
+    grid-area: preview;
+  }
+
+  .actions {
+    grid-area: actions;
+    justify-content: flex-end;
+  }
+
+  .barcode-waveform {
+    gap: 1.5px;
+  }
+
+  .barcode-bar {
+    min-width: 1px;
+  }
+
+  .custom-audio-player {
+    max-width: 100%;
+    padding: 0;
   }
 }
+
