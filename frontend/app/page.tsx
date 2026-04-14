@@ -35,9 +35,20 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    let isActive = true;
+
+    setError(null);
+    setDates([]);
+    setSelectedDate("");
+    setChartData(null);
+
     async function loadDates() {
       try {
         const response = await fetchChartDates(selectedChart);
+        if (!isActive) {
+          return;
+        }
+
         setDates(response.dates);
         if (response.dates.length > 0) {
           setSelectedDate(response.dates[0]);
@@ -46,11 +57,17 @@ export default function Home() {
           setChartData(null);
         }
       } catch {
-        setError("Could not load available chart dates");
+        if (isActive) {
+          setError("Could not load available chart dates");
+        }
       }
     }
 
     void loadDates();
+
+    return () => {
+      isActive = false;
+    };
   }, [selectedChart]);
 
   useEffect(() => {
@@ -58,20 +75,32 @@ export default function Home() {
       return;
     }
 
+    let isActive = true;
+
     async function loadChart() {
       try {
         setLoading(true);
         setError(null);
         const response = await fetchChart({ chart: selectedChart, chartSize, period, date: selectedDate });
-        setChartData(response);
+        if (isActive) {
+          setChartData(response);
+        }
       } catch {
-        setError("Could not load chart data");
+        if (isActive) {
+          setError("Could not load chart data");
+        }
       } finally {
-        setLoading(false);
+        if (isActive) {
+          setLoading(false);
+        }
       }
     }
 
     void loadChart();
+
+    return () => {
+      isActive = false;
+    };
   }, [selectedChart, chartSize, period, selectedDate]);
 
   useEffect(() => {
@@ -104,19 +133,24 @@ export default function Home() {
   const endRank = pageStart + pagedEntries.length;
 
   return (
-    <main className="page-shell">
-      <button
-        type="button"
-        className={`hamburger-btn ${isSidebarOpen ? "hidden" : ""}`}
-        aria-label="Open chart menu"
-        onClick={() => setIsSidebarOpen(true)}
-      >
-        <span className="hamburger-line" aria-hidden="true" />
-        <span className="hamburger-line" aria-hidden="true" />
-        <span className="hamburger-line" aria-hidden="true" />
-      </button>
+    <>
+      <header className="top-header">
+        <div className="top-header-inner">
+          <button
+            type="button"
+            className="hamburger-btn"
+            aria-label="Open chart menu"
+            onClick={() => setIsSidebarOpen(true)}
+          >
+            <span className="hamburger-line" aria-hidden="true" />
+            <span className="hamburger-line" aria-hidden="true" />
+            <span className="hamburger-line" aria-hidden="true" />
+          </button>
+        </div>
+      </header>
 
-      {isSidebarOpen ? <button className="sidebar-backdrop" aria-label="Close chart menu" onClick={() => setIsSidebarOpen(false)} /> : null}
+      <main className="page-shell">
+        {isSidebarOpen ? <button className="sidebar-backdrop" aria-label="Close chart menu" onClick={() => setIsSidebarOpen(false)} /> : null}
 
       <aside className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
         <div className="sidebar-header">
@@ -251,5 +285,6 @@ export default function Home() {
         </section>
       ) : null}
     </main>
+    </>
   );
 }

@@ -76,10 +76,10 @@ def enrich_with_itunes(
     except Exception:
         pass
 
-    fallback_image_url, fallback_preview_url, fallback_album = enrich_with_deezer(title, artist, timeout_seconds)
+    fallback_image_url, _, fallback_album = enrich_with_deezer(title, artist, timeout_seconds)
     return (
         best_image_url or fallback_image_url,
-        best_preview_url or fallback_preview_url,
+        best_preview_url,
         best_album or fallback_album,
     )
 

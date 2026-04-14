@@ -83,7 +83,10 @@ def read_chart(
 
     resolved_date = resolve_chart_date(db, source_chart, requested_date, period)
     if resolved_date is None:
-        raise HTTPException(status_code=404, detail="No chart data found for selected period/date")
+        # If a stale date is requested, serve the latest available snapshot.
+        resolved_date = get_latest_chart_date(db, source_chart)
+        if resolved_date is None:
+            raise HTTPException(status_code=404, detail="No chart data found for selected period/date")
 
     rows = get_chart_entries(db, source_chart, resolved_date, chart_size)
     entries = [
