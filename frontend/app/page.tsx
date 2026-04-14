@@ -180,7 +180,7 @@ export default function Home() {
         <p className="brand">Aux.</p>
         <h1>Top Songs</h1>
         <p className="chart-context">{currentChartLabel}</p>
-        <p className="sub">A chart-first music explorer with ranking context and audio previews.</p>
+        <p className="sub">Plug into the tracks moving the world right now.</p>
       </header>
 
       <ChartFilters
