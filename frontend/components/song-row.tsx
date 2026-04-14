@@ -13,7 +13,11 @@ interface SongRowProps {
 export default function SongRow({ song }: SongRowProps) {
   const [expanded, setExpanded] = useState(false);
   const generatedCover = `https://api.dicebear.com/9.x/shapes/svg?seed=${encodeURIComponent(`${song.title}-${song.artist}`)}`;
-  const coverSrc = song.image_url || generatedCover;
+  
+  let coverSrc = song.image_url || generatedCover;
+  if (coverSrc.includes("mzstatic.com") || coverSrc.includes("apple.com")) {
+    coverSrc = coverSrc.replace(/100x100bb/g, "600x600bb").replace(/300x300bb/g, "600x600bb");
+  }
   
   let imageSize = 90;
   let topClass = "";

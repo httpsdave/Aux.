@@ -61,6 +61,9 @@ def enrich_with_itunes(
 
                     for item in results:
                         image_url = item.get("artworkUrl100")
+                        if isinstance(image_url, str):
+                            image_url = image_url.replace("100x100bb", "600x600bb")
+
                         preview_url = item.get("previewUrl")
                         album = item.get("collectionName")
 
@@ -103,7 +106,7 @@ def enrich_with_deezer(title: str, artist: str, timeout_seconds: float = 8.0) ->
 
                 item = results[0]
                 album_info = item.get("album") or {}
-                image_url = album_info.get("cover_medium")
+                image_url = album_info.get("cover_xl") or album_info.get("cover_big") or album_info.get("cover_medium")
                 preview_url = item.get("preview")
                 album = album_info.get("title")
                 return image_url, preview_url, album
@@ -166,7 +169,7 @@ def fetch_philippines_top_songs(
         artist = item.get("artistName") or ""
         artwork_url = item.get("artworkUrl100")
         if isinstance(artwork_url, str):
-            artwork_url = artwork_url.replace("100x100bb", "300x300bb")
+            artwork_url = artwork_url.replace("100x100bb", "600x600bb").replace("300x300bb", "600x600bb")
 
         preview_url = None
         album = item.get("collectionName")
