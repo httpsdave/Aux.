@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "key": "hot-100",
+      "label": "Top Songs Global"
+    },
+    {
+      "key": "philippines-songs",
+      "label": "Top Songs Philippines"
+    }
+  ]
+}
