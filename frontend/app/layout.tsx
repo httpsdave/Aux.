@@ -14,7 +14,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${bodyFont.variable} ${titleFont.variable}`}>{children}</body>
+      <body className={`${bodyFont.variable} ${titleFont.variable}`}>
+        <div className="bg-elements" aria-hidden="true">
+          <div className="bg-shape radial-dash" />
+          <div className="bg-shape neon-strips" />
+          <div className="bg-shape pink-blob" />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  background: radial-gradient(circle at top right, #ffffff 0%, #ecece8 40%, #e7e7e4 100%);
+  background: transparent;
   color: var(--text);
   font-family: var(--font-body), sans-serif;
 }
@@ -34,9 +34,7 @@ body {
 }
 
 .top-header-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0.8rem 1rem;
+  padding: 0.8rem 1.5rem;
 }
 
 .hamburger-btn {
@@ -822,5 +820,60 @@ select:focus {
     max-width: 100%;
     padding: 0;
   }
+}
+
+/* --- Experimental / Brutalist Background Elements --- */
+.bg-elements {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  pointer-events: none;
+  overflow: hidden;
+  background-color: #fffbfa; /* Warm off-white to make neon pop */
+  /* Overlay noise texture */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+}
+
+.bg-shape {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Massive orange radial dashed sweeping curve */
+.radial-dash {
+  top: -25vh;
+  right: -15vw;
+  width: 90vw;
+  height: 90vw;
+  border-radius: 50%;
+  background: repeating-radial-gradient(circle at center, transparent 0, transparent 40px, #ff4c1e 40px, #ff4c1e 80px);
+  -webkit-mask-image: radial-gradient(circle at top right, black 30%, transparent 80%);
+  mask-image: radial-gradient(circle at top right, black 30%, transparent 80%);
+  opacity: 0.85;
+  transform: rotate(-15deg);
+}
+
+/* Neon lime green slanted strips */
+.neon-strips {
+  bottom: -5vh;
+  left: -10vw;
+  width: 50vw;
+  height: 60vh;
+  background: repeating-linear-gradient(-45deg, #d2ff00 0, #d2ff00 30px, transparent 30px, transparent 60px);
+  opacity: 0.95;
+  transform: rotate(-10deg);
+  border-radius: 20px;
+}
+
+/* Big hot pink glowing blob */
+.pink-blob {
+  top: 30%;
+  left: 20%;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  background-color: #ff00ea;
+  filter: blur(140px);
+  opacity: 0.35;
 }
 
