@@ -116,7 +116,7 @@ export default function Home() {
               disabled={safePage === 1}
               aria-label="Previous Page"
             >
-              &larr;
+              &lt;
             </button>
             <div className="page-numbers">
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
@@ -136,7 +136,7 @@ export default function Home() {
               disabled={safePage === totalPages}
               aria-label="Next Page"
             >
-              &rarr;
+              &gt;
             </button>
           </div>
         </section>
@@ -150,6 +150,44 @@ export default function Home() {
           <SongRow key={`${chartData.resolved_chart_date}-${song.rank}`} song={song} />
         ))}
       </section>
+
+      {entries.length > 0 ? (
+        <section className="pagination-bar" style={{ marginTop: "1rem" }}>
+          <p>
+            Showing {startRank}-{endRank} of {entries.length}
+          </p>
+          <div className="pagination-actions">
+            <button
+              type="button"
+              onClick={() => setPage((current) => Math.max(1, current - 1))}
+              disabled={safePage === 1}
+              aria-label="Previous Page"
+            >
+              &lt;
+            </button>
+            <div className="page-numbers">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+                <button
+                  key={p}
+                  type="button"
+                  className={p === safePage ? "active" : ""}
+                  onClick={() => setPage(p)}
+                >
+                  {p}
+                </button>
+              ))}
+            </div>
+            <button
+              type="button"
+              onClick={() => setPage((current) => Math.min(totalPages, current + 1))}
+              disabled={safePage === totalPages}
+              aria-label="Next Page"
+            >
+              &gt;
+            </button>
+          </div>
+        </section>
+      ) : null}
     </main>
   );
 }
