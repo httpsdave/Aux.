@@ -16,6 +16,7 @@ body {
   background: transparent;
   color: var(--text);
   font-family: var(--font-body), sans-serif;
+  overflow-x: hidden;
 }
 
 .page-shell {
@@ -23,6 +24,30 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 1rem 1rem 3rem;
+}
+
+/* Creates a soft, blurred wash behind the top text elements so they stand out from vibrant backgrounds */
+.page-shell::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 30rem;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.4) 70%, transparent 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+@media (max-width: 640px) {
+  .page-shell::before {
+    height: 42rem;
+  }
 }
 
 .top-header {
@@ -147,8 +172,12 @@ body {
 }
 
 .hero {
-  margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .brand {
@@ -168,20 +197,26 @@ body {
 
 .sub {
   margin-top: 0.6rem;
-  color: var(--muted);
+  color: var(--text);
+  opacity: 0.8;
+  font-weight: 500;
+  text-shadow: 0 0 6px rgb(255 255 255), 0 0 12px rgb(255 255 255);
 }
 
 .chart-context {
   margin: 0.3rem 0 0;
-  color: var(--muted);
+  color: var(--text);
+  opacity: 0.8;
   font-weight: 700;
+  text-shadow: 0 0 6px rgb(255 255 255), 0 0 12px rgb(255 255 255);
 }
 
 .filters {
   display: grid;
-  grid-template-columns: repeat(3, minmax(140px, 1fr));
-  gap: 0.8rem;
-  margin-bottom: 1.2rem;
+  grid-template-columns: repeat(3, minmax(140px, 200px));
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .filter-group {
@@ -195,7 +230,9 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--muted);
+  color: var(--text);
+  opacity: 0.8;
+  text-shadow: 0 0 6px rgb(255 255 255), 0 0 12px rgb(255 255 255);
 }
 
 select {
@@ -258,7 +295,10 @@ select:focus {
 
 .chart-header p {
   margin: 0;
-  color: var(--muted);
+  color: var(--text);
+  opacity: 0.8;
+  font-weight: 500;
+  text-shadow: 0 0 6px rgb(255 255 255), 0 0 12px rgb(255 255 255);
 }
 
 .chart-list {
@@ -276,7 +316,9 @@ select:focus {
 
 .pagination-bar p {
   margin: 0;
-  color: var(--muted);
+  color: var(--text);
+  font-weight: 500;
+  text-shadow: 0 0 6px rgb(255 255 255), 0 0 12px rgb(255 255 255);
 }
 
 .pagination-actions {
@@ -757,6 +799,7 @@ select:focus {
 
   .filters {
     grid-template-columns: 1fr;
+    justify-content: stretch;
   }
 
   .chart-header {
