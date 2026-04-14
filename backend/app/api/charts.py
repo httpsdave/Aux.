@@ -33,12 +33,17 @@ def resolve_chart_source(chart: str | None) -> str:
 
 def bootstrap_source_if_missing(db: Session, source_chart: str) -> None:
     latest = get_latest_chart_date(db, source_chart)
-    if latest is not None:
-        return
-
     if source_chart == "philippines-songs":
-        rows = fetch_philippines_top_songs(limit=100)
-        upsert_chart_snapshot(db, source_chart, rows)
+        if latest is None:
+            rows = fetch_philippines_top_songs(limit=100, enrich_metadata=True)
+            upsert_chart_snapshot(db, source_chart, rows)
+            return
+
+        current_rows = get_chart_entries(db, source_chart, latest, 100)
+        has_any_preview = any(row.preview_url for row in current_rows)
+        if not has_any_preview:
+            rows = fetch_philippines_top_songs(limit=100, enrich_metadata=True)
+            upsert_chart_snapshot(db, source_chart, rows)
 
 
 @router.get("/sources", response_model=ChartSourcesResponse)

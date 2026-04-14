@@ -53,10 +53,23 @@ def build_date_filter(args: argparse.Namespace):
     return None
 
 
-def resolve_enrichment(title: str, artist: str, timeout_seconds: float, retries: int, retry_delay_seconds: float):
+def resolve_enrichment(
+    title: str,
+    artist: str,
+    timeout_seconds: float,
+    retries: int,
+    retry_delay_seconds: float,
+    chart: str,
+):
     attempts = max(0, retries) + 1
     for attempt in range(1, attempts + 1):
-        image_url, preview_url, album = enrich_with_itunes(title, artist, timeout_seconds=timeout_seconds)
+        preferred_country = "PH" if chart == "philippines-songs" else None
+        image_url, preview_url, album = enrich_with_itunes(
+            title,
+            artist,
+            timeout_seconds=timeout_seconds,
+            preferred_country=preferred_country,
+        )
         if image_url or preview_url or album:
             return image_url, preview_url, album
 
@@ -115,6 +128,7 @@ def main() -> None:
                     timeout_seconds=args.timeout_seconds,
                     retries=args.retries,
                     retry_delay_seconds=args.retry_delay_seconds,
+                    chart=args.chart,
                 )
                 metadata_cache[cache_key] = (image_url, preview_url, album)
 
