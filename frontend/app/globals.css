@@ -335,6 +335,43 @@ select:focus {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
 }
 
+.song-row.top-1 {
+  grid-template-columns: 60px 190px 1fr 170px 220px 120px;
+  padding: 1.5rem;
+}
+.song-row.top-1 .rank {
+  font-size: 4rem;
+  color: var(--accent);
+  text-shadow: 0 0 16px rgba(0, 208, 132, 0.4);
+}
+.song-row.top-1 .meta h3 {
+  font-size: 1.6rem;
+}
+
+.song-row.top-2 {
+  grid-template-columns: 55px 150px 1fr 170px 220px 120px;
+  padding: 1.2rem;
+}
+.song-row.top-2 .rank {
+  font-size: 3rem;
+  color: #a0a0a0;
+}
+.song-row.top-2 .meta h3 {
+  font-size: 1.4rem;
+}
+
+.song-row.top-3 {
+  grid-template-columns: 50px 120px 1fr 170px 220px 120px;
+  padding: 1rem;
+}
+.song-row.top-3 .rank {
+  font-size: 2.5rem;
+  color: #cd7f32;
+}
+.song-row.top-3 .meta h3 {
+  font-size: 1.3rem;
+}
+
 .rank {
   font-family: var(--font-title), sans-serif;
   font-size: 2rem;
@@ -650,12 +687,19 @@ select:focus {
     padding: 1rem;
   }
 
+  .song-row.top-1 { grid-template-columns: 50px 140px 1fr; }
+  .song-row.top-2 { grid-template-columns: 45px 110px 1fr; }
+  .song-row.top-3 { grid-template-columns: 45px 95px 1fr; }
+
   .rank {
     grid-area: rank;
     font-size: 1.6rem;
     align-self: start;
     margin-top: 0.4rem;
   }
+  .song-row.top-1 .rank { font-size: 2.8rem; }
+  .song-row.top-2 .rank { font-size: 2.2rem; }
+  .song-row.top-3 .rank { font-size: 1.9rem; }
 
   .cover-wrap {
     grid-area: cover;
@@ -666,6 +710,10 @@ select:focus {
     width: 80px;
     height: 80px;
   }
+
+  .song-row.top-1 .cover { width: 140px; height: 140px; }
+  .song-row.top-2 .cover { width: 110px; height: 110px; }
+  .song-row.top-3 .cover { width: 95px; height: 95px; }
 
   .meta {
     grid-area: meta;
@@ -747,6 +795,10 @@ select:focus {
     align-items: center;
   }
 
+  .song-row.top-1 { grid-template-columns: 40px 100px 1fr; }
+  .song-row.top-2 { grid-template-columns: 38px 85px 1fr; }
+  .song-row.top-3 { grid-template-columns: 35px 75px 1fr; }
+
   .rank {
     grid-area: rank;
     font-size: 1.8rem;
@@ -754,6 +806,9 @@ select:focus {
     justify-self: center;
     margin-top: 0;
   }
+  .song-row.top-1 .rank { font-size: 2.5rem; }
+  .song-row.top-2 .rank { font-size: 2rem; }
+  .song-row.top-3 .rank { font-size: 1.8rem; }
 
   .cover-wrap {
     grid-area: cover;
@@ -767,6 +822,10 @@ select:focus {
     border-radius: 8px;
   }
 
+  .song-row.top-1 .cover { width: 100px; height: 100px; }
+  .song-row.top-2 .cover { width: 85px; height: 85px; }
+  .song-row.top-3 .cover { width: 75px; height: 75px; }
+
   .meta {
     grid-area: meta;
     flex-direction: row;
@@ -774,11 +833,11 @@ select:focus {
     gap: 0.5rem;
   }
 
-  .meta h3 {
+  .meta h3, .song-row.top-1 .meta h3, .song-row.top-2 .meta h3, .song-row.top-3 .meta h3 {
     font-size: 1rem;
   }
 
-  .meta p {
+  .meta p, .song-row.top-1 .meta p, .song-row.top-2 .meta p, .song-row.top-3 .meta p {
     font-size: 0.8rem;
   }
 

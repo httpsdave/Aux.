@@ -14,6 +14,20 @@ export default function SongRow({ song }: SongRowProps) {
   const [expanded, setExpanded] = useState(false);
   const generatedCover = `https://api.dicebear.com/9.x/shapes/svg?seed=${encodeURIComponent(`${song.title}-${song.artist}`)}`;
   const coverSrc = song.image_url || generatedCover;
+  
+  let imageSize = 90;
+  let topClass = "";
+  if (song.rank === 1) {
+    imageSize = 180;
+    topClass = " top-1";
+  } else if (song.rank === 2) {
+    imageSize = 140;
+    topClass = " top-2";
+  } else if (song.rank === 3) {
+    imageSize = 110;
+    topClass = " top-3";
+  }
+
   const movementSymbol =
     song.last_week_position == null
       ? "-"
@@ -26,14 +40,14 @@ export default function SongRow({ song }: SongRowProps) {
     movementSymbol === "↑" ? "movement up" : movementSymbol === "↓" ? "movement down" : "movement";
 
   return (
-    <article className={`song-row${expanded ? " expanded" : ""}`}>
+    <article className={`song-row${expanded ? " expanded" : ""}${topClass}`}>
       <div className="rank">{song.rank}</div>
       <div className="cover-wrap">
         <Image
           src={coverSrc}
           alt={`${song.title} album art`}
-          width={90}
-          height={90}
+          width={imageSize}
+          height={imageSize}
           className="cover"
           unoptimized
         />
