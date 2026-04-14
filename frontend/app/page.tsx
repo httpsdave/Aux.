@@ -243,7 +243,7 @@ export default function Home() {
 
       <section className="chart-list">
         {pagedEntries.map((song) => (
-          <SongRow key={`${chartData.resolved_chart_date}-${song.rank}`} song={song} />
+          <SongRow key={`${chartData?.resolved_chart_date ?? selectedDate ?? "snapshot"}-${song.rank}`} song={song} />
         ))}
       </section>
 

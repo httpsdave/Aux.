@@ -13,7 +13,7 @@ function makeUrl(path: string, query?: Record<string, string>) {
   return url;
 }
 
-function useStaticData(): boolean {
+function isStaticDataMode(): boolean {
   return DATA_MODE === "static";
 }
 
@@ -32,7 +32,7 @@ async function fetchStaticChart(chart: ChartSourceKey): Promise<{
 }
 
 export async function fetchChartSources(): Promise<ChartSourcesResponse> {
-  if (useStaticData()) {
+  if (isStaticDataMode()) {
     const response = await fetch("/data/chart_sources.json", { cache: "no-store" });
     if (!response.ok) {
       throw new Error("Unable to fetch chart sources");
@@ -52,7 +52,7 @@ export async function fetchChartSources(): Promise<ChartSourcesResponse> {
 }
 
 export async function fetchChartDates(chart: ChartSourceKey): Promise<ChartDatesResponse> {
-  if (useStaticData()) {
+  if (isStaticDataMode()) {
     const snapshot = await fetchStaticChart(chart);
     return {
       source_chart: snapshot.source_chart,
@@ -77,7 +77,7 @@ export async function fetchChart(params: {
   period: Period;
   date: string;
 }): Promise<ChartResponse> {
-  if (useStaticData()) {
+  if (isStaticDataMode()) {
     const snapshot = await fetchStaticChart(params.chart);
     const availableDates = snapshot.dates.length > 0 ? snapshot.dates : [snapshot.resolved_chart_date];
     const requestedDate = params.date || availableDates[0];

@@ -129,12 +129,13 @@ export default function AudioPlayer({ url, trackId }: AudioPlayerProps) {
   const handlePointerUp = (e: React.PointerEvent<HTMLDivElement>) => {
     setIsDragging(false);
     e.currentTarget.releasePointerCapture(e.pointerId);
-    
-    if (audioRef.current && duration > 0) {
-      const rect = waveformRef.current.getBoundingClientRect();
+
+    const waveformEl = waveformRef.current;
+    if (audioRef.current && waveformEl && duration > 0) {
+      const rect = waveformEl.getBoundingClientRect();
       const ratio = (e.clientX - rect.left) / rect.width;
       const boundedRatio = Math.max(0, Math.min(1, ratio));
-      
+
       setProgress(boundedRatio);
       audioRef.current.currentTime = boundedRatio * duration;
     }
