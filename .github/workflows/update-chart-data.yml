@@ -2,7 +2,8 @@ name: Update Chart Data
 
 on:
   schedule:
-    - cron: "0 2 * * *"
+    # 08:00 Asia/Manila (UTC+8) daily
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
