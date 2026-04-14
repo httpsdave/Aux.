@@ -4,11 +4,14 @@ import { useEffect, useMemo, useState } from "react";
 
 import ChartFilters from "@/components/chart-filters";
 import SongRow from "@/components/song-row";
-import { fetchChart, fetchChartDates } from "@/lib/api";
-import { ChartResponse, ChartSize, Period } from "@/lib/types";
+import { fetchChart, fetchChartDates, fetchChartSources } from "@/lib/api";
+import { ChartResponse, ChartSize, ChartSource, ChartSourceKey, Period } from "@/lib/types";
 
 export default function Home() {
   const pageSize = 10;
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [chartSources, setChartSources] = useState<ChartSource[]>([]);
+  const [selectedChart, setSelectedChart] = useState<ChartSourceKey>("hot-100");
   const [dates, setDates] = useState<string[]>([]);
   const [selectedDate, setSelectedDate] = useState("");
   const [chartSize, setChartSize] = useState<ChartSize>(100);
@@ -19,12 +22,28 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    async function loadChartSources() {
+      try {
+        const response = await fetchChartSources();
+        setChartSources(response.sources);
+      } catch {
+        setError("Could not load chart sources");
+      }
+    }
+
+    void loadChartSources();
+  }, []);
+
+  useEffect(() => {
     async function loadDates() {
       try {
-        const response = await fetchChartDates();
+        const response = await fetchChartDates(selectedChart);
         setDates(response.dates);
         if (response.dates.length > 0) {
           setSelectedDate(response.dates[0]);
+        } else {
+          setSelectedDate("");
+          setChartData(null);
         }
       } catch {
         setError("Could not load available chart dates");
@@ -32,7 +51,7 @@ export default function Home() {
     }
 
     void loadDates();
-  }, []);
+  }, [selectedChart]);
 
   useEffect(() => {
     if (!selectedDate) {
@@ -43,7 +62,7 @@ export default function Home() {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetchChart({ chartSize, period, date: selectedDate });
+        const response = await fetchChart({ chart: selectedChart, chartSize, period, date: selectedDate });
         setChartData(response);
       } catch {
         setError("Could not load chart data");
@@ -53,11 +72,16 @@ export default function Home() {
     }
 
     void loadChart();
-  }, [chartSize, period, selectedDate]);
+  }, [selectedChart, chartSize, period, selectedDate]);
 
   useEffect(() => {
     setPage(1);
-  }, [chartSize, period, selectedDate, chartData?.resolved_chart_date]);
+  }, [selectedChart, chartSize, period, selectedDate, chartData?.resolved_chart_date]);
+
+  const currentChartLabel = useMemo(() => {
+    const selected = chartSources.find((source) => source.key === selectedChart);
+    return selected?.label ?? "Top Songs Global";
+  }, [chartSources, selectedChart]);
 
   const headlineDate = useMemo(() => {
     if (!chartData) {
@@ -81,9 +105,47 @@ export default function Home() {
 
   return (
     <main className="page-shell">
+      <button
+        type="button"
+        className={`hamburger-btn ${isSidebarOpen ? "hidden" : ""}`}
+        aria-label="Open chart menu"
+        onClick={() => setIsSidebarOpen(true)}
+      >
+        <span className="hamburger-line" aria-hidden="true" />
+        <span className="hamburger-line" aria-hidden="true" />
+        <span className="hamburger-line" aria-hidden="true" />
+      </button>
+
+      {isSidebarOpen ? <button className="sidebar-backdrop" aria-label="Close chart menu" onClick={() => setIsSidebarOpen(false)} /> : null}
+
+      <aside className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
+        <div className="sidebar-header">
+          <h3>Charts</h3>
+          <button type="button" className="close-sidebar" aria-label="Close" onClick={() => setIsSidebarOpen(false)}>
+            x
+          </button>
+        </div>
+        <nav className="sidebar-nav">
+          {chartSources.map((source) => (
+            <button
+              key={source.key}
+              type="button"
+              className={`sidebar-link ${source.key === selectedChart ? "active" : ""}`}
+              onClick={() => {
+                setSelectedChart(source.key);
+                setIsSidebarOpen(false);
+              }}
+            >
+              {source.label}
+            </button>
+          ))}
+        </nav>
+      </aside>
+
       <header className="hero">
         <p className="brand">Aux.</p>
         <h1>Top Songs</h1>
+        <p className="chart-context">{currentChartLabel}</p>
         <p className="sub">A chart-first music explorer with ranking context and audio previews.</p>
       </header>
 

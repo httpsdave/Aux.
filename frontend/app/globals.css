@@ -19,13 +19,134 @@ body {
 }
 
 .page-shell {
+  position: relative;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem 1rem 3rem;
+  padding: 1rem 1rem 3rem;
+}
+
+.hamburger-btn {
+  position: sticky;
+  top: 0.8rem;
+  z-index: 30;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  width: 46px;
+  height: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4px 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.hamburger-btn.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.hamburger-line {
+  display: block;
+  width: 34px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 999px;
+}
+
+.sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.24);
+  z-index: 24;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: min(420px, 90vw);
+  background: var(--card);
+  border-right: 1px solid var(--line);
+  padding: 1.1rem;
+  transform: translateX(-102%);
+  transition: transform 0.25s ease;
+  z-index: 25;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-header h3 {
+  margin: 0;
+}
+
+.close-sidebar {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--muted);
+  font: inherit;
+  font-size: 1.6rem;
+  line-height: 1;
+  transition: color 0.15s ease, transform 0.1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-sidebar:active {
+  color: #ab3030;
+  transform: scale(0.9);
+}
+
+.sidebar-nav {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-link {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background: transparent;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  padding: 0.8rem 0.4rem;
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.sidebar-link:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-link:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.sidebar-link.active {
+  font-weight: bold;
+  color: var(--text);
+  background: rgba(0, 0, 0, 0.03);
 }
 
 .hero {
   margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .brand {
@@ -46,6 +167,12 @@ body {
 .sub {
   margin-top: 0.6rem;
   color: var(--muted);
+}
+
+.chart-context {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-weight: 700;
 }
 
 .filters {

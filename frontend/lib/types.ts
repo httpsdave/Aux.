@@ -1,5 +1,7 @@
 export type Period = "week" | "month" | "year" | "past_year";
 
+export type ChartSourceKey = "hot-100" | "philippines-songs";
+
 export type ChartSize = 10 | 25 | 50 | 100;
 
 export interface SongEntry {
@@ -26,4 +28,13 @@ export interface ChartResponse {
 export interface ChartDatesResponse {
   source_chart: string;
   dates: string[];
+}
+
+export interface ChartSource {
+  key: ChartSourceKey;
+  label: string;
+}
+
+export interface ChartSourcesResponse {
+  sources: ChartSource[];
 }

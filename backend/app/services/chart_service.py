@@ -1,11 +1,12 @@
 from datetime import date, timedelta
 
 from dateutil.relativedelta import relativedelta
-from sqlalchemy import Select, desc, select
+from sqlalchemy import Select, delete, desc, select
 from sqlalchemy.orm import Session
 
 from app.db.models import ChartEntry
 from app.schemas.chart import Period
+from app.services.providers import SongRecord
 
 
 def get_latest_chart_date(db: Session, source_chart: str) -> date | None:
@@ -50,3 +51,35 @@ def get_chart_entries(db: Session, source_chart: str, chart_date: date, chart_si
         .limit(chart_size)
     )
     return list(db.execute(stmt).scalars().all())
+
+
+def upsert_chart_snapshot(db: Session, source_chart: str, rows: list[SongRecord]) -> None:
+    if not rows:
+        return
+
+    snapshot_date = rows[0].chart_date
+    db.execute(
+        delete(ChartEntry).where(
+            ChartEntry.source_chart == source_chart,
+            ChartEntry.chart_date == snapshot_date,
+        )
+    )
+
+    for row in rows:
+        db.add(
+            ChartEntry(
+                source_chart=source_chart,
+                chart_date=row.chart_date,
+                rank=row.rank,
+                title=row.title,
+                artist=row.artist,
+                album=row.album,
+                image_url=row.image_url,
+                preview_url=row.preview_url,
+                weeks_on_chart=row.weeks_on_chart,
+                peak_position=row.peak_position,
+                last_week_position=row.last_week_position,
+            )
+        )
+
+    db.commit()

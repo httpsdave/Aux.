@@ -31,3 +31,12 @@ class ChartResponse(BaseModel):
 class AvailableDatesResponse(BaseModel):
     source_chart: str
     dates: list[date]
+
+
+class ChartSourceOut(BaseModel):
+    key: str
+    label: str
+
+
+class ChartSourcesResponse(BaseModel):
+    sources: list[ChartSourceOut]

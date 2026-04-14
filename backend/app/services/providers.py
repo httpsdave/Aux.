@@ -102,3 +102,37 @@ def fetch_billboard_chart(chart_name: str, chart_date: str, enrich_metadata: boo
         )
 
     return rows
+
+
+def fetch_philippines_top_songs(limit: int = 100, timeout_seconds: float = 10.0) -> list[SongRecord]:
+    url = f"https://rss.marketingtools.apple.com/api/v2/ph/music/most-played/{limit}/songs.json"
+    with httpx.Client(timeout=timeout_seconds) as client:
+        response = client.get(url)
+        response.raise_for_status()
+        payload = response.json()
+
+    results = ((payload.get("feed") or {}).get("results") or [])[:limit]
+    chart_date = date.today()
+    rows: list[SongRecord] = []
+
+    for index, item in enumerate(results, start=1):
+        artwork_url = item.get("artworkUrl100")
+        if isinstance(artwork_url, str):
+            artwork_url = artwork_url.replace("100x100bb", "300x300bb")
+
+        rows.append(
+            SongRecord(
+                chart_date=chart_date,
+                rank=index,
+                title=item.get("name") or "",
+                artist=item.get("artistName") or "",
+                album=item.get("collectionName"),
+                image_url=artwork_url,
+                preview_url=None,
+                weeks_on_chart=None,
+                peak_position=None,
+                last_week_position=None,
+            )
+        )
+
+    return rows
