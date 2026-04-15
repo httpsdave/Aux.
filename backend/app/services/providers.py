@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date
+import re
 
 import httpx
 
@@ -20,23 +21,61 @@ class SongRecord:
     last_week_position: int | None = None
 
 
+def _dedupe_terms(terms: list[str]) -> list[str]:
+    seen: set[str] = set()
+    unique: list[str] = []
+    for term in terms:
+        normalized = " ".join(term.split())
+        key = normalized.casefold()
+        if not normalized or key in seen:
+            continue
+        seen.add(key)
+        unique.append(normalized)
+    return unique
+
+
+def _base_artist_name(artist: str) -> str:
+    primary = re.split(r"\s*(?:,|&|/| x | X | feat\.?|ft\.?)\s*", artist, maxsplit=1, flags=re.IGNORECASE)[0]
+    return primary.strip() or artist
+
+
+def _strip_title_noise(title: str) -> str:
+    cleaned = re.sub(r"\s*\([^)]*(?:feat\.?|ft\.?|from|live|remix|version|edit)[^)]*\)", "", title, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*\[[^\]]*(?:feat\.?|ft\.?|from|live|remix|version|edit)[^\]]*\]", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*[-–:]\s*(?:feat\.?|ft\.?).*$", "", cleaned, flags=re.IGNORECASE)
+    return cleaned.strip() or title
+
+
+def _build_query_terms(title: str, artist: str) -> list[str]:
+    title_clean = _strip_title_noise(title)
+    artist_primary = _base_artist_name(artist)
+    return _dedupe_terms(
+        [
+            f"{title} {artist}",
+            f"{title} - {artist}",
+            f"{title_clean} {artist_primary}",
+            f"{title_clean} - {artist_primary}",
+            f"{artist_primary} {title_clean}",
+            title,
+            title_clean,
+        ]
+    )
+
+
 def enrich_with_itunes(
     title: str,
     artist: str,
     timeout_seconds: float = 8.0,
     preferred_country: str | None = None,
 ) -> tuple[str | None, str | None, str | None]:
-    query_terms = [
-        f"{title} {artist}",
-        f"{title} - {artist}",
-        title,
-    ]
+    query_terms = _build_query_terms(title, artist)
 
     country_candidates: list[str | None] = []
     if preferred_country:
         country_candidates.append(preferred_country)
-    if "US" not in country_candidates:
-        country_candidates.append("US")
+    for country in ("US", "SG", "AU"):
+        if country not in country_candidates:
+            country_candidates.append(country)
     country_candidates.append(None)
 
     best_image_url = None
@@ -47,7 +86,7 @@ def enrich_with_itunes(
         with httpx.Client(timeout=timeout_seconds) as client:
             for country in country_candidates:
                 for term in query_terms:
-                    params = {"term": term, "media": "music", "entity": "song", "limit": 5}
+                    params = {"term": term, "media": "music", "entity": "song", "limit": 20}
                     if country is not None:
                         params["country"] = country
 
