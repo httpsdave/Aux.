@@ -101,6 +101,14 @@ def write_json(file_path: Path, payload: dict) -> None:
     file_path.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
 
 
+def preview_coverage(snapshot: dict) -> tuple[int, int, float]:
+    entries = snapshot.get("entries") or []
+    total = len(entries)
+    with_preview = sum(1 for row in entries if row.get("preview_url"))
+    ratio = (with_preview / total) if total else 0.0
+    return with_preview, total, ratio
+
+
 def main() -> None:
     args = parse_args()
     output_dir = Path(args.output_dir)
@@ -155,9 +163,20 @@ def main() -> None:
     write_json(output_dir / f"chart_{args.global_chart}.json", global_snapshot)
     write_json(output_dir / f"chart_{args.ph_chart}.json", ph_snapshot)
 
+    global_preview_count, global_total, global_ratio = preview_coverage(global_snapshot)
+    ph_preview_count, ph_total, ph_ratio = preview_coverage(ph_snapshot)
+
     print(f"Wrote static data to {output_dir}")
     print(f"{args.global_chart}: {global_snapshot['resolved_chart_date']} ({len(global_snapshot['entries'])} rows)")
     print(f"{args.ph_chart}: {ph_snapshot['resolved_chart_date']} ({len(ph_snapshot['entries'])} rows)")
+    print(
+        f"{args.global_chart} preview coverage: "
+        f"{global_preview_count}/{global_total} ({global_ratio:.1%})"
+    )
+    print(
+        f"{args.ph_chart} preview coverage: "
+        f"{ph_preview_count}/{ph_total} ({ph_ratio:.1%})"
+    )
 
 
 if __name__ == "__main__":

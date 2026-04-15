@@ -1,5 +1,10 @@
 name: Update Chart Data
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  MIN_PREVIEW_COVERAGE_GLOBAL: "0.55"
+  MIN_PREVIEW_COVERAGE_PH: "0.55"
+
 on:
   schedule:
     # 08:00 Asia/Manila (UTC+8) daily
@@ -15,10 +20,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.10"
 
@@ -30,6 +35,43 @@ jobs:
       - name: Generate static chart JSON
         run: |
           python backend/scripts/export_static_data.py --output-dir frontend/public/data --limit 100
+
+      - name: Validate preview coverage
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          data_dir = Path("frontend/public/data")
+          checks = [
+            ("chart_hot-100.json", float(os.getenv("MIN_PREVIEW_COVERAGE_GLOBAL", "0.55"))),
+            ("chart_philippines-songs.json", float(os.getenv("MIN_PREVIEW_COVERAGE_PH", "0.55"))),
+          ]
+
+          failures = []
+          for file_name, minimum_ratio in checks:
+            payload = json.loads((data_dir / file_name).read_text(encoding="utf-8"))
+            entries = payload.get("entries") or []
+            total = len(entries)
+            with_preview = sum(1 for row in entries if row.get("preview_url"))
+            ratio = (with_preview / total) if total else 0.0
+
+            print(
+              f"{file_name}: {with_preview}/{total} previews "
+              f"({ratio:.1%}), minimum required {minimum_ratio:.1%}"
+            )
+
+            if ratio < minimum_ratio:
+              failures.append(
+                f"{file_name} preview coverage {ratio:.1%} is below required {minimum_ratio:.1%}"
+              )
+
+          if failures:
+            for message in failures:
+              print(f"ERROR: {message}")
+            raise SystemExit(1)
+          PY
 
       - name: Commit and push changes
         run: |

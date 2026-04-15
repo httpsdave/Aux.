@@ -51,9 +51,13 @@ def enrich_with_itunes(
                     if country is not None:
                         params["country"] = country
 
-                    response = client.get("https://itunes.apple.com/search", params=params)
-                    response.raise_for_status()
-                    payload = response.json()
+                    try:
+                        response = client.get("https://itunes.apple.com/search", params=params)
+                        response.raise_for_status()
+                        payload = response.json()
+                    except Exception:
+                        # Keep trying alternate query terms/countries for transient API errors.
+                        continue
 
                     results = payload.get("results", [])
                     if not results:
