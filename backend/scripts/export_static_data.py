@@ -6,6 +6,7 @@ import sys
 from dataclasses import asdict
 from datetime import date
 from pathlib import Path
+import re
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 REPO_ROOT = BASE_DIR.parent
@@ -79,6 +80,125 @@ def _load_from_db(chart: str, limit: int) -> list[SongRecord]:
         ]
 
 
+def _normalize_key(value: str) -> str:
+    cleaned = re.sub(r"[^a-z0-9]+", " ", (value or "").casefold())
+    return " ".join(cleaned.split())
+
+
+def _media_cache_key(title: str, artist: str) -> str:
+    return f"{_normalize_key(title)}::{_normalize_key(artist)}"
+
+
+def _build_media_cache_from_snapshot(snapshot_file: Path) -> dict[str, dict[str, str]]:
+    if not snapshot_file.exists():
+        return {}
+
+    try:
+        payload = json.loads(snapshot_file.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+    entries = payload.get("entries") or []
+    cache: dict[str, dict[str, str]] = {}
+
+    if isinstance(entries, dict):
+        for key, media in entries.items():
+            if not isinstance(media, dict):
+                continue
+            normalized_media: dict[str, str] = {}
+            for field in ("image_url", "preview_url", "album"):
+                value = media.get(field)
+                if isinstance(value, str) and value.strip():
+                    normalized_media[field] = value.strip()
+            if normalized_media:
+                cache[str(key)] = normalized_media
+        return cache
+
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        title = str(entry.get("title") or "")
+        artist = str(entry.get("artist") or "")
+        key = _media_cache_key(title, artist)
+        if not key:
+            continue
+
+        media: dict[str, str] = {}
+        image_url = entry.get("image_url")
+        preview_url = entry.get("preview_url")
+        album = entry.get("album")
+
+        if isinstance(image_url, str) and image_url.strip():
+            media["image_url"] = image_url.strip()
+        if isinstance(preview_url, str) and preview_url.strip():
+            media["preview_url"] = preview_url.strip()
+        if isinstance(album, str) and album.strip():
+            media["album"] = album.strip()
+
+        if media:
+            cache[key] = media
+
+    return cache
+
+
+def _merge_media_cache(base: dict[str, dict[str, str]], extra: dict[str, dict[str, str]]) -> dict[str, dict[str, str]]:
+    merged = dict(base)
+    for key, media in extra.items():
+        existing = dict(merged.get(key, {}))
+        for field in ("image_url", "preview_url", "album"):
+            value = media.get(field)
+            if value and field not in existing:
+                existing[field] = value
+        if existing:
+            merged[key] = existing
+    return merged
+
+
+def _apply_media_cache(rows: list[SongRecord], media_cache: dict[str, dict[str, str]]) -> int:
+    patched = 0
+    for row in rows:
+        key = _media_cache_key(row.title, row.artist)
+        media = media_cache.get(key)
+        if not media:
+            continue
+
+        changed = False
+        if row.image_url is None and media.get("image_url"):
+            row.image_url = media["image_url"]
+            changed = True
+        if row.preview_url is None and media.get("preview_url"):
+            row.preview_url = media["preview_url"]
+            changed = True
+        if row.album is None and media.get("album"):
+            row.album = media["album"]
+            changed = True
+
+        if changed:
+            patched += 1
+
+    return patched
+
+
+def _build_media_cache_from_rows(rows: list[SongRecord]) -> dict[str, dict[str, str]]:
+    cache: dict[str, dict[str, str]] = {}
+    for row in rows:
+        media: dict[str, str] = {}
+        if isinstance(row.image_url, str) and row.image_url.strip():
+            media["image_url"] = row.image_url.strip()
+        if isinstance(row.preview_url, str) and row.preview_url.strip():
+            media["preview_url"] = row.preview_url.strip()
+        if isinstance(row.album, str) and row.album.strip():
+            media["album"] = row.album.strip()
+        if media:
+            cache[_media_cache_key(row.title, row.artist)] = media
+    return cache
+
+
+def _write_media_cache(file_path: Path, media_cache: dict[str, dict[str, str]]) -> None:
+    ordered = dict(sorted(media_cache.items(), key=lambda item: item[0]))
+    write_json(file_path, {"entries": ordered})
+
+
 def serialize_snapshot(chart_key: str, rows: list[SongRecord]) -> dict:
     if not rows:
         raise ValueError(f"No rows available for chart: {chart_key}")
@@ -121,6 +241,14 @@ def main() -> None:
     }
 
     sample_file = BASE_DIR / "data" / "sample_hot_100.json"
+    global_snapshot_file = output_dir / f"chart_{args.global_chart}.json"
+    ph_snapshot_file = output_dir / f"chart_{args.ph_chart}.json"
+    media_cache_file = output_dir / "media_cache.json"
+
+    media_cache: dict[str, dict[str, str]] = {}
+    media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(global_snapshot_file))
+    media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(ph_snapshot_file))
+    media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(media_cache_file))
 
     try:
         global_rows = fetch_billboard_chart(
@@ -143,6 +271,10 @@ def main() -> None:
             global_rows = _load_sample(sample_file)
             print(f"Global fetch failed, using sample fallback: {exc}")
 
+    global_patched = _apply_media_cache(global_rows, media_cache)
+    if global_patched:
+        print(f"Global rows patched from cache: {global_patched}")
+
     try:
         ph_rows = fetch_philippines_top_songs(limit=args.limit, enrich_metadata=not args.no_enrich_ph)
         if not ph_rows:
@@ -156,12 +288,20 @@ def main() -> None:
         else:
             raise
 
+    ph_patched = _apply_media_cache(ph_rows, media_cache)
+    if ph_patched:
+        print(f"PH rows patched from cache: {ph_patched}")
+
+    media_cache = _merge_media_cache(media_cache, _build_media_cache_from_rows(global_rows))
+    media_cache = _merge_media_cache(media_cache, _build_media_cache_from_rows(ph_rows))
+
     global_snapshot = serialize_snapshot(args.global_chart, global_rows[: args.limit])
     ph_snapshot = serialize_snapshot(args.ph_chart, ph_rows[: args.limit])
 
     write_json(output_dir / "chart_sources.json", chart_sources)
     write_json(output_dir / f"chart_{args.global_chart}.json", global_snapshot)
     write_json(output_dir / f"chart_{args.ph_chart}.json", ph_snapshot)
+    _write_media_cache(media_cache_file, media_cache)
 
     global_preview_count, global_total, global_ratio = preview_coverage(global_snapshot)
     ph_preview_count, ph_total, ph_ratio = preview_coverage(ph_snapshot)

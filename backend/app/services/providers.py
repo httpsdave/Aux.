@@ -21,6 +21,16 @@ class SongRecord:
     last_week_position: int | None = None
 
 
+def _normalize_for_match(value: str) -> str:
+    cleaned = re.sub(r"[^a-z0-9]+", " ", (value or "").casefold())
+    return " ".join(cleaned.split())
+
+
+def _token_set(value: str) -> set[str]:
+    normalized = _normalize_for_match(value)
+    return {token for token in normalized.split(" ") if token}
+
+
 def _dedupe_terms(terms: list[str]) -> list[str]:
     seen: set[str] = set()
     unique: list[str] = []
@@ -62,6 +72,83 @@ def _build_query_terms(title: str, artist: str) -> list[str]:
     )
 
 
+def _choose_best_match(
+    title: str,
+    artist: str,
+    results: list[dict],
+) -> list[dict]:
+    """Sort API results by title/artist token overlap and keep best candidates first."""
+    if not results:
+        return []
+
+    target_title_tokens = _token_set(_strip_title_noise(title))
+    target_artist_tokens = _token_set(_base_artist_name(artist))
+
+    def score(item: dict) -> tuple[float, int, int]:
+        item_title = str(item.get("trackName") or "")
+        item_artist = str(item.get("artistName") or "")
+        item_title_tokens = _token_set(item_title)
+        item_artist_tokens = _token_set(item_artist)
+
+        title_overlap = len(target_title_tokens & item_title_tokens)
+        artist_overlap = len(target_artist_tokens & item_artist_tokens)
+
+        # Favor matches that include at least one title and artist token.
+        if target_title_tokens:
+            title_score = title_overlap / len(target_title_tokens)
+        else:
+            title_score = 0.0
+
+        if target_artist_tokens:
+            artist_score = artist_overlap / len(target_artist_tokens)
+        else:
+            artist_score = 0.0
+
+        combined = (title_score * 0.7) + (artist_score * 0.3)
+        return combined, title_overlap, artist_overlap
+
+    scored = sorted(results, key=score, reverse=True)
+    # Keep up to top 6 results to preserve fallback opportunities.
+    return scored[:6]
+
+
+def _extract_media_fields(item: dict) -> tuple[str | None, str | None, str | None]:
+    image_url = item.get("artworkUrl100")
+    if isinstance(image_url, str):
+        image_url = image_url.replace("100x100bb", "600x600bb").replace("300x300bb", "600x600bb")
+
+    preview_url = item.get("previewUrl")
+    album = item.get("collectionName")
+    return image_url, preview_url, album
+
+
+def enrich_with_itunes_lookup(
+    track_id: str,
+    timeout_seconds: float = 8.0,
+    country: str | None = None,
+) -> tuple[str | None, str | None, str | None]:
+    params: dict[str, str] = {"id": str(track_id), "entity": "song", "limit": "1"}
+    if country:
+        params["country"] = country
+
+    try:
+        with httpx.Client(timeout=timeout_seconds) as client:
+            response = client.get("https://itunes.apple.com/lookup", params=params)
+            response.raise_for_status()
+            payload = response.json()
+    except Exception:
+        return None, None, None
+
+    results = payload.get("results") or []
+    for item in results:
+        wrapper_type = str(item.get("wrapperType") or "")
+        kind = str(item.get("kind") or "")
+        if wrapper_type == "track" or kind == "song":
+            return _extract_media_fields(item)
+
+    return None, None, None
+
+
 def enrich_with_itunes(
     title: str,
     artist: str,
@@ -73,7 +160,7 @@ def enrich_with_itunes(
     country_candidates: list[str | None] = []
     if preferred_country:
         country_candidates.append(preferred_country)
-    for country in ("US", "SG", "AU"):
+    for country in ("US", "PH", "SG", "GB", "CA", "AU"):
         if country not in country_candidates:
             country_candidates.append(country)
     country_candidates.append(None)
@@ -98,17 +185,12 @@ def enrich_with_itunes(
                         # Keep trying alternate query terms/countries for transient API errors.
                         continue
 
-                    results = payload.get("results", [])
+                    results = _choose_best_match(title, artist, payload.get("results", []))
                     if not results:
                         continue
 
                     for item in results:
-                        image_url = item.get("artworkUrl100")
-                        if isinstance(image_url, str):
-                            image_url = image_url.replace("100x100bb", "600x600bb")
-
-                        preview_url = item.get("previewUrl")
-                        album = item.get("collectionName")
+                        image_url, preview_url, album = _extract_media_fields(item)
 
                         if image_url and best_image_url is None:
                             best_image_url = image_url
@@ -210,6 +292,7 @@ def fetch_philippines_top_songs(
     for index, item in enumerate(results, start=1):
         title = item.get("name") or ""
         artist = item.get("artistName") or ""
+        track_id = str(item.get("id") or "")
         artwork_url = item.get("artworkUrl100")
         if isinstance(artwork_url, str):
             artwork_url = artwork_url.replace("100x100bb", "600x600bb").replace("300x300bb", "600x600bb")
@@ -217,12 +300,22 @@ def fetch_philippines_top_songs(
         preview_url = None
         album = item.get("collectionName")
         if enrich_metadata:
-            enriched_image_url, enriched_preview_url, enriched_album = enrich_with_itunes(
-                title,
-                artist,
-                timeout_seconds=timeout_seconds,
-                preferred_country="PH",
-            )
+            enriched_image_url, enriched_preview_url, enriched_album = (None, None, None)
+            if track_id:
+                enriched_image_url, enriched_preview_url, enriched_album = enrich_with_itunes_lookup(
+                    track_id,
+                    timeout_seconds=timeout_seconds,
+                    country="PH",
+                )
+
+            if enriched_preview_url is None:
+                enriched_image_url, enriched_preview_url, enriched_album = enrich_with_itunes(
+                    title,
+                    artist,
+                    timeout_seconds=timeout_seconds,
+                    preferred_country="PH",
+                )
+
             preview_url = enriched_preview_url
             album = album or enriched_album
             artwork_url = artwork_url or enriched_image_url
