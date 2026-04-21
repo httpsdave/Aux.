@@ -2,7 +2,8 @@ name: Update Chart Data
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  MIN_PREVIEW_COVERAGE_GLOBAL: "0.55"
+  MIN_PREVIEW_COVERAGE_GLOBAL: "0.70"
+  MIN_PREVIEW_COVERAGE_GLOBAL_TOP50: "0.90"
   MIN_PREVIEW_COVERAGE_PH: "0.12"
 
 on:
@@ -46,8 +47,10 @@ jobs:
           data_dir = Path("frontend/public/data")
           checks = [
             ("chart_hot-100.json", float(os.getenv("MIN_PREVIEW_COVERAGE_GLOBAL", "0.55"))),
-            ("chart_philippines-songs.json", float(os.getenv("MIN_PREVIEW_COVERAGE_PH", "0.55"))),
+            ("chart_philippines-songs.json", float(os.getenv("MIN_PREVIEW_COVERAGE_PH", "0.12"))),
           ]
+
+          global_top50_minimum = float(os.getenv("MIN_PREVIEW_COVERAGE_GLOBAL_TOP50", "0.90"))
 
           failures = []
           for file_name, minimum_ratio in checks:
@@ -66,6 +69,22 @@ jobs:
               failures.append(
                 f"{file_name} preview coverage {ratio:.1%} is below required {minimum_ratio:.1%}"
               )
+
+            if file_name == "chart_hot-100.json":
+              top_entries = entries[:50]
+              top_total = len(top_entries)
+              top_with_preview = sum(1 for row in top_entries if row.get("preview_url"))
+              top_ratio = (top_with_preview / top_total) if top_total else 0.0
+
+              print(
+                f"{file_name} top50 preview coverage: {top_with_preview}/{top_total} "
+                f"({top_ratio:.1%}), minimum required {global_top50_minimum:.1%}"
+              )
+
+              if top_ratio < global_top50_minimum:
+                failures.append(
+                  f"{file_name} top50 preview coverage {top_ratio:.1%} is below required {global_top50_minimum:.1%}"
+                )
 
           if failures:
             for message in failures:

@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import date
 import re
+from time import sleep
 
 import httpx
 
@@ -212,6 +213,43 @@ def enrich_with_itunes(
     )
 
 
+def enrich_with_itunes_resilient(
+    title: str,
+    artist: str,
+    timeout_seconds: float = 8.0,
+    preferred_country: str | None = None,
+    retries: int = 1,
+    retry_delay_seconds: float = 0.75,
+) -> tuple[str | None, str | None, str | None]:
+    attempts = max(0, retries) + 1
+    best_image_url = None
+    best_preview_url = None
+    best_album = None
+
+    for attempt in range(1, attempts + 1):
+        image_url, preview_url, album = enrich_with_itunes(
+            title,
+            artist,
+            timeout_seconds=timeout_seconds,
+            preferred_country=preferred_country,
+        )
+
+        if image_url and best_image_url is None:
+            best_image_url = image_url
+        if preview_url and best_preview_url is None:
+            best_preview_url = preview_url
+        if album and best_album is None:
+            best_album = album
+
+        if best_image_url and best_preview_url and best_album:
+            return best_image_url, best_preview_url, best_album
+
+        if attempt < attempts:
+            sleep(max(0.0, retry_delay_seconds))
+
+    return best_image_url, best_preview_url, best_album
+
+
 def enrich_with_deezer(title: str, artist: str, timeout_seconds: float = 8.0) -> tuple[str | None, str | None, str | None]:
     query_candidates = [
         f'track:"{title}" artist:"{artist}"',
@@ -241,7 +279,14 @@ def enrich_with_deezer(title: str, artist: str, timeout_seconds: float = 8.0) ->
     return None, None, None
 
 
-def fetch_billboard_chart(chart_name: str, chart_date: str, enrich_metadata: bool = True) -> list[SongRecord]:
+def fetch_billboard_chart(
+    chart_name: str,
+    chart_date: str,
+    enrich_metadata: bool = True,
+    timeout_seconds: float = 8.0,
+    enrichment_retries: int = 1,
+    enrichment_retry_delay_seconds: float = 0.75,
+) -> list[SongRecord]:
     import billboard
 
     chart = billboard.ChartData(chart_name, date=chart_date)
@@ -252,7 +297,14 @@ def fetch_billboard_chart(chart_name: str, chart_date: str, enrich_metadata: boo
         title = getattr(entry, "title", "")
         artist = getattr(entry, "artist", "")
         if enrich_metadata:
-            image_url, preview_url, album = enrich_with_itunes(title, artist)
+            image_url, preview_url, album = enrich_with_itunes_resilient(
+                title,
+                artist,
+                timeout_seconds=timeout_seconds,
+                preferred_country="US",
+                retries=enrichment_retries,
+                retry_delay_seconds=enrichment_retry_delay_seconds,
+            )
         else:
             image_url, preview_url, album = None, None, None
 

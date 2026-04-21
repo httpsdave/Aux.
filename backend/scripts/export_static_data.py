@@ -31,6 +31,24 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--limit", type=int, default=100, help="Rows per chart")
     parser.add_argument("--no-enrich-global", action="store_true", help="Disable metadata enrichment for global chart")
     parser.add_argument("--no-enrich-ph", action="store_true", help="Disable metadata enrichment for PH chart")
+    parser.add_argument(
+        "--global-enrich-timeout-seconds",
+        type=float,
+        default=10.0,
+        help="Timeout per iTunes metadata request during global enrichment",
+    )
+    parser.add_argument(
+        "--global-enrich-retries",
+        type=int,
+        default=2,
+        help="Retry attempts for each global song enrichment",
+    )
+    parser.add_argument(
+        "--global-enrich-retry-delay-seconds",
+        type=float,
+        default=1.0,
+        help="Delay between global song enrichment retries",
+    )
     return parser.parse_args()
 
 
@@ -255,6 +273,9 @@ def main() -> None:
             chart_name=args.global_chart,
             chart_date=args.global_date,
             enrich_metadata=not args.no_enrich_global,
+            timeout_seconds=args.global_enrich_timeout_seconds,
+            enrichment_retries=args.global_enrich_retries,
+            enrichment_retry_delay_seconds=args.global_enrich_retry_delay_seconds,
         )
         if not global_rows:
             global_rows = _load_from_db(args.global_chart, args.limit)
