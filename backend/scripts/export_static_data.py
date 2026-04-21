@@ -77,6 +77,54 @@ def _load_sample(sample_file: Path) -> list[SongRecord]:
     return rows
 
 
+def _load_snapshot_rows(snapshot_file: Path) -> list[SongRecord]:
+    if not snapshot_file.exists():
+        return []
+
+    try:
+        payload = json.loads(snapshot_file.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+
+    resolved_date = payload.get("resolved_chart_date") or payload.get("chart_date")
+    try:
+        chart_date = date.fromisoformat(str(resolved_date))
+    except Exception:
+        chart_date = date.today()
+
+    rows: list[SongRecord] = []
+    for item in payload.get("entries") or []:
+        if not isinstance(item, dict):
+            continue
+
+        try:
+            rank = int(item.get("rank"))
+        except Exception:
+            continue
+
+        title = str(item.get("title") or "").strip()
+        artist = str(item.get("artist") or "").strip()
+        if not title or not artist:
+            continue
+
+        rows.append(
+            SongRecord(
+                chart_date=chart_date,
+                rank=rank,
+                title=title,
+                artist=artist,
+                album=item.get("album"),
+                image_url=item.get("image_url"),
+                preview_url=item.get("preview_url"),
+                weeks_on_chart=item.get("weeks_on_chart"),
+                peak_position=item.get("peak_position"),
+                last_week_position=item.get("last_week_position"),
+            )
+        )
+
+    return rows
+
+
 def _row_identity(row: SongRecord) -> tuple[str, str]:
     return (_normalize_key(row.title), _normalize_key(row.artist))
 
@@ -302,6 +350,7 @@ def main() -> None:
     media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(global_snapshot_file))
     media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(ph_snapshot_file))
     media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(media_cache_file))
+    previous_global_rows = _load_snapshot_rows(global_snapshot_file)
 
     try:
         global_rows = fetch_billboard_chart(
@@ -327,9 +376,13 @@ def main() -> None:
             global_rows = list(sample_rows)
             print(f"Global fetch failed, using sample fallback: {exc}")
 
-    global_rows, global_padded = _pad_rows_from_sample(global_rows, sample_rows, args.limit)
-    if global_padded:
-        print(f"Global rows padded from sample: {global_padded}")
+    global_rows, global_padded_previous = _pad_rows_from_sample(global_rows, previous_global_rows, args.limit)
+    if global_padded_previous:
+        print(f"Global rows padded from previous snapshot: {global_padded_previous}")
+
+    global_rows, global_padded_sample = _pad_rows_from_sample(global_rows, sample_rows, args.limit)
+    if global_padded_sample:
+        print(f"Global rows padded from sample: {global_padded_sample}")
 
     global_patched = _apply_media_cache(global_rows, media_cache)
     if global_patched:
