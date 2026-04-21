@@ -8,12 +8,15 @@ from datetime import date
 from pathlib import Path
 import re
 
+from sqlalchemy.exc import OperationalError
+
 BASE_DIR = Path(__file__).resolve().parents[1]
 REPO_ROOT = BASE_DIR.parent
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
-from app.db.database import SessionLocal
+from app.db.database import SessionLocal, engine
+from app.db.models import Base
 from app.services.providers import SongRecord, fetch_billboard_chart, fetch_philippines_top_songs
 from app.services.chart_service import get_chart_entries, get_latest_chart_date
 
@@ -75,27 +78,31 @@ def _load_sample(sample_file: Path) -> list[SongRecord]:
 
 
 def _load_from_db(chart: str, limit: int) -> list[SongRecord]:
-    with SessionLocal() as db:
-        latest_date = get_latest_chart_date(db, chart)
-        if latest_date is None:
-            return []
+    try:
+        with SessionLocal() as db:
+            latest_date = get_latest_chart_date(db, chart)
+            if latest_date is None:
+                return []
 
-        rows = get_chart_entries(db, chart, latest_date, limit)
-        return [
-            SongRecord(
-                chart_date=row.chart_date,
-                rank=row.rank,
-                title=row.title,
-                artist=row.artist,
-                album=row.album,
-                image_url=row.image_url,
-                preview_url=row.preview_url,
-                weeks_on_chart=row.weeks_on_chart,
-                peak_position=row.peak_position,
-                last_week_position=row.last_week_position,
-            )
-            for row in rows
-        ]
+            rows = get_chart_entries(db, chart, latest_date, limit)
+            return [
+                SongRecord(
+                    chart_date=row.chart_date,
+                    rank=row.rank,
+                    title=row.title,
+                    artist=row.artist,
+                    album=row.album,
+                    image_url=row.image_url,
+                    preview_url=row.preview_url,
+                    weeks_on_chart=row.weeks_on_chart,
+                    peak_position=row.peak_position,
+                    last_week_position=row.last_week_position,
+                )
+                for row in rows
+            ]
+    except OperationalError:
+        # CI runners may not have a seeded DB yet; treat as empty fallback.
+        return []
 
 
 def _normalize_key(value: str) -> str:
@@ -250,6 +257,9 @@ def preview_coverage(snapshot: dict) -> tuple[int, int, float]:
 def main() -> None:
     args = parse_args()
     output_dir = Path(args.output_dir)
+
+    # Ensure DB schema exists before any fallback reads in clean CI environments.
+    Base.metadata.create_all(bind=engine)
 
     chart_sources = {
         "sources": [
