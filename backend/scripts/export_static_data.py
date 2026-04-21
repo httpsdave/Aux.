@@ -77,6 +77,30 @@ def _load_sample(sample_file: Path) -> list[SongRecord]:
     return rows
 
 
+def _row_identity(row: SongRecord) -> tuple[str, str]:
+    return (_normalize_key(row.title), _normalize_key(row.artist))
+
+
+def _pad_rows_from_sample(rows: list[SongRecord], sample_rows: list[SongRecord], limit: int) -> tuple[list[SongRecord], int]:
+    if len(rows) >= limit:
+        return rows, 0
+
+    combined = list(rows)
+    existing = {_row_identity(row) for row in combined}
+
+    for sample_row in sample_rows:
+        if len(combined) >= limit:
+            break
+        key = _row_identity(sample_row)
+        if key in existing:
+            continue
+        combined.append(sample_row)
+        existing.add(key)
+
+    padded = max(0, len(combined) - len(rows))
+    return combined, padded
+
+
 def _load_from_db(chart: str, limit: int) -> list[SongRecord]:
     try:
         with SessionLocal() as db:
@@ -269,6 +293,7 @@ def main() -> None:
     }
 
     sample_file = BASE_DIR / "data" / "sample_hot_100.json"
+    sample_rows = _load_sample(sample_file)
     global_snapshot_file = output_dir / f"chart_{args.global_chart}.json"
     ph_snapshot_file = output_dir / f"chart_{args.ph_chart}.json"
     media_cache_file = output_dir / "media_cache.json"
@@ -292,15 +317,19 @@ def main() -> None:
             if global_rows:
                 print("Global fetch returned no rows, using DB fallback")
             else:
-                global_rows = _load_sample(sample_file)
+                global_rows = list(sample_rows)
                 print("Global fetch returned no rows, using sample fallback")
     except Exception as exc:
         global_rows = _load_from_db(args.global_chart, args.limit)
         if global_rows:
             print(f"Global fetch failed, using DB fallback: {exc}")
         else:
-            global_rows = _load_sample(sample_file)
+            global_rows = list(sample_rows)
             print(f"Global fetch failed, using sample fallback: {exc}")
+
+    global_rows, global_padded = _pad_rows_from_sample(global_rows, sample_rows, args.limit)
+    if global_padded:
+        print(f"Global rows padded from sample: {global_padded}")
 
     global_patched = _apply_media_cache(global_rows, media_cache)
     if global_patched:
