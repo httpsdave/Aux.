@@ -68,6 +68,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/07/2a/f7072acb-5519-0b2f-fd93-a25d1560cec4/mzaf_2314284840032197135.plus.aac.p.m4a",
       "album": "My World 2.0"
     },
+    "baby::justin bieber featuring ludacris": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/0a/b4/b90ab45a-07b1-0bcc-331c-c496a21d07e4/10UMGIM01134.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/66/d3/8966d3cb-68eb-5f2c-fef8-4ac420721387/mzaf_3044382270474258872.plus.aac.p.m4a",
+      "album": "My World 2.0 (Bonus Track Version)"
+    },
     "babydoll::dominic fike": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2d/37/18/2d3718e9-8620-b603-d3cc-f34ce817070d/886447290170.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/00/5c/b9005c47-45de-a5cb-e9ac-f8af66d69f33/mzaf_18175355208890397177.plus.aac.p.m4a",
@@ -110,6 +115,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/66/9d/db669d1d-7051-5fbd-1ddb-cf6d0b06758a/mzaf_15223103171846878304.plus.aac.p.m4a",
       "album": "Believe (Deluxe Edition)"
     },
+    "beauty and a beat::justin bieber featuring nicki minaj": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bd/89/97/bd89971c-fc5a-47dd-5e90-a433d1b9e11f/12UMGIM31898.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/71/b5/8071b554-51a0-5532-6412-7184e8bcec97/mzaf_1442505963957749569.plus.aac.p.m4a",
+      "album": "Believe"
+    },
     "beauty and the beast::ye": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/78/0e/4c780ef8-f9cf-62f2-b956-2ceab8b81905/0692788731278_cover.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/fa/84/55fa84e8-ece9-c75c-6c55-ee2b40ba7794/mzaf_6133868310718389054.plus.aac.p.m4a",
@@ -146,7 +156,18 @@
     },
     "boston::stella lefty": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/66d6baca9df5092af22a710ce10d39cf/1000x1000-000000-80-0-0.jpg",
-      "album": "Boston"
+      "album": "Boston",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/19/59/3719593a-1c8a-e1e1-ca9d-2e8f358593d5/mzaf_8805471580179932113.plus.aac.p.m4a"
+    },
+    "bottom of your boots::ella langley": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/d7/b3/3bd7b3b3-8cab-d10c-934a-42ee6902bcbd/mzaf_16594195873383296587.plus.aac.p.m4a",
+      "album": "Dandelion"
+    },
+    "broken::ella langley": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/81/d1/ff81d17e-ddf6-6c0a-c213-b67a5dbc7ba5/mzaf_7851926692791909453.plus.aac.p.m4a",
+      "album": "Dandelion"
     },
     "brunette::tucker wetmore": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/ec/5d/97ec5d5f-369d-fff1-c773-52ffbf87cb00/25UMGIM11522.rgb.jpg/100x100bb.jpg",
@@ -167,6 +188,10 @@
       "image_url": "https://cdn-images.dzcdn.net/images/cover/b52aae18698a693e767e47a768153f57/1000x1000-000000-80-0-0.jpg",
       "album": "Icon"
     },
+    "butterfly season::ella langley miranda lambert": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
+      "album": "Dandelion"
+    },
     "can t sit still::lainey wilson": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/8a0992cf16e3d5a7995b75bc945ae5f4/1000x1000-000000-80-0-0.jpg",
       "album": "Can't Sit Still"
@@ -182,9 +207,9 @@
       "album": "Don't Mind If I Do"
     },
     "choosin texas::ella langley": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/100x100bb.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/ea/a6/1aeaa6cc-65e2-0d44-c658-4745ff48764f/198846688931.jpg/400x400cc.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/49/4c/38494cb4-f9e0-1db4-0b84-8c478cb55390/mzaf_4251933786704889664.plus.aac.p.m4a",
-      "album": "Choosin' Texas - Single"
+      "album": "Still Hungover"
     },
     "circles::ye": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4b/38/d1/4b38d146-381d-ace2-73df-24074576e62b/656465138828_cover.jpg/100x100bb.jpg",
@@ -240,6 +265,10 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/2f/5e/5a2f5ecc-74b8-4e41-a101-26b169208c17/198588002179.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/dc/c1/52dcc11a-061e-44ee-464a-7e3a4ca925f7/mzaf_12998579520605676897.plus.aac.p.m4a",
       "album": "Dilaw - Single"
+    },
+    "don t tell on me::jason aldean": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/14cf95fe080ff0ae7c48ab675c242da4/1000x1000-000000-80-0-0.jpg",
+      "album": "Don't Tell On Me"
     },
     "don t we::morgan wallen": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/60/fe/fa60fe4a-4329-a0bb-eb7c-3b6094a4d831/25UMGIM46049.rgb.jpg/100x100bb.jpg",
@@ -415,6 +444,10 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/32/18/9b321805-3435-fd32-faf4-2c03ac6c7088/mzaf_881995688982720490.plus.aac.p.m4a",
       "album": "I Can't Wait - Single"
     },
+    "i gotta quit::ella langley": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
+      "album": "Dandelion"
+    },
     "i just might::bruno mars": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/77/2a/5c772ac6-8b2b-56ef-96ad-828d458b6b2b/mzaf_3364285597460955457.plus.aac.p.m4a",
@@ -460,6 +493,10 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/e7/ac/24e7ac86-c947-4b93-3d42-fbc6fdaa49d4/mzaf_17717506291418073053.plus.aac.p.m4a",
       "album": "Isa lang - Single"
     },
+    "it wasn t god who made honky tonk angels::ella langley": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
+      "album": "Dandelion"
+    },
     "jane::the long faces": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/9e/05/5d9e0523-b030-a338-97e1-03d300855092/840091606282_Cover.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7e/3d/bd/7e3dbde2-b317-8722-aca9-71109dbbeda7/mzaf_10498704618704694337.plus.aac.p.m4a",
@@ -500,6 +537,10 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/74/df/2d74df53-79a6-1eb6-a062-77e108ea284d/mzaf_17345534291722540836.plus.aac.p.m4a",
       "album": "BULLY"
     },
+    "last call for us::ella langley": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
+      "album": "Dandelion"
+    },
     "let em know::t i": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/47/69/ea476979-97b0-a3d4-f840-a92fbce909c6/199316450255_cover.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/0c/f8/220cf8f7-5431-368c-3392-94e3780d8bbe/mzaf_14736400616102830232.plus.aac.p.m4a",
@@ -538,6 +579,10 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/f7/c9/cdf7c910-e4c6-9828-c83a-9e7a215bb70c/mzaf_1496635585165093785.plus.aac.p.m4a",
       "album": "Dandelion"
     },
+    "low lights::ella langley": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
+      "album": "Dandelion"
+    },
     "lush life::zara larsson": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/82/69/b2826914-f524-4fed-dfeb-b6df63ea6cff/886446183473.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/52/6a/77526a57-f53f-b8ba-bdc7-e74e242c7c55/mzaf_11538198025885549610.plus.aac.p.m4a",
@@ -556,7 +601,7 @@
     "man i need::olivia dean": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/2c/6d/812c6df3-5481-5e61-b5d1-306d485b0d9d/mzaf_6058256111555931162.plus.aac.p.m4a",
-      "album": "The Art of Loving"
+      "album": "Messy"
     },
     "manchild::sabrina carpenter": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/50/a3/b750a392-cfaa-bedc-7d81-cf7a1718e960/25UMGIM76990.rgb.jpg/600x600bb.jpg",
@@ -574,8 +619,8 @@
       "album": "McArthur - Single"
     },
     "merry go round::bts": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/100x100bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/dc/9e/91dc9ed9-af10-b22c-d816-e118f95a6dcc/mzaf_1718005331296458207.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/80/e0/2280e098-7f44-909b-1ef9-b7c47f888f3b/mzaf_11679725730091749446.plus.aac.p.m4a",
       "album": "ARIRANG"
     },
     "midnight sun::zara larsson": {
@@ -592,6 +637,10 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/27/e2/a227e2d9-a869-8da1-574b-c1959cae98d5/196872769012.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/ff/6e/f6ff6ed7-f162-4ba4-3880-e1c8410ef945/mzaf_9557236079062584587.plus.aac.p.m4a",
       "album": "Dlow Curry"
+    },
+    "mr know it all::teddy swims": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/ae84b07e7cc79189d9f54948789633ac/1000x1000-000000-80-0-0.jpg",
+      "album": "Mr. Know It All"
     },
     "mrs trendsetter::lil baby": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/e6/7f/d7e67fe8-8e38-6112-9da9-8af1086675d8/25UM1IM19009.rgb.jpg/100x100bb.jpg",
@@ -631,6 +680,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/05/e2/1a05e2d1-8102-99d2-cc5e-6a7bf856eb16/mzaf_190846966956031405.plus.aac.p.m4a",
       "album": "ARIRANG"
     },
+    "obvious::chris brown": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/12/3a/eb/123aebe0-3d46-33cc-b0b4-98e79d16b274/196874298084.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/58/d0/ac58d026-708b-4c0b-cb0d-e4979d2669a3/mzaf_6827919384901910120.plus.aac.p.m4a",
+      "album": "Obvious - Single"
+    },
     "one less lonely girl::justin bieber": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/48/1d/ec481d95-0547-d0d2-aaf7-4d1f80d66ae2/09UMGIM38755.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/d3/5d/d5d35d88-4ad0-fdc2-4fbe-564481ffeb62/mzaf_2789341400711811896.plus.aac.p.m4a",
@@ -640,6 +694,10 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/49/37/f5493775-3aa7-f310-572f-19baa9271b44/mzaf_10614943248626878287.plus.aac.p.m4a",
       "album": "ARIRANG"
+    },
+    "one of them::dj khaled future lil baby": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/cb92223ef33e09d8d7d0ea38b498fc24/1000x1000-000000-80-0-0.jpg",
+      "album": "One of Them"
     },
     "one time::justin bieber": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/48/1d/ec481d95-0547-d0d2-aaf7-4d1f80d66ae2/09UMGIM38755.rgb.jpg/600x600bb.jpg",
@@ -765,6 +823,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c9/65/d1/c965d11a-4547-8f53-71a5-4428713cdc14/mzaf_1965281101147923934.plus.aac.p.m4a",
       "album": "Rosas"
     },
+    "runway::lady gaga doechii": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/a0/cb/f6a0cb78-c84a-e4df-3770-aade6b69353d/26UMGIM41541.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/42/b8/f542b86f-4f75-c4df-c445-787402cefffb/mzaf_9812221921991254898.plus.aac.p.m4a",
+      "album": "RUNWAY - Single"
+    },
     "sa susunod na lang::pdl skusta clee yuri": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7a/13/0f/7a130fea-3709-ae79-71ce-9e15af319754/859728821509_cover.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/33/3d/96/333d969c-a497-02ca-f714-616ca7b48c51/mzaf_5511999216642756058.plus.aac.p.m4a",
@@ -817,10 +880,18 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/78/76/b07876e5-0e27-b261-a76b-9de5135f7196/mzaf_3541076937115029478.plus.aac.p.m4a",
       "album": "The Art of Loving"
     },
+    "somethin simple::ella langley": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
+      "album": "Dandelion"
+    },
     "sorry::justin bieber": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/11/84/751184b0-77df-1eff-bb20-dac03247425d/15UMGIM59808.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/eb/29/66eb29c0-c2f9-d9df-8af3-3bf2562c9d7c/mzaf_4099789285264521999.plus.aac.p.m4a",
       "album": "Purpose (Deluxe)"
+    },
+    "speaking terms::ella langley": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
+      "album": "Dandelion"
     },
     "speed demon::justin bieber": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/cb/3e/e0cb3e1c-0dde-156d-d500-7943bc4ddebd/25UM1IM36272.rgb.jpg/600x600bb.jpg",
@@ -949,6 +1020,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f4/39/04/f43904b4-6d3a-e471-fb64-d62d62f75b90/mzaf_16525809569904137699.plus.aac.p.m4a",
       "album": "Kung Alam Mo Lang"
     },
+    "we know us::ella langley": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/08/d9/be08d93d-7656-932a-c299-f3b0043280bf/mzaf_14185374054587913454.plus.aac.p.m4a",
+      "album": "Dandelion"
+    },
     "what do you mean::justin bieber": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/11/84/751184b0-77df-1eff-bb20-dac03247425d/15UMGIM59808.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/d1/be/8cd1be3e-0a5f-b460-1e8d-3651197fbc1d/mzaf_4014152438661039186.plus.aac.p.m4a",
@@ -1003,6 +1079,15 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/c0/c5/3bc0c51d-33f2-ee19-e148-6d8f2c50df24/25UMGIM90843.rgb.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/af/b0/f2afb01b-42c5-7803-be2f-b7365c9a928a/mzaf_17144887126595930673.plus.aac.p.m4a",
       "album": "Son Of Spergy"
+    },
+    "woman::kane brown": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/84c14dd8a664136f0cf35d54faaed9c2/1000x1000-000000-80-0-0.jpg",
+      "album": "Woman"
+    },
+    "you me time::ella langley": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/2b/f9/122bf9a7-f430-ae13-ae06-b692fa5a5a19/mzaf_14467933095573266453.plus.aac.p.m4a",
+      "album": "Dandelion"
     },
     "younger you from the hannah montana 20th anniversary special::miley cyrus": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/51/cc/ef51cc5a-ae32-7b83-b063-900f1d0aea09/26UMGIM34659.rgb.jpg/100x100bb.jpg",
