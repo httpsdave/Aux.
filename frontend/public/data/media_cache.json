@@ -170,7 +170,7 @@
       "album": "Dandelion"
     },
     "broken::ella langley": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/600x600bb.jpg",
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/81/d1/ff81d17e-ddf6-6c0a-c213-b67a5dbc7ba5/mzaf_7851926692791909453.plus.aac.p.m4a",
       "album": "Dandelion"
     },
@@ -282,7 +282,7 @@
     },
     "dracula::tame impala jennie": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/be/b4/36beb41f-c644-55cb-9fbb-bf0622a66653/196873644783.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/e0/26/93e02611-d12e-86e8-595a-b6d20a7847dc/mzaf_12540017880660395875.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/5d/31/715d3169-5fba-a0b7-da24-2aefc83796cf/mzaf_8089500935177582820.plus.aac.p.m4a",
       "album": "Dracula - Single"
     },
     "drop dead::olivia rodrigo": {
@@ -326,8 +326,8 @@
       "album": "Espresso - Single"
     },
     "ever since u left me::max b french montana": {
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/5760f682a6e552976552b24760339368/1000x1000-000000-80-0-0.jpg",
-      "album": "Ever Since U Left Me (Egyptian Remix)"
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/17f5887fa225e5e07244402cd35ca5cf/1000x1000-000000-80-0-0.jpg",
+      "album": "Coke Wave 3.5: Narcos"
     },
     "father::ye travis scott": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/e6c8292811aac14c1c4d25d768b863ee/1000x1000-000000-80-0-0.jpg",
@@ -351,7 +351,7 @@
     },
     "folded::kehlani": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/ea/6c/daea6c92-0990-d691-3283-6f019c4c8529/075679584670.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/9b/8b/919b8bc6-1830-f9e3-f253-b68ae5329606/mzaf_4310859782753820740.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/04/12/0e041222-09a2-1e8a-a0d5-513721bf8e71/mzaf_13958734421753567020.plus.aac.p.m4a",
       "album": "Kehlani"
     },
     "fortnight feat post malone::taylor swift": {
@@ -469,9 +469,9 @@
       "album": "Iloveitiloveitiloveit \u2013 Bella Kay - Single"
     },
     "in my room::julia wolf": {
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/b3bb0f69f3480fc29553ec00a59a3bb4/1000x1000-000000-80-0-0.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/32/ba/d7/32bad7c1-42e3-31fc-e7a8-cdccd9b59f62/193436376150.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/91/49/a291494e-5044-804e-c83d-6bc74d62f7d5/mzaf_1450876191646343228.plus.aac.p.m4a",
-      "album": "In My Room"
+      "album": "In My Room - Single"
     },
     "intentions feat quavo::justin bieber": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/21/4e/d2214ea9-97ff-46ef-ac45-7fca6fb73839/20UMGIM03126.rgb.jpg/600x600bb.jpg",
@@ -586,7 +586,8 @@
     },
     "low lights::ella langley": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
-      "album": "Dandelion"
+      "album": "Dandelion",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/0c/7d/2c0c7d78-135e-1cc3-347d-71c7cce37678/mzaf_4572596365287183263.plus.aac.p.m4a"
     },
     "lush life::zara larsson": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/82/69/b2826914-f524-4fed-dfeb-b6df63ea6cff/886446183473.jpg/600x600bb.jpg",
@@ -678,8 +679,8 @@
     },
     "nobody s son::sabrina carpenter": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/600x600bb.jpg",
-      "album": "Man\u2019s Best Friend",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/06/e7/7206e794-df7a-44d7-d008-36a057f05f02/mzaf_2438439635836475698.plus.aac.p.m4a"
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/06/e7/7206e794-df7a-44d7-d008-36a057f05f02/mzaf_2438439635836475698.plus.aac.p.m4a",
+      "album": "Man\u2019s Best Friend"
     },
     "normal::bts": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
@@ -897,7 +898,8 @@
     },
     "speaking terms::ella langley": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
-      "album": "Dandelion"
+      "album": "Dandelion",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/7f/53/147f53aa-2920-5c6a-2833-a3a40cf070d0/mzaf_16194248786634665803.plus.aac.p.m4a"
     },
     "speed demon::justin bieber": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/cb/3e/e0cb3e1c-0dde-156d-d500-7943bc4ddebd/25UM1IM36272.rgb.jpg/600x600bb.jpg",
@@ -1027,7 +1029,7 @@
       "album": "Kung Alam Mo Lang"
     },
     "we know us::ella langley": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/600x600bb.jpg",
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/08/d9/be08d93d-7656-932a-c299-f3b0043280bf/mzaf_14185374054587913454.plus.aac.p.m4a",
       "album": "Dandelion"
     },
