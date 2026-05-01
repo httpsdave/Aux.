@@ -237,9 +237,9 @@
       "album": "Journals"
     },
     "confident::justin bieber featuring chance the rapper": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/60/6a/ee/606aeebe-3cf7-687d-f40c-02c2d8379460/21UM1IM01330.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/b6/ee/f0b6eef9-7920-1106-f331-091c47c38fbb/mzaf_13981321208876574553.plus.aac.p.m4a",
-      "album": "#tBt - EP"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/74/2f/41742f85-6c76-0918-3153-e725e2ab05c4/13UAEIM36000.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/4e/b6/884eb66b-afbf-2daf-fb59-5b9eee8e620a/mzaf_37313510895594416.plus.aac.p.m4a",
+      "album": "Journals"
     },
     "cruel summer::taylor swift": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/600x600bb.jpg",
@@ -268,7 +268,7 @@
     },
     "die on this hill::sienna spiro": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/da/a1/f8daa172-c6b5-abc0-22c7-e1a8273f2d38/25UM1IM42518.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/62/99/a06299ec-71ae-bbab-7aea-8838292edc2d/mzaf_4661764441549262532.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/52/cf/2352cf4b-ba6b-093d-4e93-87e0c93fa85f/mzaf_8444733662699596132.plus.aac.p.m4a",
       "album": "Die On This Hill - Single"
     },
     "die with a smile::lady gaga bruno mars": {
@@ -343,6 +343,10 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/64/8c/cb648cf7-e7bb-bd00-efe0-d744312c29a8/24UMGIM32304.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/1a/bd/e01abdbe-801d-25f1-4fe3-e3984abd56e9/mzaf_3058335916336746550.plus.aac.p.m4a",
       "album": "Espresso - Single"
+    },
+    "ever since u left me i went deaf::french montana max b": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/17f5887fa225e5e07244402cd35ca5cf/1000x1000-000000-80-0-0.jpg",
+      "album": "Coke Wave 3.5: Narcos"
     },
     "ever since u left me::max b french montana": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/17f5887fa225e5e07244402cd35ca5cf/1000x1000-000000-80-0-0.jpg",
@@ -822,9 +826,9 @@
       "album": "POP DAT THANG - Single"
     },
     "porch light::noah kahan": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/85/97/25859703-d8c0-aff9-5561-f6170e0699b3/26UMGIM02802.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/14/51/7d1451dd-3a6a-f583-c216-208183cbc917/mzaf_3948623996378056620.plus.aac.p.m4a",
-      "album": "The Great Divide: The Last Of The Bugs"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/8d/54/b38d5442-f7bf-b175-2492-c039c368f16a/mzaf_17278259078492566593.plus.aac.p.m4a",
+      "album": "The Great Divide"
     },
     "positions::ariana grande": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/c0/ce/e5c0ce05-4281-dd8e-6a93-86de7cf45621/20UMGIM94964.rgb.jpg/600x600bb.jpg",
@@ -833,7 +837,8 @@
     },
     "potential::sombr": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/c441c24093c92747ac64c60921c87f70/1000x1000-000000-80-0-0.jpg",
-      "album": "Potential"
+      "album": "Potential",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/0a/dc/4e0adc57-b652-562f-32b3-0fd17997300b/mzaf_15311567309932438131.plus.aac.p.m4a"
     },
     "preacher man::ye": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/78/0e/4c780ef8-f9cf-62f2-b956-2ceab8b81905/0692788731278_cover.jpg/100x100bb.jpg",
@@ -1053,6 +1058,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/26/5c/37/265c3733-e0a5-5758-6de0-f6a9f2a1ad6d/06PNDIM00838.rgb.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/f4/74/11f47414-1cf1-81af-beb3-18a0194264c1/mzaf_9538030892306980511.plus.aac.p.m4a",
       "album": "The Nightmare Before Christmas (Special Edition) [Original Motion Picture Soundtrack]"
+    },
+    "tibok::earl agustin": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/49/ba/ef49baef-1e82-620b-453f-81c3a9122a50/cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d8/e3/09/d8e3094d-8c2d-9f37-1a54-ac20495d7136/mzaf_4652005308566937463.plus.aac.p.m4a",
+      "album": "Tibok - Single"
     },
     "time s ticking::justin moore": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/a5/d8/f7a5d86f-c6cc-cd42-4b34-fd10ac187f68/24BMR0005907.rgb.jpg/100x100bb.jpg",
