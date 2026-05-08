@@ -87,6 +87,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/f9/0e/46f90e9b-0d1a-b986-c3f9-0e690e79c79b/mzaf_8629808582610321991.plus.aac.p.m4a",
       "album": "Kiss All The Time. Disco, Occasionally."
     },
+    "autumn::ben ben": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/87/78/b587786d-040d-f6a2-994f-493c8e3faf48/196871637282.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/c2/2c/e3c22ccc-e7a6-f738-03e3-1d313eb7eb9a/mzaf_9390712375040612202.plus.aac.p.m4a",
+      "album": "Autumn - Single"
+    },
     "babaero feat hev abi::gins melodies": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/7a/7b/967a7b0c-d8ca-20b6-ad98-77947fa83e50/artwork.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c0/30/b7/c030b79e-2852-bfa7-dba7-76f73e58e8f7/mzaf_10405594927087205145.plus.aac.p.m4a",
@@ -194,8 +199,8 @@
       "album": "Boston - Single"
     },
     "bottom of your boots::ella langley": {
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/d7/b3/3bd7b3b3-8cab-d10c-934a-42ee6902bcbd/mzaf_16594195873383296587.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/35/03/26350323-d656-4817-49e6-4d658af8363a/196874332917.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/3f/19/c23f19bd-9025-5e1e-f3a4-1f81aaffb33f/mzaf_11529220225203530394.plus.aac.p.m4a",
       "album": "Dandelion"
     },
     "broken::ella langley": {
@@ -310,9 +315,9 @@
       "album": "Despu\u00e9s de ti"
     },
     "die on this hill::sienna spiro": {
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/33d8405a7628c0ce8dbc13dd6f4d17c9/1000x1000-000000-80-0-0.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/da/a1/f8daa172-c6b5-abc0-22c7-e1a8273f2d38/25UM1IM42518.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/52/cf/2352cf4b-ba6b-093d-4e93-87e0c93fa85f/mzaf_8444733662699596132.plus.aac.p.m4a",
-      "album": "Die On This Hill"
+      "album": "Die On This Hill - Single"
     },
     "die with a smile::lady gaga bruno mars": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/600x600bb.jpg",
@@ -326,7 +331,8 @@
     },
     "don t tell on me::jason aldean": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/14cf95fe080ff0ae7c48ab675c242da4/1000x1000-000000-80-0-0.jpg",
-      "album": "Don't Tell On Me"
+      "album": "Don't Tell On Me",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/69/b4/3b69b4be-3f3c-6bbd-500f-c87233be67d3/mzaf_2901353200644720892.plus.aac.p.m4a"
     },
     "don t we::morgan wallen": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/c0a95c46e56018109a6786f9e795acb6/1000x1000-000000-80-0-0.jpg",
@@ -383,9 +389,9 @@
       "album": "Empty Words"
     },
     "end of august::noah kahan": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/a4/ca/b7a4caa5-b6d3-8943-0ff7-63e3faded8c8/mzaf_3923063516595127744.plus.aac.p.m4a",
-      "album": "The Great Divide"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/85/97/25859703-d8c0-aff9-5561-f6170e0699b3/26UMGIM02802.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/7c/33/0b7c3373-cbb0-7bce-40b6-9de8aa30ff4d/mzaf_18350023642074963258.plus.aac.p.m4a",
+      "album": "The Great Divide: The Last Of The Bugs"
     },
     "end of beginning::djo": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/94/31/e59431de-7591-58e6-c4d4-105b6373ad6a/5056494917336_1.jpg/600x600bb.jpg",
@@ -430,9 +436,9 @@
       "album": "FERRARI"
     },
     "fever dream::alex warren": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/600x600bb.jpg",
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/7c046b1707ebac85e21b843b8ff24ba6/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/44/ab/9944ab8d-79c5-c3b4-0448-3dde97bd47ec/mzaf_2792351844678623504.plus.aac.p.m4a",
-      "album": "FEVER DREAM - Single"
+      "album": "FEVER DREAM"
     },
     "folded::kehlani": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/ea/6c/daea6c92-0990-d691-3283-6f019c4c8529/075679584670.jpg/600x600bb.jpg",
@@ -472,6 +478,10 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/07/eb/37/07eb3790-05a1-37fa-7578-f69902bcd864/mzaf_11467306212093211989.plus.aac.p.m4a",
       "album": "Everything Will Be Alright In The End"
     },
+    "go away::weezer featuring best coast": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/f4705a52f1afab77db2665dff05b3c77/1000x1000-000000-80-0-0.jpg",
+      "album": "Everything Will Be Alright In The End"
+    },
     "golden::huntr x ejae audrey nuna rei ami": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/15/42/e1154273-8ecd-5702-e6e6-597f28001681/25UMGIM82363.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/68/32/3868327b-f83f-71c7-0a0c-1813edf2b73e/mzaf_9475346657459209500.plus.aac.p.m4a",
@@ -500,9 +510,9 @@
       "album": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY"
     },
     "haircut::noah kahan": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/67/e5/7767e5e8-7374-2983-df40-53cba3c7bcee/mzaf_17748683653198342694.plus.aac.p.m4a",
-      "album": "The Great Divide"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/85/97/25859703-d8c0-aff9-5561-f6170e0699b3/26UMGIM02802.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/76/79/307679e4-33fd-c412-3f88-8dd6bfeaeb07/mzaf_13766147977299051202.plus.aac.p.m4a",
+      "album": "The Great Divide: The Last Of The Bugs"
     },
     "halik sobrang diin pt 2 feat louie grammz mi kel::gat putch": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/e9/e1/f0e9e171-e861-f053-793b-832709f2b651/415152.jpg/600x600bb.jpg",
@@ -514,9 +524,9 @@
       "album": "Hate How You Look"
     },
     "headed north::noah kahan": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/85/97/25859703-d8c0-aff9-5561-f6170e0699b3/26UMGIM02802.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/cc/9a/a2cc9a2a-eaa3-2519-fbea-daf2e6641bc5/mzaf_9211026977674269487.plus.aac.p.m4a",
-      "album": "The Great Divide: The Last Of The Bugs"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/53/5b/e0535bb5-a269-8cc4-e12f-589e26809569/26UMGIM02802.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/ac/4d/a0ac4dd9-8cea-8b85-cd1a-d8551c3e9f45/mzaf_2541881191147679376.plus.aac.p.m4a",
+      "album": "The Great Divide"
     },
     "highs and lows::ye": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4b/38/d1/4b38d146-381d-ace2-73df-24074576e62b/656465138828_cover.jpg/100x100bb.jpg",
@@ -539,9 +549,9 @@
       "album": "Man\u2019s Best Friend"
     },
     "i ain t coming back::morgan wallen featuring post malone": {
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/22c6d080209e45ef58cca3596bf95e71/1000x1000-000000-80-0-0.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/60/fe/fa60fe4a-4329-a0bb-eb7c-3b6094a4d831/25UMGIM46049.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/e0/28/83e0283f-c7d6-204e-74e2-2fb713adcd93/mzaf_3423401935966291514.plus.aac.p.m4a",
-      "album": "I Ain't Comin' Back"
+      "album": "I\u2019m The Problem"
     },
     "i can t love you anymore::ella langley morgan wallen": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/7a/6e/d97a6e25-ef5c-0c26-64e9-266c18641a57/196874324103.jpg/600x600bb.jpg",
@@ -684,7 +694,8 @@
     },
     "lighthouse::noah kahan": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/a0b05276a5231399968dffaa1a6b4cf0/1000x1000-000000-80-0-0.jpg",
-      "album": "The Great Divide: The Last Of The Bugs"
+      "album": "The Great Divide: The Last Of The Bugs",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/b3/da/86b3da63-e83e-4add-0d16-264c3f46d73c/mzaf_8208165744244849237.plus.aac.p.m4a"
     },
     "like animals::bts": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
@@ -1079,7 +1090,7 @@
       "album": "SWAG II"
     },
     "spoiled::noah kahan": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/85/97/25859703-d8c0-aff9-5561-f6170e0699b3/26UMGIM02802.rgb.jpg/600x600bb.jpg",
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/a0b05276a5231399968dffaa1a6b4cf0/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/12/45/c212457c-41ad-2e04-a943-21557598ae6c/mzaf_15303567562328035366.plus.aac.p.m4a",
       "album": "The Great Divide: The Last Of The Bugs"
     },
@@ -1261,7 +1272,7 @@
       "album": "BULLY"
     },
     "when did you get hot::sabrina carpenter": {
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/c2fd3775c93a906c415f3581b3b06d7e/1000x1000-000000-80-0-0.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/62/2d/47622d6c-1fac-1b5b-deb6-f31bbd3cf0a4/mzaf_10579840420969745198.plus.aac.p.m4a",
       "album": "Man\u2019s Best Friend"
     },
