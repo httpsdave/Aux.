@@ -514,6 +514,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/1a/bd/e01abdbe-801d-25f1-4fe3-e3984abd56e9/mzaf_3058335916336746550.plus.aac.p.m4a",
       "album": "Espresso - Single"
     },
+    "eternal sunshine::ariana grande": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/34/fe/a1/34fea184-6d20-3f50-b4ce-5e1501c1c5ab/24UMGIM00198.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/eb/10/5deb10bb-521c-0559-fb3d-2634f38b2de8/mzaf_189967000937663581.plus.aac.p.m4a",
+      "album": "eternal sunshine"
+    },
     "ever since u left me i went deaf::french montana max b": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/17f5887fa225e5e07244402cd35ca5cf/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/f8/7d/49f87df9-6be1-ed4a-1591-9af644e723f3/mzaf_11825644281107626946.plus.aac.p.m4a",
@@ -677,9 +682,14 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/fc/a7/ccfca752-1758-f29b-9005-94567c80c034/mzaf_13512617528930003275.plus.aac.p.m4a",
       "album": "Halik Sobrang Diin Pt. 2 (feat. Louie Grammz & Mi'Kel) - Single"
     },
+    "hampstead::ariana grande": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/2a/2d/142a2d3e-fb3a-e818-8c7b-6eeb92990084/25UMGIM42095.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/72/b0/9772b006-1615-c139-67aa-0b8c7a0f6fda/mzaf_5264216116541916546.plus.aac.p.m4a",
+      "album": "eternal sunshine deluxe: brighter days ahead"
+    },
     "handlebars::jennie dua lipa": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ec/13/67/ec13677e-f7b4-acc2-b59b-ea8533b1a374/196872890983.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/03/55/e00355ad-3f70-b36d-0542-3f1534a15c6a/mzaf_18273186259708818588.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/bd/ec/76bdec11-5c3d-643b-f7f0-051783f615a7/mzaf_10671858844874376314.plus.aac.p.m4a",
       "album": "Ruby"
     },
     "hate how you look::josh ross": {
@@ -1114,7 +1124,7 @@
     },
     "one last time::ariana grande": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a5/39/86/a5398609-ad90-50d3-57ad-0f87a4df5ac4/14UMGIM28138.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/c8/85/f6c88585-c5a4-1499-7b85-838e22ce7d1a/mzaf_10594422595674150015.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/13/1c/73131c50-6571-06e5-3404-e1bfa20c7101/mzaf_13252324295984021768.plus.aac.p.m4a",
       "album": "My Everything (Bonus Tracks Edition)"
     },
     "one less lonely girl::justin bieber": {
