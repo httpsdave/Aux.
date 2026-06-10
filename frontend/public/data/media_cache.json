@@ -22,7 +22,7 @@
     },
     "7 rings::ariana grande": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/06/d3/e406d3d8-2507-e585-c919-60bc5446985c/19UMGIM03689.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/55/b0/2755b0f3-2981-62f5-fb44-374229fb1386/mzaf_12552228037939560111.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/e7/e6/3be7e6cf-bddb-bd9c-bf4e-60a94d972b82/mzaf_5419779593679638208.plus.aac.p.m4a",
       "album": "thank u, next"
     },
     "a bar song tipsy::shaboozey": {
@@ -747,6 +747,10 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/cf/15/01cf154e-465e-3304-5ae1-a9c20049324a/mzaf_6700038481356559048.plus.aac.p.m4a",
       "album": "Middle of Nowhere"
     },
+    "hostage::latto featuring 21 savage": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/bc2fb454695d80d8c78f43478549c26f/1000x1000-000000-80-0-0.jpg",
+      "album": "Big Mama"
+    },
     "house tour::sabrina carpenter": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/15/0c/b6150c36-0765-c563-a250-ba767c00c809/mzaf_4225228786396793280.plus.aac.p.m4a",
@@ -1034,6 +1038,10 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/80/e0/2280e098-7f44-909b-1ef9-b7c47f888f3b/mzaf_11679725730091749446.plus.aac.p.m4a",
       "album": "ARIRANG"
     },
+    "mexico honey::kacey musgraves": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/97eafa46695c2708becd77df73766e7c/1000x1000-000000-80-0-0.jpg",
+      "album": "Middle of Nowhere"
+    },
     "midnight sun::zara larsson": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/bb/60/59bb60aa-1a0b-ff4c-3343-d7cb9e7d375a/mzaf_16759827430963483039.plus.aac.p.m4a",
@@ -1124,7 +1132,7 @@
     },
     "one last time::ariana grande": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a5/39/86/a5398609-ad90-50d3-57ad-0f87a4df5ac4/14UMGIM28138.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/13/1c/73131c50-6571-06e5-3404-e1bfa20c7101/mzaf_13252324295984021768.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/c8/85/f6c88585-c5a4-1499-7b85-838e22ce7d1a/mzaf_10594422595674150015.plus.aac.p.m4a",
       "album": "My Everything (Bonus Tracks Edition)"
     },
     "one less lonely girl::justin bieber": {
@@ -1436,6 +1444,10 @@
       "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
       "album": "Dandelion"
     },
+    "something to lose::stella lefty featuring vincent mason": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/30c36833c1fe5b5c398139a4622b65f4/1000x1000-000000-80-0-0.jpg",
+      "album": "Is This Heaven?"
+    },
     "sorry::justin bieber": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/11/84/751184b0-77df-1eff-bb20-dac03247425d/15UMGIM59808.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/eb/29/66eb29c0-c2f9-d9df-8af3-3bf2562c9d7c/mzaf_4099789285264521999.plus.aac.p.m4a",
@@ -1532,7 +1544,7 @@
     },
     "thank u next::ariana grande": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/06/d3/e406d3d8-2507-e585-c919-60bc5446985c/19UMGIM03689.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/7c/cb/7b7ccb56-de25-7218-22be-356fb1f2ae54/mzaf_9123868169304718351.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/cb/05/68cb0588-cc3e-a5fc-e900-150362cd79ab/mzaf_18128807475960576699.plus.aac.p.m4a",
       "album": "thank u, next"
     },
     "that should be me::justin bieber": {
@@ -1574,6 +1586,10 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/b5/79/6cb5792b-e299-72d1-e3e1-4172efb80635/mzaf_5542114514554180874.plus.aac.p.m4a",
       "album": "ARIRANG"
+    },
+    "think as you drunk::riley green": {
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/f60fbc8095587535e45c27151413b26e/1000x1000-000000-80-0-0.jpg",
+      "album": "Think As You Drunk"
     },
     "thinking of you::katy perry": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/a6/c4/b7a6c4e3-f44b-6877-0fe1-e20becce9717/13UABIM53168.rgb.jpg/600x600bb.jpg",
