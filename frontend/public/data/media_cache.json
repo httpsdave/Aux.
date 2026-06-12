@@ -194,6 +194,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/b1/ae/eeb1aee9-a8c2-d8ea-2582-988d3a97fd28/mzaf_17100639959473828796.plus.aac.p.m4a",
       "album": "Short n' Sweet"
     },
+    "begged::olivia rodrigo": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/39/38/57393856-1a1a-0fef-ab79-434d4db83134/mzaf_9325588035531306123.plus.aac.p.m4a",
+      "album": "you seem pretty sad for a girl so in love"
+    },
     "billie jean::michael jackson": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/bc/8a/dcbc8a3e-4ce1-c00d-cc02-eda2212053c7/mzaf_8347559338388601510.plus.aac.p.m4a",
@@ -220,7 +225,7 @@
       "album": "ARIRANG"
     },
     "body::don toliver": {
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/123eb0268dfea84370a28c4a2114dc28/1000x1000-000000-80-0-0.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/00/c1/dd/00c1dd09-3f86-7288-01dc-63b9f4262f57/075679599377.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/6b/e2/a46be242-f934-1876-06d1-fe4cedea4cdb/mzaf_16330599808244850326.plus.aac.p.m4a",
       "album": "OCTANE"
     },
@@ -357,7 +362,7 @@
       "album": "The Great Divide: The Last Of The Bugs"
     },
     "dandelion::ella langley": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/600x600bb.jpg",
+      "image_url": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/cf/6f/20cf6fb8-f9e4-674b-5a06-db44559da44a/mzaf_16191065150564774858.plus.aac.p.m4a",
       "album": "Dandelion"
     },
@@ -553,9 +558,9 @@
       "album": "FERRARI"
     },
     "fever dream::alex warren": {
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/7c046b1707ebac85e21b843b8ff24ba6/1000x1000-000000-80-0-0.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/44/ab/9944ab8d-79c5-c3b4-0448-3dde97bd47ec/mzaf_2792351844678623504.plus.aac.p.m4a",
-      "album": "FEVER DREAM"
+      "album": "FEVER DREAM - Single"
     },
     "fine place to die::alex warren": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/b65bad4854b04d1ff5573c193243742f/1000x1000-000000-80-0-0.jpg",
@@ -736,6 +741,11 @@
       "image_url": "https://cdn-images.dzcdn.net/images/cover/b42e27af45ca760d9afb3478af7b7069/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/d5/d5/14d5d585-4671-56c7-56a8-b8876ad2a8e0/mzaf_125747789578639399.plus.aac.p.m4a",
       "album": "BROWN"
+    },
+    "honeybee::olivia rodrigo": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/05/15/3e0515a0-927f-0c9d-00a8-6e61b23cc047/mzaf_10457469291202861082.plus.aac.p.m4a",
+      "album": "you seem pretty sad for a girl so in love"
     },
     "hooligan::bts": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
@@ -983,6 +993,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/1d/98/e01d9881-0953-f0ed-b03d-3a4bd6f3c769/mzaf_8283505998481315852.plus.aac.p.m4a",
       "album": "GNX"
     },
+    "maggots for brains::olivia rodrigo": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/33/15/013315ac-e70b-6fb3-cca0-3850a25bb100/mzaf_8814117911597442821.plus.aac.p.m4a",
+      "album": "you seem pretty sad for a girl so in love"
+    },
     "mahika::adie janine berdin": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e9/99/da/e999da24-a3ad-f1bc-d6b2-4146b8983a84/cover.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/97/7e/10977eea-d11e-c61c-ceb0-040374165892/mzaf_16308192548002047297.plus.aac.p.m4a",
@@ -1072,6 +1087,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/58/0b/41580b9c-4583-6089-4478-19c30715e6ab/mzaf_7015057589897402343.plus.aac.p.m4a",
       "album": "Multo - Single"
     },
+    "my way::olivia rodrigo": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/d1/c0/64d1c04d-e794-3e64-8bfd-82eb453dbd22/mzaf_69965976516117897.plus.aac.p.m4a",
+      "album": "you seem pretty sad for a girl so in love"
+    },
     "my way::riley green": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/22aa6615d5eaba05c5ec6f7af62ad363/1000x1000-000000-80-0-0.jpg",
       "album": "My Way"
@@ -1106,9 +1126,9 @@
       "album": "sweetener (Bonus Videos Edition)"
     },
     "noble::f3miii": {
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/c0653659b83b9f42e2476d7990e2b4b2/1000x1000-000000-80-0-0.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/a4/84/24a48418-e757-949a-2593-76851e0f9c05/196874129104.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/bd/11/d6bd11b0-1a8e-5e70-09a4-53297b5a6c22/mzaf_338451322152082730.plus.aac.p.m4a",
-      "album": "NOBLE (Slowed Down)"
+      "album": "NOBLE - Single"
     },
     "nobody s son::sabrina carpenter": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/600x600bb.jpg",
@@ -1283,6 +1303,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4b/38/d1/4b38d146-381d-ace2-73df-24074576e62b/656465138828_cover.jpg/100x100bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/f0/90/08f090b4-eb0d-8889-622c-12ca7dbdaa28/mzaf_11649117354568372269.plus.aac.p.m4a",
       "album": "BULLY"
+    },
+    "purple::olivia rodrigo": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/21/ba/af21ba06-be42-2a2f-2a46-4588e632e59a/mzaf_3136332503674562898.plus.aac.p.m4a",
+      "album": "you seem pretty sad for a girl so in love"
     },
     "q a::drake": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/d3ae49763fed96e6aaaf7d97f67c5726/1000x1000-000000-80-0-0.jpg",
@@ -1503,6 +1528,16 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/7b/31/4e7b3155-97ea-25d5-1089-90382fcb11db/mzaf_12206748485216199149.plus.aac.p.m4a",
       "album": "MAID OF HONOUR"
     },
+    "stupid song::olivia rodrigo": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/38/b7/e138b75b-1896-8636-d42b-02d9fc81294f/mzaf_4945944924402030104.plus.aac.p.m4a",
+      "album": "you seem pretty sad for a girl so in love"
+    },
+    "style taylor s version::taylor swift": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/a6/80/11a680e6-2e48-08fa-5e87-3f18e838d31f/23UM1IM11868.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/5d/72/bd5d726f-f082-732a-bfac-102ab3739ec7/mzaf_13805328136345741566.plus.aac.p.m4a",
+      "album": "1989 (Taylor's Version)"
+    },
     "sunburn::tucker wetmore": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/1c6afbf6ba7f38408d8b211c1b05ad28/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/b6/53/d5b653c3-a8ea-b088-fbf2-07b8376ec4ce/mzaf_5693928096035228764.plus.aac.p.m4a",
@@ -1639,6 +1674,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/b7/bc/91b7bcc5-ee19-cbd9-cdea-90652b788ff5/mzaf_11289126783043972198.plus.aac.p.m4a",
       "album": "eternal sunshine deluxe: brighter days ahead"
     },
+    "u me 3::olivia rodrigo": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/cc/33/2dcc3322-8a9f-8bbe-2591-708fc9d01373/mzaf_6793756616451376683.plus.aac.p.m4a",
+      "album": "you seem pretty sad for a girl so in love"
+    },
     "unti unti::up dharma down": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0f/5a/6a/0f5a6afc-7870-43ef-77ae-273171fc8c3e/cover.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/99/89/d6/9989d6dd-db72-bb45-45a5-c3bc249c7cf3/mzaf_6676632978502798534.plus.aac.p.m4a",
@@ -1683,6 +1723,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/99/2a/0b992aca-4a7e-22d9-4434-e9ed07295836/25UM1IM34722.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/b2/7c/b8b27c65-60a5-1dd5-130d-a36afd1320f8/mzaf_11290491574514080668.plus.aac.p.m4a",
       "album": "LAB SONGS NG MGA TANGA"
+    },
+    "what s wrong with me::olivia rodrigo robert smith": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/b2/32/dab23274-aa61-4189-0174-11067bd19b8a/mzaf_8217576130424744029.plus.aac.p.m4a",
+      "album": "you seem pretty sad for a girl so in love"
     },
     "what you need::tems": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/584f40f4d2b62b611a7ab8561b656ff3/1000x1000-000000-80-0-0.jpg",
