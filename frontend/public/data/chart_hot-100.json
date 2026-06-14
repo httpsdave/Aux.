@@ -1,10 +1,130 @@
 {
   "source_chart": "hot-100",
-  "resolved_chart_date": "2026-06-13",
+  "resolved_chart_date": "2026-04-11",
   "dates": [
-    "2026-06-13"
+    "2026-04-11"
   ],
   "entries": [
+    {
+      "chart_date": "2026-04-11",
+      "rank": 1,
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "album": "Still Hungover",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/ea/a6/1aeaa6cc-65e2-0d44-c658-4745ff48764f/198846688931.jpg/400x400cc.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/49/4c/38494cb4-f9e0-1db4-0b84-8c478cb55390/mzaf_4251933786704889664.plus.aac.p.m4a",
+      "weeks_on_chart": 24,
+      "peak_position": 1,
+      "last_week_position": 2
+    },
+    {
+      "chart_date": "2026-04-11",
+      "rank": 2,
+      "title": "Swim",
+      "artist": "BTS",
+      "album": "ARIRANG",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/ce/b3/e7ceb389-cb23-f708-cbdb-ff874be51365/mzaf_3407006493764005509.plus.aac.p.m4a",
+      "weeks_on_chart": 2,
+      "peak_position": 1,
+      "last_week_position": 1
+    },
+    {
+      "chart_date": "2026-04-11",
+      "rank": 3,
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "album": "Messy",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/2c/6d/812c6df3-5481-5e61-b5d1-306d485b0d9d/mzaf_6058256111555931162.plus.aac.p.m4a",
+      "weeks_on_chart": 32,
+      "peak_position": 2,
+      "last_week_position": 3
+    },
+    {
+      "chart_date": "2026-04-11",
+      "rank": 4,
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "album": "The Romantic",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/ef/58/86ef584b-cb46-43df-12e3-fce4b436688c/mzaf_10081886156675578892.plus.aac.p.m4a",
+      "weeks_on_chart": 12,
+      "peak_position": 1,
+      "last_week_position": 4
+    },
+    {
+      "chart_date": "2026-04-11",
+      "rank": 5,
+      "title": "Ordinary",
+      "artist": "Alex Warren",
+      "album": "Ordinary - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/78/fb/4678fb84-d19e-f11b-93ff-4dc17660bff8/075679619075.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/2f/82/f42f82e5-e164-dd14-4f9a-2767d0215bae/mzaf_2512873933120069750.plus.aac.p.m4a",
+      "weeks_on_chart": 59,
+      "peak_position": 1,
+      "last_week_position": 5
+    },
+    {
+      "chart_date": "2026-04-11",
+      "rank": 6,
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga & Bruno Mars",
+      "album": "Die With A Smile - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/d1/46/e9d14699-9505-493e-cd27-a501095c81ff/mzaf_7283388936457278756.plus.aac.p.m4a",
+      "weeks_on_chart": 29,
+      "peak_position": 1,
+      "last_week_position": 6
+    },
+    {
+      "chart_date": "2026-04-11",
+      "rank": 7,
+      "title": "A Bar Song (Tipsy)",
+      "artist": "Shaboozey",
+      "album": "Where I've Been, Isn't Where I'm Going",
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 43,
+      "peak_position": 1,
+      "last_week_position": 8
+    },
+    {
+      "chart_date": "2026-04-11",
+      "rank": 8,
+      "title": "Lose Control",
+      "artist": "Teddy Swims",
+      "album": "I've Tried Everything But Therapy",
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 71,
+      "peak_position": 1,
+      "last_week_position": 7
+    },
+    {
+      "chart_date": "2026-04-11",
+      "rank": 9,
+      "title": "Beautiful Things",
+      "artist": "Benson Boone",
+      "album": "Fireworks & Rollerblades",
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 62,
+      "peak_position": 2,
+      "last_week_position": 9
+    },
+    {
+      "chart_date": "2026-04-11",
+      "rank": 10,
+      "title": "Greedy",
+      "artist": "Tate McRae",
+      "album": "Think Later",
+      "image_url": null,
+      "preview_url": null,
+      "weeks_on_chart": 35,
+      "peak_position": 3,
+      "last_week_position": 10
+    },
     {
       "chart_date": "2026-06-13",
       "rank": 1,
@@ -16,18 +136,6 @@
       "weeks_on_chart": 1,
       "peak_position": 1,
       "last_week_position": 0
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 2,
-      "title": "Choosin' Texas",
-      "artist": "Ella Langley",
-      "album": "Choosin' Texas - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/49/4c/38494cb4-f9e0-1db4-0b84-8c478cb55390/mzaf_4251933786704889664.plus.aac.p.m4a",
-      "weeks_on_chart": 33,
-      "peak_position": 1,
-      "last_week_position": 2
     },
     {
       "chart_date": "2026-06-13",
@@ -52,30 +160,6 @@
       "weeks_on_chart": 16,
       "peak_position": 2,
       "last_week_position": 3
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 5,
-      "title": "I Just Might",
-      "artist": "Bruno Mars",
-      "album": "The Romantic",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/ef/58/86ef584b-cb46-43df-12e3-fce4b436688c/mzaf_10081886156675578892.plus.aac.p.m4a",
-      "weeks_on_chart": 21,
-      "peak_position": 1,
-      "last_week_position": 8
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 6,
-      "title": "Man I Need",
-      "artist": "Olivia Dean",
-      "album": "The Art of Loving",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/2c/6d/812c6df3-5481-5e61-b5d1-306d485b0d9d/mzaf_6058256111555931162.plus.aac.p.m4a",
-      "weeks_on_chart": 41,
-      "peak_position": 2,
-      "last_week_position": 10
     },
     {
       "chart_date": "2026-06-13",
@@ -484,18 +568,6 @@
       "weeks_on_chart": 3,
       "peak_position": 8,
       "last_week_position": 24
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 41,
-      "title": "Swim",
-      "artist": "BTS",
-      "album": "ARIRANG",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/ce/b3/e7ceb389-cb23-f708-cbdb-ff874be51365/mzaf_3407006493764005509.plus.aac.p.m4a",
-      "weeks_on_chart": 11,
-      "peak_position": 1,
-      "last_week_position": 44
     },
     {
       "chart_date": "2026-06-13",
@@ -1132,78 +1204,6 @@
       "weeks_on_chart": 3,
       "peak_position": 39,
       "last_week_position": 79
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 95,
-      "title": "Firm Friends",
-      "artist": "Drake",
-      "album": "ICEMAN",
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/cccf5e9af10b6aae96f5cdd5a27c2aff/1000x1000-000000-80-0-0.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/7e/03/8d7e033a-3b07-7ad3-4749-a4d3ed6c9efa/mzaf_8511095112511377446.plus.aac.p.m4a",
-      "weeks_on_chart": 3,
-      "peak_position": 31,
-      "last_week_position": 69
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 96,
-      "title": "End Of August",
-      "artist": "Noah Kahan",
-      "album": "The Great Divide: The Last Of The Bugs",
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/a0b05276a5231399968dffaa1a6b4cf0/1000x1000-000000-80-0-0.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/7c/33/0b7c3373-cbb0-7bce-40b6-9de8aa30ff4d/mzaf_18350023642074963258.plus.aac.p.m4a",
-      "weeks_on_chart": 6,
-      "peak_position": 14,
-      "last_week_position": 91
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 97,
-      "title": "High Fives",
-      "artist": "Drake",
-      "album": "HABIBTI",
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/a3c0b45062f3987b928b13cd6122f443/1000x1000-000000-80-0-0.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/12/dc/1912dc01-9e31-7dcb-c26e-5e7c5de3e9d5/mzaf_16298854244916196423.plus.aac.p.m4a",
-      "weeks_on_chart": 3,
-      "peak_position": 43,
-      "last_week_position": 77
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 98,
-      "title": "Sunburn",
-      "artist": "Tucker Wetmore",
-      "album": "Sunburn",
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/1c6afbf6ba7f38408d8b211c1b05ad28/1000x1000-000000-80-0-0.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/b6/53/d5b653c3-a8ea-b088-fbf2-07b8376ec4ce/mzaf_5693928096035228764.plus.aac.p.m4a",
-      "weeks_on_chart": 2,
-      "peak_position": 93,
-      "last_week_position": 0
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 99,
-      "title": "Empty Words",
-      "artist": "Corey Kent",
-      "album": "Empty Words",
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/e246281ac591efa3aac48b8e3196de84/1000x1000-000000-80-0-0.jpg",
-      "preview_url": null,
-      "weeks_on_chart": 2,
-      "peak_position": 97,
-      "last_week_position": 0
-    },
-    {
-      "chart_date": "2026-06-13",
-      "rank": 100,
-      "title": "American Cars",
-      "artist": "Noah Kahan",
-      "album": "The Great Divide: The Last Of The Bugs",
-      "image_url": "https://cdn-images.dzcdn.net/images/cover/a0b05276a5231399968dffaa1a6b4cf0/1000x1000-000000-80-0-0.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/d8/2d/04d82dda-9a58-3737-2800-e24c50bc34b5/mzaf_2405093172875253208.plus.aac.p.m4a",
-      "weeks_on_chart": 6,
-      "peak_position": 16,
-      "last_week_position": 93
     }
   ]
 }
