@@ -17,7 +17,7 @@ if str(BASE_DIR) not in sys.path:
 
 from app.db.database import SessionLocal, engine
 from app.db.models import Base
-from app.services.providers import SongRecord, fetch_billboard_chart, fetch_philippines_top_songs
+from app.services.providers import SongRecord, fetch_global_top_songs, fetch_philippines_top_songs
 from app.services.chart_service import get_chart_entries, get_latest_chart_date
 
 
@@ -28,7 +28,6 @@ def parse_args() -> argparse.Namespace:
         default=str(REPO_ROOT / "frontend" / "public" / "data"),
         help="Output directory for static JSON files",
     )
-    parser.add_argument("--global-date", default=date.today().isoformat(), help="Date for hot-100 fetch (YYYY-MM-DD)")
     parser.add_argument("--global-chart", default="hot-100", help="Global chart key")
     parser.add_argument("--ph-chart", default="philippines-songs", help="Philippines chart key")
     parser.add_argument("--limit", type=int, default=100, help="Rows per chart")
@@ -39,18 +38,6 @@ def parse_args() -> argparse.Namespace:
         type=float,
         default=10.0,
         help="Timeout per iTunes metadata request during global enrichment",
-    )
-    parser.add_argument(
-        "--global-enrich-retries",
-        type=int,
-        default=2,
-        help="Retry attempts for each global song enrichment",
-    )
-    parser.add_argument(
-        "--global-enrich-retry-delay-seconds",
-        type=float,
-        default=1.0,
-        help="Delay between global song enrichment retries",
     )
     return parser.parse_args()
 
@@ -340,8 +327,6 @@ def main() -> None:
         ]
     }
 
-    sample_file = BASE_DIR / "data" / "sample_hot_100.json"
-    sample_rows = _load_sample(sample_file)
     global_snapshot_file = output_dir / f"chart_{args.global_chart}.json"
     ph_snapshot_file = output_dir / f"chart_{args.ph_chart}.json"
     media_cache_file = output_dir / "media_cache.json"
@@ -350,39 +335,26 @@ def main() -> None:
     media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(global_snapshot_file))
     media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(ph_snapshot_file))
     media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(media_cache_file))
-    previous_global_rows = _load_snapshot_rows(global_snapshot_file)
 
+    # Global chart — Apple RSS feed (same approach as PH, always fresh, track-ID based enrichment)
     try:
-        global_rows = fetch_billboard_chart(
-            chart_name=args.global_chart,
-            chart_date=args.global_date,
+        global_rows = fetch_global_top_songs(
+            limit=args.limit,
             enrich_metadata=not args.no_enrich_global,
             timeout_seconds=args.global_enrich_timeout_seconds,
-            enrichment_retries=args.global_enrich_retries,
-            enrichment_retry_delay_seconds=args.global_enrich_retry_delay_seconds,
         )
         if not global_rows:
             global_rows = _load_from_db(args.global_chart, args.limit)
             if global_rows:
                 print("Global fetch returned no rows, using DB fallback")
             else:
-                global_rows = list(sample_rows)
-                print("Global fetch returned no rows, using sample fallback")
+                raise RuntimeError("Global fetch returned no rows and DB is empty")
     except Exception as exc:
         global_rows = _load_from_db(args.global_chart, args.limit)
         if global_rows:
             print(f"Global fetch failed, using DB fallback: {exc}")
         else:
-            global_rows = list(sample_rows)
-            print(f"Global fetch failed, using sample fallback: {exc}")
-
-    global_rows, global_padded_previous = _pad_rows_from_sample(global_rows, previous_global_rows, args.limit)
-    if global_padded_previous:
-        print(f"Global rows padded from previous snapshot: {global_padded_previous}")
-
-    global_rows, global_padded_sample = _pad_rows_from_sample(global_rows, sample_rows, args.limit)
-    if global_padded_sample:
-        print(f"Global rows padded from sample: {global_padded_sample}")
+            raise
 
     global_patched = _apply_media_cache(global_rows, media_cache)
     if global_patched:

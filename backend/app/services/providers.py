@@ -388,3 +388,91 @@ def fetch_philippines_top_songs(
         )
 
     return rows
+
+
+def fetch_global_top_songs(
+    limit: int = 100,
+    timeout_seconds: float = 10.0,
+    enrich_metadata: bool = True,
+) -> list[SongRecord]:
+    """Fetch the Apple Music global most-played chart via Apple's RSS feed.
+
+    Mirrors ``fetch_philippines_top_songs`` exactly: the feed includes Apple
+    track IDs so we can do an exact iTunes lookup (``enrich_with_itunes_lookup``)
+    before falling back to text-search enrichment.  This gives the same near-100%
+    preview coverage that the PH chart enjoys.
+
+    Tries the ``global`` country slug first; falls back to ``us`` if the global
+    endpoint returns no results.
+    """
+    country_slugs = ["global", "us"]
+    results: list[dict] = []
+
+    with httpx.Client(timeout=timeout_seconds) as client:
+        for slug in country_slugs:
+            url = f"https://rss.marketingtools.apple.com/api/v2/{slug}/music/most-played/{limit}/songs.json"
+            try:
+                response = client.get(url)
+                response.raise_for_status()
+                payload = response.json()
+            except Exception:
+                continue
+
+            results = ((payload.get("feed") or {}).get("results") or [])[:limit]
+            if results:
+                break
+
+    if not results:
+        raise RuntimeError("Apple RSS global feed returned no results for any country slug")
+
+    chart_date = date.today()
+    rows: list[SongRecord] = []
+
+    for index, item in enumerate(results, start=1):
+        title = item.get("name") or ""
+        artist = item.get("artistName") or ""
+        track_id = str(item.get("id") or "")
+        artwork_url = item.get("artworkUrl100")
+        if isinstance(artwork_url, str):
+            artwork_url = artwork_url.replace("100x100bb", "600x600bb").replace("300x300bb", "600x600bb")
+
+        preview_url = None
+        album = item.get("collectionName")
+
+        if enrich_metadata:
+            enriched_image_url, enriched_preview_url, enriched_album = (None, None, None)
+            if track_id:
+                enriched_image_url, enriched_preview_url, enriched_album = enrich_with_itunes_lookup(
+                    track_id,
+                    timeout_seconds=timeout_seconds,
+                    country="US",
+                )
+
+            if enriched_preview_url is None:
+                enriched_image_url, enriched_preview_url, enriched_album = enrich_with_itunes(
+                    title,
+                    artist,
+                    timeout_seconds=timeout_seconds,
+                    preferred_country="US",
+                )
+
+            preview_url = enriched_preview_url
+            album = album or enriched_album
+            artwork_url = artwork_url or enriched_image_url
+
+        rows.append(
+            SongRecord(
+                chart_date=chart_date,
+                rank=index,
+                title=title,
+                artist=artist,
+                album=album,
+                image_url=artwork_url,
+                preview_url=preview_url,
+                weeks_on_chart=None,
+                peak_position=None,
+                last_week_position=None,
+            )
+        )
+
+    return rows

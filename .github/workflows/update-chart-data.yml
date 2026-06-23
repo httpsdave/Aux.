@@ -2,7 +2,7 @@ name: Update Chart Data
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  MIN_PREVIEW_COVERAGE_GLOBAL: "0.70"
+  MIN_PREVIEW_COVERAGE_GLOBAL: "0.85"
   MIN_PREVIEW_COVERAGE_GLOBAL_TOP50: "0.90"
   MIN_PREVIEW_COVERAGE_PH: "0.12"
 
@@ -46,7 +46,7 @@ jobs:
 
           data_dir = Path("frontend/public/data")
           checks = [
-            ("chart_hot-100.json", float(os.getenv("MIN_PREVIEW_COVERAGE_GLOBAL", "0.55"))),
+            ("chart_hot-100.json", float(os.getenv("MIN_PREVIEW_COVERAGE_GLOBAL", "0.85"))),
             ("chart_philippines-songs.json", float(os.getenv("MIN_PREVIEW_COVERAGE_PH", "0.12"))),
           ]
 
