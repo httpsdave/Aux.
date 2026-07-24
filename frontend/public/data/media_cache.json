@@ -468,6 +468,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/4e/b6/884eb66b-afbf-2daf-fb59-5b9eee8e620a/mzaf_37313510895594416.plus.aac.p.m4a",
       "album": "Journals"
     },
+    "controlla::drake": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/0d/8b/f20d8bff-a927-ae98-6784-20a1f51cb23e/16UMGIM27642.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ec/83/ad/ec83ad1e-0800-c13e-a92b-7ce8c08fbdf6/mzaf_2346355847443588355.plus.aac.p.m4a",
+      "album": "Views"
+    },
     "courtesy of the red white and blue the angry american::toby keith": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/fc/44/a5fc44c4-558a-1132-9c3d-3ea05443c1a3/06UMGIM19854.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/c4/88/afc488b1-72e0-3176-d2a3-8c135b517414/mzaf_10648791121628715902.plus.aac.p.m4a",
@@ -1575,6 +1580,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/cb/bc/83cbbc49-cfad-aeaf-3292-0dd428290d81/198704942365_Cover.jpg/600x600bb.jpg",
       "album": "ARIRANG"
     },
+    "no flockin::kodak black": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music19/v4/dc/47/69/dc476925-5b83-ac3a-51fc-72a41aaa6a1d/mzm.rhdremds.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/eb/bc/35ebbcde-7137-d1f6-b3fb-e47407939d5c/mzaf_4386401950644512796.plus.aac.p.m4a",
+      "album": "No Flockin - Single"
+    },
     "no misery::future": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/a0/75/8ea0757a-6859-9c50-e92b-944979cc0d53/196874557198.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/27/eb/a127eb48-14b0-b8fb-68de-e32a4d9a256b/mzaf_17685789108551428649.plus.aac.p.m4a",
@@ -1634,6 +1644,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/ef/33/a4ef3370-c56d-97bc-efbf-34f3684b0884/712132042055_cover.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/ef/06/f6ef062b-6e9c-1e16-eb1a-4a86c1d3b912/mzaf_11839963899935195332.plus.aac.p.m4a",
       "album": "BULLY - DELUXE"
+    },
+    "okayyy feat doja cat::latto": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/75/0f/78750f43-51a6-972d-b0e9-127fe0b00d85/196874450932.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/72/d8/cd72d875-bbd6-51a3-c377-f74b6b5cc700/mzaf_13986335880298128350.plus.aac.p.m4a",
+      "album": "Big Mama"
     },
     "one last time::ariana grande": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a5/39/86/a5398609-ad90-50d3-57ad-0f87a4df5ac4/14UMGIM28138.rgb.jpg/600x600bb.jpg",
@@ -2158,6 +2173,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/97/3a/70973a36-b897-e20e-4698-c05d4f5ee24f/20UMGIM30253.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/47/f5/4747f507-ad40-e228-f550-3511b5c3c8b6/mzaf_17240655843742556761.plus.aac.p.m4a",
       "album": "My Turn (Deluxe)"
+    },
+    "summer crush::hellmerry": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/b2/f9/7fb2f9c9-3823-e174-0cc3-9ebda3a185db/cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/6b/ba/046bba57-6d74-2f41-3b88-ddaf931cdf57/mzaf_7263103812514981884.plus.aac.p.m4a",
+      "album": "Summer Crush - Single"
     },
     "summertime::kenny chesney": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5d/7d/f2/5d7df222-335e-eae6-2b83-8cc731af5b7c/mzi.sxhpnzpg.jpg/600x600bb.jpg",
