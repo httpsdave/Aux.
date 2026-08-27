@@ -563,6 +563,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/fa/93/a2fa9341-b7b6-fa5e-2e2a-74c2693f3451/mzaf_17100102146415027790.plus.aac.p.m4a",
       "album": "All Eyes on Shiest"
     },
+    "coat of many colors::dolly parton": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9b/1d/11/9b1d1141-2332-5100-822a-0cd571ebffd6/dj.zuericqk.jpg/100x99bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cc/87/ae/cc87ae93-1a0e-4186-ba9b-5a33b5309daf/mzaf_12762469536980051648.plus.aac.p.m4a",
+      "album": "Coat of Many Colors"
+    },
     "collecting tears::pooh shiesty": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/a0/1f/78a01f15-5b06-cf05-6fb8-5d6be452565a/075679567352.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/cc/8b/0fcc8be8-6b37-8c52-fe27-700497b93c5a/mzaf_12833779507217878936.plus.aac.p.m4a",
@@ -1109,6 +1114,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/cc/9a/a2cc9a2a-eaa3-2519-fbea-daf2e6641bc5/mzaf_9211026977674269487.plus.aac.p.m4a",
       "album": "The Great Divide: The Last Of The Bugs"
     },
+    "here you come again::dolly parton": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/01/0c/75/010c75b5-ac46-382c-5862-33679d13dc65/886445438932.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/8e/fc/238efc2d-ab25-f421-5bbb-953af9ca03c3/mzaf_8319421218993959464.plus.aac.p.m4a",
+      "album": "Here You Come Again"
+    },
     "high fives::drake": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/a3c0b45062f3987b928b13cd6122f443/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/12/dc/1912dc01-9e31-7dcb-c26e-5e7c5de3e9d5/mzaf_16298854244916196423.plus.aac.p.m4a",
@@ -1289,6 +1299,11 @@
     },
     "i want you::cody johnson": {
       "album": "Banks Of The Trinity"
+    },
+    "i will always love you::dolly parton": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/19/bd/b819bdb4-8c55-ed2d-8091-afaa92b84ee0/mzaf_10769735500758354232.plus.aac.p.m4a",
+      "album": "Jolene"
     },
     "iconic by mistake::le sserafim illit katseye": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/22/91/79229159-769c-dd71-b5c3-2295e4fbb744/823375193074_Cover.jpg/600x600bb.jpg",
@@ -1781,6 +1796,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/58/0b/41580b9c-4583-6089-4478-19c30715e6ab/mzaf_7015057589897402343.plus.aac.p.m4a",
       "album": "Multo - Single"
     },
+    "my tennessee mountain home::dolly parton": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music42/v4/8e/28/61/8e2861bd-1c28-173b-17fd-3efb2b88e204/886446002972.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/65/66/51/6566517e-4ca9-c563-e899-7d619dab4d47/mzaf_17438838046992013922.plus.aac.p.m4a",
+      "album": "My Tennessee Mountain Home"
+    },
     "my way::olivia rodrigo": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/a9/7e/f4a97e1b-145b-dc9e-4121-228323313f28/mzaf_73784672995101562.plus.aac.p.m4a",
@@ -2249,8 +2269,8 @@
       "album": "Rosas"
     },
     "routine rouge::partynextdoor": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/bb/59/27bb5963-b73c-efc1-04c2-c89f43f7fba0/808391400276.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/90/73/d0907346-4c51-9f82-af99-92b992ae0fc4/mzaf_11714150239246993135.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/3c/da/cd3cda94-8f7b-8368-3fa3-53abca7baf6a/808391400252.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/85/9c/e6859c8e-41af-63f5-7f49-325cf52d14a9/mzaf_16634219738283385587.plus.aac.p.m4a",
       "album": "PARTYNEXTDOOR 3 (P3) [10-YEAR EDITION]"
     },
     "rubberz::fenix flexin": {
@@ -2721,6 +2741,16 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/b7/bc/91b7bcc5-ee19-cbd9-cdea-90652b788ff5/mzaf_11289126783043972198.plus.aac.p.m4a",
       "album": "eternal sunshine deluxe: brighter days ahead"
     },
+    "two doors down::dolly parton": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/01/0c/75/010c75b5-ac46-382c-5862-33679d13dc65/886445438932.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/60/d2/72/60d27252-49fd-7630-fe46-52ac3a9ba268/mzaf_7468460622609104906.plus.aac.p.m4a",
+      "album": "Here You Come Again"
+    },
+    "tyrant::beyonc dolly parton": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/f6/83/bdf683a5-28de-08cb-cb91-2940c1e6270b/196871853729.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/02/b4/2a02b484-4c24-862f-46e6-b63cbaad4e20/mzaf_16987311060555619534.plus.aac.p.m4a",
+      "album": "COWBOY CARTER"
+    },
     "u me 3::olivia rodrigo": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/9e/32/f69e3222-fe0f-1547-8095-cd91f75a7d0c/mzaf_8153099727443688207.plus.aac.p.m4a",
@@ -2885,6 +2915,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/c0/c5/3bc0c51d-33f2-ee19-e148-6d8f2c50df24/25UMGIM90843.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/af/b0/f2afb01b-42c5-7803-be2f-b7365c9a928a/mzaf_17144887126595930673.plus.aac.p.m4a",
       "album": "Son Of Spergy"
+    },
+    "why d you come in here lookin like that::dolly parton": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/1b/e7/07/1be707f6-4ecf-8838-c1c9-09a309c4ad4b/dj.lddflwlr.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/09/c3/18/09c31827-b482-cf8c-caec-9229c0a6470d/mzaf_13429481570178442247.plus.aac.p.m4a",
+      "album": "White Limozeen"
     },
     "wi h li t::taylor swift": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/600x600bb.jpg",
