@@ -35,6 +35,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/a0/6b/f5a06b09-50d7-7e57-4df2-bf06a71c5d5d/mzaf_16766035745548098793.plus.aac.p.m4a",
       "album": "The Great Divide: The Last Of The Bugs"
     },
+    "24k magic::bruno mars": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/a0/e347a0cc-87ce-5d05-d560-176c7d48f66e/075679904119.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/77/cd/7277cdca-1387-1c7a-529e-72f3c2ed070d/mzaf_3495320363426981496.plus.aac.p.m4a",
+      "album": "24K Magic"
+    },
     "28::zach bryan": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/2e/c1/f62ec15a-3294-0743-e80c-c5e890171a14/093624828730.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/30/f2/1a30f2a8-838c-39f2-0aef-15bdce53952a/mzaf_4543854822778927246.plus.aac.p.m4a",
@@ -746,6 +751,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/f4/09/46f40927-86a8-e3ef-5c14-34d9aef63de1/mzaf_904587319992390131.plus.aac.p.m4a",
       "album": "ICEMAN"
+    },
+    "don t::bryson tiller": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/6d/4d/be6d4d93-bc89-5eba-18c3-df6503681dac/mzaf_7760373023838939914.plus.aac.p.m4a",
+      "album": "T R A P S O U L"
     },
     "doors::noah kahan": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/9c/40/9a9c40b0-0ef2-5bc5-6c25-250862e48f77/26UMGIM02802.rgb.jpg/600x600bb.jpg",
@@ -2422,6 +2432,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/4c/93/144c934b-0cf0-6862-7209-a881b7224294/mzaf_11580342643921855366.plus.aac.p.m4a",
       "album": "After Hours"
+    },
+    "sawadika::lisa": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/36/44/e136449c-bc39-26ac-cdea-368890f8196c/196874694572.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/90/98/2c909844-6592-b032-a140-e6915f1b372f/mzaf_4392501410701536824.plus.aac.p.m4a",
+      "album": "SaWaDiKa - Single"
     },
     "say so::dan shay": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/0bc91144ea8c958c55585e4e604e22d9/1000x1000-000000-80-0-0.jpg",
