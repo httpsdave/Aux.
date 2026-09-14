@@ -37,13 +37,18 @@
     },
     "24k magic::bruno mars": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/a0/e347a0cc-87ce-5d05-d560-176c7d48f66e/075679904119.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/77/cd/7277cdca-1387-1c7a-529e-72f3c2ed070d/mzaf_3495320363426981496.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/c4/cb/45c4cb28-670f-f1fe-9678-7fa1601bbb5a/mzaf_2006385778979520718.plus.aac.p.m4a",
       "album": "24K Magic"
     },
     "28::zach bryan": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/2e/c1/f62ec15a-3294-0743-e80c-c5e890171a14/093624828730.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/30/f2/1a30f2a8-838c-39f2-0aef-15bdce53952a/mzaf_4543854822778927246.plus.aac.p.m4a",
       "album": "The Great American Bar Scene"
+    },
+    "3 headed goat feat lil baby polo g::lil durk": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/45/b0/c745b05a-04ee-104e-1c32-a3861d1ec0e6/602507370848.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/35/b8/a735b8a3-a69c-e0ef-3cda-94eade2dc183/mzaf_11679320950143289567.plus.aac.p.m4a",
+      "album": "Just Cause Y'all Waited 2 (Deluxe)"
     },
     "30 for 30 with kendrick lamar::sza": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/bd/88/97bd8804-7d3e-e6c8-0532-ff22877b931c/196871766890.jpg/600x600bb.jpg",
@@ -263,6 +268,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2d/37/18/2d3718e9-8620-b603-d3cc-f34ce817070d/886447290170.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/00/5c/b9005c47-45de-a5cb-e9ac-f8af66d69f33/mzaf_18175355208890397177.plus.aac.p.m4a",
       "album": "Don't Forget About Me, Demos - EP"
+    },
+    "back again feat lil durk::king von prince dre": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/29/6b/3b296bc0-a493-1452-ffc3-4c1b46403ac1/194690334627_cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/b2/95/1fb2954a-bb90-5f02-ecc0-b1d5c5a23c97/mzaf_6330488656141008171.plus.aac.p.m4a",
+      "album": "Welcome to O'Block"
     },
     "back to friends::sombr": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d5/ad/5dd5ad1b-fabf-9218-77f0-3adbfd5328ac/054391237118.jpg/600x600bb.jpg",
@@ -1536,7 +1546,7 @@
     },
     "just the way you are::bruno mars": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/98/ae/c2/98aec2e1-3be4-0311-1b44-69348fc87abb/075679956484.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/cb/2f/e8/cb2fe83a-2676-0cb6-0eb9-aeefe1347a8d/mzaf_8776765404617928155.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/36/d3/5c36d391-5880-e0c5-a56e-68ac7d77229b/mzaf_9299593821852203765.plus.aac.p.m4a",
       "album": "Doo-Wops & Hooligans (Deluxe)"
     },
     "kabisado::iv of spades": {
@@ -2284,6 +2294,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/9e/79/769e79f5-3fbe-a416-4109-e57acaf7ebb7/mzaf_1472369971298162165.plus.aac.p.m4a",
       "album": "Party In the U.S.A. - Single"
     },
+    "pass the water::lil durk": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/45/b0/c745b05a-04ee-104e-1c32-a3861d1ec0e6/602507370848.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/80/82/168082e2-1ddd-bc59-d61e-3f4d13e3da7f/mzaf_11749464576926042132.plus.aac.p.m4a",
+      "album": "Just Cause Y'all Waited 2 (Deluxe)"
+    },
     "passenger::alex warren": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/1e/25/4d1e2526-aaf4-f95d-4200-fef4dcfa88ed/075679574220.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/e6/f6/7ae6f6d9-e081-3215-f504-477d67a88163/mzaf_18141177572580722318.plus.aac.p.m4a",
@@ -2838,6 +2853,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/0d/8c/fc0d8c07-03be-570d-752f-edd0428d0af6/mzaf_6546538705895556196.plus.aac.p.m4a",
       "album": "Banks Of The Trinity"
     },
+    "talking to the moon::bruno mars": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/98/ae/c2/98aec2e1-3be4-0311-1b44-69348fc87abb/075679956484.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/e0/47/5ae04702-f88d-136b-e275-bce284d7b139/mzaf_17405584701232856246.plus.aac.p.m4a",
+      "album": "Doo-Wops & Hooligans (Deluxe)"
+    },
     "tank top pluto::future": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/a0/75/8ea0757a-6859-9c50-e92b-944979cc0d53/196874557198.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/d2/42/ced24229-3af3-460c-b533-6eead9cb8ce2/mzaf_8334184561811648552.plus.aac.p.m4a",
@@ -2983,8 +3003,8 @@
       "album": "Don't Look Down"
     },
     "totoong tayo::jin dc": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/08/95/670895c8-be59-ccad-b972-d19a5e640c84/5063992655325_cover.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/8f/77/3d8f7732-0af3-3439-5bbd-8124bf9123fb/mzaf_17954555022445222090.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/40/f2/3140f2d7-79f5-ef9a-eb9a-a097b27ad3ef/5063992655325.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/4c/e3/534ce3b5-8e3e-5849-5adb-0cc0549f7b7c/mzaf_3086558156272219794.plus.aac.p.m4a",
       "album": "Totoong tayo - Single"
     },
     "tp::rod wave": {
