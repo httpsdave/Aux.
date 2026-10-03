@@ -259,10 +259,20 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/cb/74/e7cb749b-2b9c-3b27-b45a-8e5da2493a49/mzaf_15494222518134088783.plus.aac.p.m4a",
       "album": "ICEMAN"
     },
+    "ba::quavo future": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/28/d2/2128d2bf-20e4-a29a-e302-c42a42cb11ff/26UM1IM02290.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/ca/19/a3ca1971-0c3e-7956-7194-64a2776358ea/mzaf_16059650306046900643.plus.aac.p.m4a",
+      "album": "QR\u00d6MELIFE"
+    },
     "babaero feat hev abi::gins melodies": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/7a/7b/967a7b0c-d8ca-20b6-ad98-77947fa83e50/artwork.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c0/30/b7/c030b79e-2852-bfa7-dba7-76f73e58e8f7/mzaf_10405594927087205145.plus.aac.p.m4a",
       "album": "Babaero (feat. Hev Abi) - Single"
+    },
+    "baby 123 feat madam sauce::raproject six": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/0c/a2/5e0ca2d2-aaaa-3e57-837b-145a96097e73/885288675238.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/60/d2/2660d259-f930-defb-e1ad-a9a85071970e/mzaf_12753598871799320321.plus.aac.p.m4a",
+      "album": "Baby 123 (feat. MADAM SAUCE) - Single"
     },
     "baby feat ludacris::justin bieber": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/b7/a7/bcb7a7b6-707f-d710-78e5-8fb600bbaa03/10UMGIM01134.rgb.jpg/600x600bb.jpg",
@@ -638,14 +648,19 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/1c/67/461c6774-97af-3f14-8722-da6447b8e52e/mzaf_16775340968869269298.plus.aac.p.m4a",
       "album": "City Girl - Single"
     },
+    "classic pt2::drake": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/1f/57/311f5776-9efe-697e-08b5-6450aeef8f48/mzaf_9933267362891157830.plus.aac.p.m4a",
+      "album": "HABIBTI (FOMO)"
+    },
     "classic::drake": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/3b/89/c43b8964-a24e-b396-bd65-e5b45cabe039/26UMGIM63616.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/79/98/d679986e-79c1-be92-b18b-2fd47ca861f2/mzaf_16449130293382658997.plus.aac.p.m4a",
       "album": "HABIBTI"
     },
     "cleveland::taylor swift": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/42/5b/39425b91-27b1-4b37-2f57-6f704fa5d8a6/mzaf_158326623628930700.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/6a/66/2e6a6692-b534-7a7a-960b-f03971890156/mzaf_5159890340173357660.plus.aac.p.m4a",
       "album": "The Life of a Showgirl: The Encore"
     },
     "close to me::ellie goulding diplo swae lee": {
@@ -662,6 +677,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9b/1d/11/9b1d1141-2332-5100-822a-0cd571ebffd6/dj.zuericqk.jpg/100x99bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/d2/c8/aed2c8b6-e128-eeac-9a3a-6a68f8df592b/mzaf_12713988576886515664.plus.aac.p.m4a",
       "album": "Coat of Many Colors"
+    },
+    "cold shoulder::drake don toliver yebba": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/e7/90/2be79044-e886-61c2-db0a-d74ca25fb408/mzaf_3222422080615506204.plus.aac.p.m4a",
+      "album": "HABIBTI (FOMO)"
     },
     "collecting tears::pooh shiesty": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/a0/1f/78a01f15-5b06-cf05-6fb8-5d6be452565a/075679567352.jpg/600x600bb.jpg",
@@ -856,6 +876,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/9a/b5/c19ab5e3-1a7f-70f6-9ae4-92f7098bc69e/196874353592.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/d9/4e/83d94ed3-4d6b-764f-737d-47ae72c702a9/mzaf_17025548516336211460.plus.aac.p.m4a",
       "album": "Dracula (Remix + Instrumental) - Single"
+    },
+    "draw you out::noah kahan the hunger games": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/a0/db/dea0db01-b9a7-173e-ccb2-c07c31f634bb/26UM1IM10359.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/cc/02/d8cc0258-b260-47d9-fa81-c6493fed86a4/mzaf_17247647537135624103.plus.aac.p.m4a",
+      "album": "The Hunger Games: Sunrise on the Reaping - The Album"
     },
     "driftstar::flow g": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/90/47/4c904785-cfe6-6b40-2858-93250ac0403d/859737549777_cover.jpg/600x600bb.jpg",
@@ -2400,8 +2425,8 @@
       "album": "More Life"
     },
     "patient zero::taylor swift": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/2e/4e/ce2e4e2d-445b-6b79-74b9-56cc6480796c/mzaf_13807124895416978287.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/be/8c/0bbe8c0a-dc77-af41-97a5-c745cc43d38c/mzaf_11790447166833591507.plus.aac.p.m4a",
       "album": "The Life of a Showgirl: The Encore"
     },
     "peaches feat daniel caesar giv on::justin bieber": {
@@ -2425,8 +2450,8 @@
       "album": "Don't Look Down"
     },
     "pink clouding::taylor swift": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/33/73/143373d4-c1db-aec9-8783-dfa56c7e6cd5/mzaf_1379738981081855840.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/88/d5/1e88d560-253f-3fa2-87a0-2f83b9681948/mzaf_11928544907491655022.plus.aac.p.m4a",
       "album": "The Life of a Showgirl: The Encore"
     },
     "pinky up::katseye": {
@@ -2527,6 +2552,11 @@
     "q a::drake": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/d3ae49763fed96e6aaaf7d97f67c5726/1000x1000-000000-80-0-0.jpg",
       "album": "MAID OF HONOUR"
+    },
+    "quebec::drake": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/0d/16/e30d1691-e062-60cc-fd56-8cf7a93e243e/mzaf_12506259548484800381.plus.aac.p.m4a",
+      "album": "HABIBTI (FOMO)"
     },
     "radio::future": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/a0/75/8ea0757a-6859-9c50-e92b-944979cc0d53/196874557198.jpg/600x600bb.jpg",
@@ -2784,6 +2814,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/78/dd/2078ddf0-de7d-f534-a4fd-476382ae012b/mzaf_13935165721871139669.plus.aac.p.m4a",
       "album": "Westside Whimsy"
+    },
+    "solar eclipse::drake don toliver": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/b2/bc/1eb2bc0d-28e0-cc09-e24f-85b47358a773/mzaf_13880485937262246167.plus.aac.p.m4a",
+      "album": "HABIBTI (FOMO)"
     },
     "some of your love::partynextdoor": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/bb/59/27bb5963-b73c-efc1-04c2-c89f43f7fba0/808391400276.jpg/600x600bb.jpg",
