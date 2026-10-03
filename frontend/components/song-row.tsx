@@ -32,6 +32,11 @@ export default function SongRow({ song }: SongRowProps) {
     topClass = " top-3";
   }
 
+  const hasChartStats =
+    song.last_week_position != null ||
+    song.peak_position != null ||
+    song.weeks_on_chart != null;
+
   const movementSymbol =
     song.last_week_position == null
       ? "-"
@@ -44,7 +49,7 @@ export default function SongRow({ song }: SongRowProps) {
     movementSymbol === "↑" ? "movement up" : movementSymbol === "↓" ? "movement down" : "movement";
 
   return (
-    <article className={`song-row${expanded ? " expanded" : ""}${topClass}`}>
+    <article className={`song-row${expanded ? " expanded" : ""}${topClass}${hasChartStats ? "" : " no-chart-stats"}`}>
       <div className="rank">{song.rank}</div>
       <div className="cover-wrap">
         <Image
@@ -66,20 +71,34 @@ export default function SongRow({ song }: SongRowProps) {
         </div>
       </div>
 
-      <dl className="stats">
-        <div>
-          <dt>LW</dt>
-          <dd>{song.last_week_position ?? "-"}</dd>
+      {hasChartStats ? (
+        <dl className="stats">
+          <div>
+            <dt>LW</dt>
+            <dd>{song.last_week_position ?? "-"}</dd>
+          </div>
+          <div>
+            <dt>Peak</dt>
+            <dd>{song.peak_position ?? "-"}</dd>
+          </div>
+          <div>
+            <dt>Weeks</dt>
+            <dd>{song.weeks_on_chart ?? "-"}</dd>
+          </div>
+        </dl>
+      ) : (
+        <div className="stats-alt">
+          {song.album ? (
+            <p className="stats-album" title={song.album}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+              {song.album}
+            </p>
+          ) : null}
         </div>
-        <div>
-          <dt>Peak</dt>
-          <dd>{song.peak_position ?? "-"}</dd>
-        </div>
-        <div>
-          <dt>Weeks</dt>
-          <dd>{song.weeks_on_chart ?? "-"}</dd>
-        </div>
-      </dl>
+      )}
 
       <div className="preview">
         {song.preview_url ? (

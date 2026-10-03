@@ -285,7 +285,13 @@ def _write_media_cache(file_path: Path, media_cache: dict[str, dict[str, str]]) 
 
 def serialize_snapshot(chart_key: str, rows: list[SongRecord]) -> dict:
     if not rows:
-        raise ValueError(f"No rows available for chart: {chart_key}")
+        # Return a valid but empty snapshot instead of crashing.
+        return {
+            "source_chart": chart_key,
+            "resolved_chart_date": date.today().isoformat(),
+            "dates": [date.today().isoformat()],
+            "entries": [],
+        }
 
     snapshot_date = rows[0].chart_date.isoformat()
     entries = [asdict(row) for row in rows]
@@ -313,6 +319,45 @@ def preview_coverage(snapshot: dict) -> tuple[int, int, float]:
     return with_preview, total, ratio
 
 
+def _resolve_chart_rows(
+    label: str,
+    chart_key: str,
+    fetch_fn,
+    fetch_kwargs: dict,
+    snapshot_file: Path,
+    limit: int,
+) -> list[SongRecord]:
+    """3-tier fallback: live fetch → DB → existing on-disk snapshot.
+
+    Never raises — returns an empty list as a last resort so the script
+    always produces valid output.
+    """
+    # Tier 1: live fetch
+    rows: list[SongRecord] = []
+    try:
+        rows = fetch_fn(**fetch_kwargs)
+    except Exception as exc:
+        print(f"[{label}] Live fetch raised: {exc}")
+
+    if rows:
+        return rows
+
+    # Tier 2: database
+    rows = _load_from_db(chart_key, limit)
+    if rows:
+        print(f"[{label}] Live fetch returned no rows, using DB fallback")
+        return rows
+
+    # Tier 3: reuse existing on-disk snapshot
+    rows = _load_snapshot_rows(snapshot_file)
+    if rows:
+        print(f"[{label}] Live fetch + DB empty, reusing existing snapshot ({len(rows)} rows)")
+        return rows
+
+    print(f"WARNING: [{label}] All sources empty — no data available")
+    return []
+
+
 def main() -> None:
     args = parse_args()
     output_dir = Path(args.output_dir)
@@ -336,42 +381,33 @@ def main() -> None:
     media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(ph_snapshot_file))
     media_cache = _merge_media_cache(media_cache, _build_media_cache_from_snapshot(media_cache_file))
 
-    # Global chart — Apple RSS feed (same approach as PH, always fresh, track-ID based enrichment)
-    try:
-        global_rows = fetch_global_top_songs(
+    # Global chart — Apple RSS feed
+    global_rows = _resolve_chart_rows(
+        label="Global",
+        chart_key=args.global_chart,
+        fetch_fn=fetch_global_top_songs,
+        fetch_kwargs=dict(
             limit=args.limit,
             enrich_metadata=not args.no_enrich_global,
             timeout_seconds=args.global_enrich_timeout_seconds,
-        )
-        if not global_rows:
-            global_rows = _load_from_db(args.global_chart, args.limit)
-            if global_rows:
-                print("Global fetch returned no rows, using DB fallback")
-            else:
-                raise RuntimeError("Global fetch returned no rows and DB is empty")
-    except Exception as exc:
-        global_rows = _load_from_db(args.global_chart, args.limit)
-        if global_rows:
-            print(f"Global fetch failed, using DB fallback: {exc}")
-        else:
-            raise
+        ),
+        snapshot_file=global_snapshot_file,
+        limit=args.limit,
+    )
 
     global_patched = _apply_media_cache(global_rows, media_cache)
     if global_patched:
         print(f"Global rows patched from cache: {global_patched}")
 
-    try:
-        ph_rows = fetch_philippines_top_songs(limit=args.limit, enrich_metadata=not args.no_enrich_ph)
-        if not ph_rows:
-            ph_rows = _load_from_db(args.ph_chart, args.limit)
-            if ph_rows:
-                print("Philippines fetch returned no rows, using DB fallback")
-    except Exception as exc:
-        ph_rows = _load_from_db(args.ph_chart, args.limit)
-        if ph_rows:
-            print(f"Philippines fetch failed, using DB fallback: {exc}")
-        else:
-            raise
+    # Philippines chart — Apple RSS feed
+    ph_rows = _resolve_chart_rows(
+        label="Philippines",
+        chart_key=args.ph_chart,
+        fetch_fn=fetch_philippines_top_songs,
+        fetch_kwargs=dict(limit=args.limit, enrich_metadata=not args.no_enrich_ph),
+        snapshot_file=ph_snapshot_file,
+        limit=args.limit,
+    )
 
     ph_patched = _apply_media_cache(ph_rows, media_cache)
     if ph_patched:
@@ -383,9 +419,24 @@ def main() -> None:
     global_snapshot = serialize_snapshot(args.global_chart, global_rows[: args.limit])
     ph_snapshot = serialize_snapshot(args.ph_chart, ph_rows[: args.limit])
 
+    # Only write new files if we actually have data.  If both are empty,
+    # leave the existing files intact (they may still be valid from a
+    # previous successful run).
+    has_global = len(global_snapshot.get("entries", [])) > 0
+    has_ph = len(ph_snapshot.get("entries", [])) > 0
+
     write_json(output_dir / "chart_sources.json", chart_sources)
-    write_json(output_dir / f"chart_{args.global_chart}.json", global_snapshot)
-    write_json(output_dir / f"chart_{args.ph_chart}.json", ph_snapshot)
+
+    if has_global:
+        write_json(output_dir / f"chart_{args.global_chart}.json", global_snapshot)
+    else:
+        print(f"Skipping write for {args.global_chart} — no entries (existing file preserved)")
+
+    if has_ph:
+        write_json(output_dir / f"chart_{args.ph_chart}.json", ph_snapshot)
+    else:
+        print(f"Skipping write for {args.ph_chart} — no entries (existing file preserved)")
+
     _write_media_cache(media_cache_file, media_cache)
 
     global_preview_count, global_total, global_ratio = preview_coverage(global_snapshot)

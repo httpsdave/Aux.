@@ -326,88 +326,15 @@ def fetch_billboard_chart(
     return rows
 
 
-def fetch_philippines_top_songs(
-    limit: int = 100,
-    timeout_seconds: float = 10.0,
-    enrich_metadata: bool = True,
-) -> list[SongRecord]:
-    url = f"https://rss.marketingtools.apple.com/api/v2/ph/music/most-played/{limit}/songs.json"
-    with httpx.Client(timeout=timeout_seconds) as client:
-        response = client.get(url)
-        response.raise_for_status()
-        payload = response.json()
+def _fetch_apple_rss_results(
+    country_slugs: list[str],
+    limit: int,
+    timeout_seconds: float,
+) -> list[dict]:
+    """Try multiple Apple RSS country slugs and return the first non-empty result list.
 
-    results = ((payload.get("feed") or {}).get("results") or [])[:limit]
-    chart_date = date.today()
-    rows: list[SongRecord] = []
-
-    for index, item in enumerate(results, start=1):
-        title = item.get("name") or ""
-        artist = item.get("artistName") or ""
-        track_id = str(item.get("id") or "")
-        artwork_url = item.get("artworkUrl100")
-        if isinstance(artwork_url, str):
-            artwork_url = artwork_url.replace("100x100bb", "600x600bb").replace("300x300bb", "600x600bb")
-
-        preview_url = None
-        album = item.get("collectionName")
-        if enrich_metadata:
-            enriched_image_url, enriched_preview_url, enriched_album = (None, None, None)
-            if track_id:
-                enriched_image_url, enriched_preview_url, enriched_album = enrich_with_itunes_lookup(
-                    track_id,
-                    timeout_seconds=timeout_seconds,
-                    country="PH",
-                )
-
-            if enriched_preview_url is None:
-                enriched_image_url, enriched_preview_url, enriched_album = enrich_with_itunes(
-                    title,
-                    artist,
-                    timeout_seconds=timeout_seconds,
-                    preferred_country="PH",
-                )
-
-            preview_url = enriched_preview_url
-            album = album or enriched_album
-            artwork_url = artwork_url or enriched_image_url
-
-        rows.append(
-            SongRecord(
-                chart_date=chart_date,
-                rank=index,
-                title=title,
-                artist=artist,
-                album=album,
-                image_url=artwork_url,
-                preview_url=preview_url,
-                weeks_on_chart=None,
-                peak_position=None,
-                last_week_position=None,
-            )
-        )
-
-    return rows
-
-
-def fetch_global_top_songs(
-    limit: int = 100,
-    timeout_seconds: float = 10.0,
-    enrich_metadata: bool = True,
-) -> list[SongRecord]:
-    """Fetch the Apple Music global most-played chart via Apple's RSS feed.
-
-    Mirrors ``fetch_philippines_top_songs`` exactly: the feed includes Apple
-    track IDs so we can do an exact iTunes lookup (``enrich_with_itunes_lookup``)
-    before falling back to text-search enrichment.  This gives the same near-100%
-    preview coverage that the PH chart enjoys.
-
-    Tries the ``global`` country slug first; falls back to ``us`` if the global
-    endpoint returns no results.
+    Never raises — returns an empty list when every slug fails or returns no data.
     """
-    country_slugs = ["global", "us"]
-    results: list[dict] = []
-
     with httpx.Client(timeout=timeout_seconds) as client:
         for slug in country_slugs:
             url = f"https://rss.marketingtools.apple.com/api/v2/{slug}/music/most-played/{limit}/songs.json"
@@ -420,15 +347,21 @@ def fetch_global_top_songs(
 
             results = ((payload.get("feed") or {}).get("results") or [])[:limit]
             if results:
-                break
+                return results
+    return []
 
-    if not results:
-        raise RuntimeError("Apple RSS global feed returned no results for any country slug")
 
+def _apple_rss_items_to_rows(
+    items: list[dict],
+    enrich_metadata: bool,
+    timeout_seconds: float,
+    enrich_country: str,
+) -> list[SongRecord]:
+    """Convert raw Apple RSS feed items into ``SongRecord`` rows."""
     chart_date = date.today()
     rows: list[SongRecord] = []
 
-    for index, item in enumerate(results, start=1):
+    for index, item in enumerate(items, start=1):
         title = item.get("name") or ""
         artist = item.get("artistName") or ""
         track_id = str(item.get("id") or "")
@@ -438,14 +371,13 @@ def fetch_global_top_songs(
 
         preview_url = None
         album = item.get("collectionName")
-
         if enrich_metadata:
             enriched_image_url, enriched_preview_url, enriched_album = (None, None, None)
             if track_id:
                 enriched_image_url, enriched_preview_url, enriched_album = enrich_with_itunes_lookup(
                     track_id,
                     timeout_seconds=timeout_seconds,
-                    country="US",
+                    country=enrich_country,
                 )
 
             if enriched_preview_url is None:
@@ -453,7 +385,7 @@ def fetch_global_top_songs(
                     title,
                     artist,
                     timeout_seconds=timeout_seconds,
-                    preferred_country="US",
+                    preferred_country=enrich_country,
                 )
 
             preview_url = enriched_preview_url
@@ -476,3 +408,27 @@ def fetch_global_top_songs(
         )
 
     return rows
+
+
+def fetch_philippines_top_songs(
+    limit: int = 100,
+    timeout_seconds: float = 10.0,
+    enrich_metadata: bool = True,
+) -> list[SongRecord]:
+    results = _fetch_apple_rss_results(["ph"], limit, timeout_seconds)
+    return _apple_rss_items_to_rows(results, enrich_metadata, timeout_seconds, enrich_country="PH")
+
+
+def fetch_global_top_songs(
+    limit: int = 100,
+    timeout_seconds: float = 10.0,
+    enrich_metadata: bool = True,
+) -> list[SongRecord]:
+    """Fetch the Apple Music global most-played chart via Apple's RSS feed.
+
+    Tries multiple country slugs in order; returns an empty list (never raises)
+    when every slug fails so the caller can apply its own fallback policy.
+    """
+    country_slugs = ["global", "us", "gb", "ca", "au", "sg"]
+    results = _fetch_apple_rss_results(country_slugs, limit, timeout_seconds)
+    return _apple_rss_items_to_rows(results, enrich_metadata, timeout_seconds, enrich_country="US")

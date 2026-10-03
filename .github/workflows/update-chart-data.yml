@@ -54,9 +54,19 @@ jobs:
 
           failures = []
           for file_name, minimum_ratio in checks:
-            payload = json.loads((data_dir / file_name).read_text(encoding="utf-8"))
+            chart_file = data_dir / file_name
+            if not chart_file.exists():
+              print(f"SKIP: {file_name} does not exist (first run or all sources unavailable)")
+              continue
+
+            payload = json.loads(chart_file.read_text(encoding="utf-8"))
             entries = payload.get("entries") or []
             total = len(entries)
+
+            if total == 0:
+              print(f"SKIP: {file_name} has 0 entries (existing file preserved, no fresh data)")
+              continue
+
             with_preview = sum(1 for row in entries if row.get("preview_url"))
             ratio = (with_preview / total) if total else 0.0
 

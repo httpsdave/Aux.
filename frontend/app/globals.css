@@ -482,6 +482,31 @@ select:focus {
   font-weight: 700;
 }
 
+.stats-alt {
+  display: flex;
+  align-items: center;
+}
+
+.stats-album {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 500;
+  max-width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stats-album svg {
+  flex-shrink: 0;
+  opacity: 0.55;
+}
+
+
 /* Custom Audio Player */
 .custom-audio-player {
   display: flex;
@@ -771,6 +796,15 @@ select:focus {
     gap: 1.5rem;
   }
 
+  .stats-alt {
+    grid-area: stats;
+    margin-top: 0.5rem;
+  }
+
+  .stats-album {
+    max-width: 100%;
+  }
+
   .preview {
     grid-area: preview;
     margin-top: 0.5rem;
@@ -899,6 +933,22 @@ select:focus {
     border-top: 1px solid var(--line);
     margin-bottom: 0.3rem;
     justify-content: space-around;
+  }
+
+  .stats-alt {
+    grid-area: stats;
+    margin-top: 0.3rem;
+    padding-top: 0.5rem;
+  }
+
+  /* On mobile, when there are no chart stats, hide the duplicate album in meta
+     since .stats-alt already shows it prominently */
+  .song-row.no-chart-stats .album {
+    display: block;
+  }
+
+  .stats-album {
+    max-width: 100%;
   }
 
   .preview {
