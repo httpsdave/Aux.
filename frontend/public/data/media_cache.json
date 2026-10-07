@@ -379,9 +379,9 @@
       "album": "This One\u2019s for You Too (Deluxe Edition)"
     },
     "beautiful things::benson boone": {
-      "album": "Fireworks & Rollerblades",
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/f4/92/54f49210-e260-b519-ebbd-f4f40ee710cd/054391342751.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/d5/00/4dd5006f-ee02-c3f1-94db-0ed4b8dd68f1/mzaf_14250561294796027079.plus.aac.p.m4a"
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/d5/00/4dd5006f-ee02-c3f1-94db-0ed4b8dd68f1/mzaf_14250561294796027079.plus.aac.p.m4a",
+      "album": "Beautiful Things - Single"
     },
     "beautiful things::megan moroney": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/189cb563d736d7863e9e7e9136909ab5/1000x1000-000000-80-0-0.jpg",
@@ -711,8 +711,8 @@
       "album": "Coat of Many Colors"
     },
     "cold shoulder::drake don toliver yebba": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/e7/90/2be79044-e886-61c2-db0a-d74ca25fb408/mzaf_3222422080615506204.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/58/98/62589807-decc-d418-eb07-5060de9a2d3e/26UMGIM63617.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/6c/2f/9f6c2f1f-715a-1a72-67a3-aae6384b0d91/mzaf_2697844743270254538.plus.aac.p.m4a",
       "album": "HABIBTI (FOMO)"
     },
     "collecting tears::pooh shiesty": {
@@ -1118,7 +1118,7 @@
     },
     "fever dream::alex warren": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/44/ab/9944ab8d-79c5-c3b4-0448-3dde97bd47ec/mzaf_2792351844678623504.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/6a/13/d56a1388-9b6a-94a4-4c34-3bb70ec0ab72/mzaf_1396857457479337489.plus.aac.p.m4a",
       "album": "FEVER DREAM - Single"
     },
     "fine place to die::alex warren": {
@@ -1613,9 +1613,9 @@
       "album": "The Real Me"
     },
     "iloveitiloveitiloveit::bella kay": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/f6/48/def64846-9deb-6d87-e94c-b55e3c5e0020/artwork.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/f0/07/65f00700-184c-6cc1-2318-275a854c5b43/mzaf_14582184858377621960.plus.aac.p.m4a",
-      "album": "Iloveitiloveitiloveit \u2013 Bella Kay - Single"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/12/71/ab12714b-1572-c7b0-27ff-2dfa3c860e6f/075679590756.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/c3/93/9bc39392-454a-f234-7000-e9dfb38dbf95/mzaf_6022680238098980088.plus.aac.p.m4a",
+      "album": "iloveitiloveitiloveit - Single"
     },
     "in a minute::lil baby": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/600x600bb.jpg",
@@ -1941,9 +1941,9 @@
       "album": "Don't Look Down"
     },
     "lose control::teddy swims": {
-      "album": "I've Tried Everything But Therapy",
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/19/66/36196640-1561-dc5e-c6bc-1e5f4befa583/093624856771.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/65/d6/9f65d67d-db40-d7da-c954-9a23d28dfe1a/mzaf_7625794503195542708.plus.aac.p.m4a"
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/65/d6/9f65d67d-db40-d7da-c954-9a23d28dfe1a/mzaf_7625794503195542708.plus.aac.p.m4a",
+      "album": "I've Tried Everything But Therapy (Part 1)"
     },
     "loser::tame impala": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/54/11/80541122-c1c4-50ad-a673-ff79f4cf8aa7/196873555331.jpg/600x600bb.jpg",
@@ -2001,7 +2001,7 @@
       "album": "Westside Whimsy"
     },
     "lush life::zara larsson": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/e6/3b/74e63bb4-d593-f926-85c7-df3ca43fcf3f/886446183473.jpg/600x600bb.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ab/54/95ab547a-3877-7798-57a4-528a52a2e331/886446200385.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/52/6a/77526a57-f53f-b8ba-bdc7-e74e242c7c55/mzaf_11538198025885549610.plus.aac.p.m4a",
       "album": "So Good"
     },
@@ -2743,9 +2743,9 @@
       "album": "All Eyes on Shiest"
     },
     "rein me in::sam fender olivia dean": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/9e/ce/e99ece56-dcda-540a-d0b3-3927d152846f/25UMGIM83718.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/df/96/58df9679-4e75-a9d3-b807-b1e35b4bd1d0/mzaf_18397926104715746500.plus.aac.p.m4a",
-      "album": "Rein Me In (Live At London Stadium) - Single"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/0f/9f/8f0f9f3d-b26b-779d-d1f1-2db2154a68b7/25UMGIM75096.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/4f/0d/3c4f0d98-9c3e-6c44-c796-e3ceb81a3f09/mzaf_3221627182838260274.plus.aac.p.m4a",
+      "album": "Rein Me In - Single"
     },
     "rethink some things::luke combs": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/b6/e5/4cb6e5b1-2db0-88c0-f025-b79cad3b8fab/196873832111.jpg/600x600bb.jpg",
@@ -3612,7 +3612,7 @@
     },
     "where is my husband::raye": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/10/8a/69108a18-55ec-d774-a653-90b2242733db/199538765458.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/f5/24/fcf52459-e6a3-c728-c472-58766d300ef7/mzaf_12031297918382153127.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/67/70/6a6770b5-4927-7854-5915-56b8c27b5520/mzaf_6725601798761594834.plus.aac.p.m4a",
       "album": "WHERE IS MY HUSBAND! - Single"
     },
     "where the wild things are::luke combs": {
@@ -3697,7 +3697,7 @@
     },
     "wonderwall remastered::oasis": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/34/2e/cb/342ecb17-ef19-816a-4ce5-e60b9ceec161/5051961073164.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ea/a8/c8/eaa8c8c2-3927-aa05-f2f2-8798104c0365/mzaf_2256330201720040258.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/3c/97/863c9741-2dbd-7ca2-3c88-67e87d504343/mzaf_13259566290948941960.plus.aac.p.m4a",
       "album": "(What's The Story) Morning Glory? [Deluxe Remastered Edition]"
     },
     "wood::taylor swift": {
