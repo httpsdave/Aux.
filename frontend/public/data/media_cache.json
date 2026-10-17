@@ -324,6 +324,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/1e/a5/c51ea563-dfc6-0508-ad36-bbf9989747db/mzaf_11876247892321410929.plus.aac.p.m4a",
       "album": "Nicole"
     },
+    "backwards::zach bryan": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ad/14/c7/ad14c7bc-4ef3-33f6-b5d1-a9c44b8316f4/mzaf_2151754144714940745.plus.aac.p.m4a",
+      "album": "Young Manhood and Other Donatable Organs"
+    },
     "bad thing bunny hop::ariana grande": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/90/08/d090081b-20b6-7611-9a68-80959c315f98/mzaf_1297999272816613767.plus.aac.p.m4a",
@@ -879,6 +884,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/34/5c/b8345c69-d46c-2fbe-08bf-bdf6ed98a6d1/mzaf_1635289453488845268.plus.aac.p.m4a",
       "album": "Lungs (Digital Deluxe Version)"
     },
+    "dog days::zach bryan": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ad/8d/31/ad8d31d0-e6a4-c0cd-029a-afdd0c8bc31c/mzaf_13852980846878572344.plus.aac.p.m4a",
+      "album": "Young Manhood and Other Donatable Organs"
+    },
     "dominga::nateman la mave": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/87/ba/e787badd-8f79-879c-52bb-5d9d561f6d2b/3127.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/95/25/c4952585-206a-0727-6050-3f16362c379d/mzaf_12681696277870945357.plus.aac.p.m4a",
@@ -1051,6 +1061,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/df/c0/8bdfc0e9-1f7b-8437-0f6a-1523c87e8d4a/mzaf_5536706325659515473.plus.aac.p.m4a",
       "album": "you seem pretty sad for a girl so in love"
+    },
+    "expectations::olivia rodrigo chappell roan": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/3c/b2/d23cb283-5f3e-7433-bc41-86c7d77c4503/26UM1IM29619.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/c7/d9/dac7d988-f12e-1d34-d4c4-7dd4f4845609/mzaf_17539801478792412522.plus.aac.p.m4a",
+      "album": "expectations - Single"
     },
     "eye to eye::future": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/a0/75/8ea0757a-6859-9c50-e92b-944979cc0d53/196874557198.jpg/600x600bb.jpg",
@@ -1465,6 +1480,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/15/0c/b6150c36-0765-c563-a250-ba767c00c809/mzaf_4225228786396793280.plus.aac.p.m4a",
       "album": "Man\u2019s Best Friend"
     },
+    "housewife::tate mcrae": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/27/d4/0527d4f3-f6af-1ef8-6a32-25477b7b00ba/mzaf_18270786579537755861.plus.aac.p.m4a",
+      "album": "Housewife - Single"
+    },
     "how it feels::lil baby lil durk": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9a/51/3f/9a513f0d-452a-a4de-aa54-3d629a94d2c3/21UMGIM47174.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/8b/ad/c28bada5-dc6c-e032-8306-c39e5907c850/mzaf_16823605825463232337.plus.aac.p.m4a",
@@ -1667,6 +1687,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/c4/72/d5c472a3-2cea-e2fd-a94a-5a9290667075/mzaf_15343141215451287660.plus.aac.p.m4a",
       "album": "Greatest Hits, Vol. One: The Singles"
     },
+    "is the blue tangled in you::zach bryan": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/d0/e6/5fd0e684-9ba2-14e4-c96a-bbd59742d5d5/mzaf_17638054063354812821.plus.aac.p.m4a",
+      "album": "Young Manhood and Other Donatable Organs"
+    },
     "isa lang::arthur nery": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bf/63/0c/bf630c2e-4a33-629f-7bb8-ca43737bc08c/cover.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/e7/ac/24e7ac86-c947-4b93-3d42-fbc6fdaa49d4/mzaf_17717506291418073053.plus.aac.p.m4a",
@@ -1852,7 +1877,7 @@
     },
     "last thing you need::morgan wallen": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/b1/07/70b107f2-5385-cfd4-9c9b-3af5ad9e08b0/mzaf_2522931526350907655.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/a6/35/6ca635bf-5556-933f-a2de-cf441db29152/mzaf_7854810682514136041.plus.aac.p.m4a",
       "album": "Grand Theft Auto VI: The Album"
     },
     "leave the door open::silk sonic bruno mars anderson paak": {
@@ -1884,6 +1909,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c9/84/69/c984693d-7dbc-37ce-9edb-dfdc21bc05f5/cover.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/e5/45/3fe54503-3551-d7a6-24fb-d769fa5a7f01/mzaf_14482985696911553284.plus.aac.p.m4a",
       "album": "Libu-Libong Buwan (Uuwian) - Single"
+    },
+    "lies feat lana del rey::zach bryan lana del rey": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/e2/a4/91e2a43b-9724-fd7f-94ed-52ec2c3897a2/mzaf_12439316399550841263.plus.aac.p.m4a",
+      "album": "Young Manhood and Other Donatable Organs"
     },
     "lifetime reimagined::ben ben": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/dc/48/29dc48aa-b47b-8896-2435-cba334adb1c4/196874242407.jpg/600x600bb.jpg",
@@ -1939,6 +1969,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/a4/7c/e0a47c6f-005a-9f9f-ce29-8e858e2bcfcb/075679957283.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/05/04/d5050434-1278-6b8e-9cd8-6261ea319fd1/mzaf_9746689865251353718.plus.aac.p.m4a",
       "album": "Unorthodox Jukebox"
+    },
+    "lodi when::zach bryan": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/ee/98/1eee9849-54b2-8c29-bdeb-385f07aae90d/mzaf_3562551119720580136.plus.aac.p.m4a",
+      "album": "Young Manhood and Other Donatable Organs"
     },
     "london bonus::lil uzi vert": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/cb/41/42cb41cd-d076-cbe8-f0b2-97bf806c8f54/8721554073518.png/600x600bb.jpg",
@@ -2301,9 +2336,9 @@
       "album": "New Religion - Single"
     },
     "new rules::dua lipa": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/8c/8a/488c8a86-5769-8db7-7b22-d8748b2ef0fc/1200214104207.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/1a/48/921a48e3-0be1-0e8c-fd8b-088e168b3a7b/mzaf_14558636020945441414.plus.aac.p.m4a",
-      "album": "Disc 6"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/fc/6d/94fc6d23-7257-8fe3-fa19-fdcc22e90856/190295559472.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/f3/37/bdf337da-427d-11cb-94c5-9b31301acc50/mzaf_790598174075472635.plus.aac.p.m4a",
+      "album": "Dua Lipa (Complete Edition)"
     },
     "next to you feat justin bieber::chris brown": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d4/39/fc/d439fc24-1392-ec40-1ef7-02c9b59d9cd3/884977932539.jpg/600x600bb.jpg",
@@ -2633,6 +2668,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/7e/25/947e254c-1722-e7db-4d30-860e9a73746b/mzaf_12293837640102677770.plus.aac.p.m4a",
       "album": "PINKY UP - Single"
     },
+    "plainsman feat turnpike troubadours::zach bryan turnpike troubadours": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/ac/a4/92aca434-354f-76a2-8970-bdd770f7f944/mzaf_7987966531970694118.plus.aac.p.m4a",
+      "album": "Young Manhood and Other Donatable Organs"
+    },
     "plastic cigarette::zach bryan": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/63d7107a3c982353b96bd2e7389d57ae/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/82/95/a682955f-e302-65ef-4b3b-0b8aacad2987/mzaf_806395670976042733.plus.aac.p.m4a",
@@ -2806,6 +2846,11 @@
       "image_url": "https://cdn-images.dzcdn.net/images/cover/d3ae49763fed96e6aaaf7d97f67c5726/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/1b/c7/3a1bc715-a5a9-4441-8fd3-fa95a109159c/mzaf_7501303737029866666.plus.aac.p.m4a",
       "album": "MAID OF HONOUR"
+    },
+    "robot killed the working man::zach bryan": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/73/2c/61732c35-4fe3-37d6-96e7-55abb16e20ab/mzaf_7231043050157090301.plus.aac.p.m4a",
+      "album": "Young Manhood and Other Donatable Organs"
     },
     "rock music::charli xcx": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/541d16866655847bdb95125f0d0b14c4/1000x1000-000000-80-0-0.jpg",
@@ -3764,6 +3809,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/f9/e9/57f9e9ef-eb79-b242-c8ae-8e1e9477a139/5054197341953.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/f2/4d/0af24d7c-48da-1a74-f7a2-204cbcedf346/mzaf_5930962614751251469.plus.aac.p.m4a",
       "album": "You'll Be In My Heart - Single"
+    },
+    "you ll get by::zach bryan": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/1f/22/c21f2239-fed5-3693-a842-1db9eb064557/mzaf_10818911395743279135.plus.aac.p.m4a",
+      "album": "Young Manhood and Other Donatable Organs"
     },
     "you look like you love me::ella langley riley green": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/33/40/62334080-6129-4d0c-086b-921cc956cb7a/196872090895.jpg/600x600bb.jpg",
