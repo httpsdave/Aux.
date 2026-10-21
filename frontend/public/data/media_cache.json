@@ -190,9 +190,9 @@
       "album": "The Great Divide: The Last Of The Bugs"
     },
     "all too well 10 minute version taylor s version from the vault::taylor swift": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/38/9b/15389bf4-8074-06c3-11ee-655b5453af68/21UM1IM25046.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/6b/c1/6b6bc1e0-8041-72be-378b-d930bcfc58ad/mzaf_7229699601406764331.plus.aac.p.m4a",
-      "album": "Red (Taylor\u2019s Version) [+ A Message from Taylor]"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c6/27/9c/c6279c07-9329-827d-31c4-f5d4c7d99ff4/21UM1IM25046.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/5b/33/a45b3365-0139-7e47-73c6-28a2c214bd62/mzaf_12675623427771170054.plus.aac.p.m4a",
+      "album": "Red (Taylor\u2019s Version) (+ A Message from Taylor)"
     },
     "always be my baby::mariah carey": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/c7/07/01c70785-7c45-a82b-7d9a-49f521e4d373/074646670026.jpg/600x600bb.jpg",
@@ -223,6 +223,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/4c/b9/cf4cb941-426d-e60f-2470-8a20c7ea42ea/886444749657.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8f/b8/0e/8fb80e32-db5f-c359-e0c6-584406879521/mzaf_14149047485782137353.plus.aac.p.m4a",
       "album": "The Big Revival"
+    },
+    "angel of my dreams::jade": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/fe/26/44fe26c1-0e3e-2c48-3898-d22eddc8e054/196872245967.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/ca/0d/cdca0d06-87cf-accc-9c92-6a5b319a3e0f/mzaf_10227241597042689372.plus.aac.p.m4a",
+      "album": "Angel Of My Dreams - Single"
     },
     "animal::katseye": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/0e/32/350e32e1-7bfc-6d96-174a-0d11309365ef/26UMGIM84288.rgb.jpg/600x600bb.jpg",
@@ -439,8 +444,8 @@
       "album": "you seem pretty sad for a girl so in love"
     },
     "best i ever had::drake": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/b0/35/7eb0353b-8f25-32dd-5f5e-71d9ed700247/00602577524004.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/dd/f3/00ddf3d1-073d-dfbe-b7d5-b41280fc9d07/mzaf_10364873687170057621.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/50/7f/3b/507f3b71-c606-5a59-06ee-22be3e1e6ca5/00602577542602.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/a1/a7/46a1a74a-bc24-91e6-7fca-334718928181/mzaf_16387926407277270668.plus.aac.p.m4a",
       "album": "So Far Gone"
     },
     "big feelings::ariana grande": {
@@ -1212,9 +1217,9 @@
       "album": "BROWN"
     },
     "fortnight feat post malone::taylor swift": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/86/59/a486593a-53c9-1c2a-5122-8f25339f7359/24UMGIM44778.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/d8/d1/6ad8d1f0-a747-d646-20d1-8c8dfb0bce3a/mzaf_190295342267799968.plus.aac.p.m4a",
-      "album": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/ff/72/1cff72ce-8c33-e7e2-9e7c-542ea8f91b7a/24UMGIM56433.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/d7/0a/87d70a72-d696-e173-f886-318256858df6/mzaf_6368800827027360920.plus.aac.p.m4a",
+      "album": "Fortnight (feat. Post Malone) [BLOND:ISH Remix] - Single"
     },
     "fortworth::drake featuring partynextdoor": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/a3c0b45062f3987b928b13cd6122f443/1000x1000-000000-80-0-0.jpg",
@@ -1384,7 +1389,9 @@
       "album": "Visitor (Deluxe)"
     },
     "greedy::tate mcrae": {
-      "album": "Think Later"
+      "album": "Think Later",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/23/07/92/23079247-25be-3098-ef53-78e7d0fe7406/196871341653.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/ec/ed/0aecedcb-8568-a566-d893-98b3eac41e53/mzaf_5496368318146307516.plus.aac.p.m4a"
     },
     "griddle::yeat don toliver": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a5/c2/a5/a5c2a541-9f56-7c98-eb01-3c3198267851/075679823908.jpg/100x100bb.jpg",
@@ -1821,6 +1828,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/97/14/a69714b2-d08d-e3f6-4842-014455fc0374/mzaf_9818844047208886961.plus.aac.p.m4a",
       "album": "I\u2019m The Problem"
     },
+    "just keep watching::tate mcrae": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/91/da/a691dac7-4cb7-82f5-0eda-e37b96f63f55/075679610720.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/29/27/f129275c-b8e8-e313-f3cd-a93ae234a6b5/mzaf_9933112702187355547.plus.aac.p.m4a",
+      "album": "F1 The Album"
+    },
     "just the way you are::bruno mars": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/98/ae/c2/98aec2e1-3be4-0311-1b44-69348fc87abb/075679956484.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/36/d3/5c36d391-5880-e0c5-a56e-68ac7d77229b/mzaf_9299593821852203765.plus.aac.p.m4a",
@@ -2181,9 +2193,9 @@
       "album": "Sesame Street: Kids' Favorite Songs 2"
     },
     "man i need::olivia dean": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f7/5b/67/f75b6793-0ab2-61e7-9c5e-a533414d4175/26UMGIM64027.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/26/8a/80268aa0-0e18-7618-9892-3b85b8c395fd/mzaf_8467208315985605101.plus.aac.p.m4a",
-      "album": "Feel Good Vibes"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/bb/5b/42bb5b21-2550-6205-bf3c-334b0e7d6199/mzaf_17462928687872215879.plus.aac.p.m4a",
+      "album": "The Art of Loving"
     },
     "manchild::sabrina carpenter": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/50/a3/b750a392-cfaa-bedc-7d81-cf7a1718e960/25UMGIM76990.rgb.jpg/600x600bb.jpg",
@@ -2465,9 +2477,9 @@
       "album": "FanMail"
     },
     "no tears left to cry::ariana grande": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/99/60/14996009-1ae2-54c5-6685-0640c43f7fc2/mzaf_2609526654109745064.plus.aac.p.m4a",
-      "album": "sweetener (Bonus Videos Edition)"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/70/53/76/705376dc-d0dc-6945-7fb2-415038e3aafa/18UMGIM36925.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/a8/85/8ba88586-341e-0bb9-6e49-1f67f7edcd4d/mzaf_16866815274086216089.plus.aac.p.m4a",
+      "album": "Sweetener"
     },
     "noble::f3miii": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/a4/84/24a48418-e757-949a-2593-76851e0f9c05/196874129104.jpg/600x600bb.jpg",
@@ -3085,6 +3097,11 @@
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/35/6f/08356f64-b9f0-7a6b-d8af-72ddf4276887/mzaf_15734494686025104137.plus.aac.p.m4a",
       "album": "This One\u2019s for You Too (Deluxe Edition)"
     },
+    "shotta s::season 25": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/59/4f/98594fb8-6653-218b-242f-5598c367f89b/859747113777_cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/23/61/672361aa-f944-0219-093e-364c4bb53c78/mzaf_5378768783895084001.plus.aac.p.m4a",
+      "album": "Shotta's. - Single"
+    },
     "shoulda never::kehlani featuring usher": {
       "image_url": "https://cdn-images.dzcdn.net/images/cover/face0ef887522f27329084aeb25056f0/1000x1000-000000-80-0-0.jpg",
       "album": "Kehlani"
@@ -3174,9 +3191,9 @@
       "album": "Dandelion"
     },
     "something in the orange::zach bryan": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d6/cd/d8/d6cdd86f-db67-ffc8-cd5e-26c4559686c3/054391903860.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/b3/f1/32b3f1e5-33f9-2783-7011-89faa0e4c707/mzaf_15798803351390194915.plus.aac.p.m4a",
-      "album": "Something in the Orange - Single"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4a/74/19/4a74193e-d4e8-a425-3d15-13bc0c0581ee/5059460195875.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ac/1b/64/ac1b6492-05e5-8809-4e86-b8170a390954/mzaf_18380201926545089131.plus.aac.p.m4a",
+      "album": "Sommer Hits 2023"
     },
     "something to lose::stella lefty featuring vincent mason": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/9d/ba/cb9dba19-0847-164f-3cec-32f337918dda/075679578518.jpg/600x600bb.jpg",
@@ -3212,6 +3229,11 @@
       "image_url": "https://cdn-images.dzcdn.net/images/cover/a0b05276a5231399968dffaa1a6b4cf0/1000x1000-000000-80-0-0.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/b5/42/f4b54205-d24d-6fe2-0ab7-6d4dedd0989a/mzaf_10760749577223815469.plus.aac.p.m4a",
       "album": "The Great Divide: The Last Of The Bugs"
+    },
+    "sports car::tate mcrae": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/02/49/8d0249fa-d772-6e69-5c49-9803a1551b85/3596975004695_cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/99/05/e8990529-e1a8-9ba8-db96-c8cf4d84a216/mzaf_10090546481270551164.plus.aac.p.m4a",
+      "album": "50 Hits Summer 2025"
     },
     "springsteen::eric church": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/69/76/77/69767702-ea47-d219-a13c-0f51e19e6ccb/13UABIM59426.rgb.jpg/600x600bb.jpg",
@@ -3373,9 +3395,9 @@
       "album": "Don't Look Down"
     },
     "take me back leave me there::cody johnson": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/d9/7a/e2d97a87-6ec6-99de-9a1f-31b86ce6e7c4/093624826613.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/0d/8c/fc0d8c07-03be-570d-752f-edd0428d0af6/mzaf_6546538705895556196.plus.aac.p.m4a",
-      "album": "Banks Of The Trinity"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/ab/d2/43abd210-aa2a-19e8-f148-013cbf121ef7/5059460523029.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/34/d3/9d34d355-b5b2-daac-2258-aefaa124a175/mzaf_8173355239513786078.plus.aac.p.m4a",
+      "album": "4th of July Country Party"
     },
     "talk to you feat 54 ultra::anotr": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/77/f9/6a77f93a-9286-60d8-3a0b-7d01a4b222cf/5665.jpg/600x600bb.jpg",
@@ -3398,9 +3420,9 @@
       "album": "Kiss All The Time. Disco, Occasionally."
     },
     "taste::sabrina carpenter": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/15/d0/f615d0ab-e0c4-575d-907e-1cc084642357/24UMGIM61704.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/57/a6/2657a620-c596-e0e4-efa2-e814f3572d1c/mzaf_5475540510703120797.plus.aac.p.m4a",
-      "album": "Short n' Sweet"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/68/e5/f268e559-c2d6-2ab7-75e9-9d82deeacc74/mzaf_12284163589578842254.plus.aac.p.m4a",
+      "album": "Short n' Sweet (Deluxe)"
     },
     "te llevas to::karol g": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/600x600bb.jpg",
@@ -3436,6 +3458,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/b6/51/19b6510e-4edb-1bc5-1aff-9d21c889cdae/190296084300.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/4f/65/864f6570-996d-aa68-ea6f-a625cb06cf4e/mzaf_16189447265177676376.plus.aac.p.m4a",
       "album": "Nicole"
+    },
+    "the chain 2002 remastered::fleetwood mac": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6d/33/a8/6d33a866-6a9c-41c2-041e-b88963e53c50/603497890293.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/f8/31/9ef83126-c5cf-f526-c26d-0c25895e4d9b/mzaf_9883179573566934970.plus.aac.p.m4a",
+      "album": "Rumours"
     },
     "the chain::fleetwood mac": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/600x600bb.jpg",
@@ -3587,9 +3614,9 @@
       "album": "Don't Look Down"
     },
     "training season::dua lipa": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/89/15/828915ea-d716-61c4-3de7-ef00c1f800fb/5054197853630.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/87/16/a88716e2-9474-ec4e-06d6-d3a9a3ba96c8/mzaf_6258558385119267725.plus.aac.p.m4a",
-      "album": "Training Season - Single"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/62/e0/b562e0fa-bde1-e785-00e1-9a6d8190b5a6/5059460347205.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/85/7f/0b857ff3-8e32-34ef-b376-4818a2f5acd6/mzaf_11699593524310767250.plus.aac.p.m4a",
+      "album": "PRIDE ARGENTINA 2024 VOL.II"
     },
     "traitor::olivia rodrigo": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/76/46/48/76464884-0e9c-1951-a3f6-ce02f74c2b19/21UMGIM26093.rgb.jpg/600x600bb.jpg",
