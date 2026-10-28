@@ -1,12 +1,12 @@
 {
   "source_chart": "philippines-songs",
-  "resolved_chart_date": "2026-10-27",
+  "resolved_chart_date": "2026-10-28",
   "dates": [
-    "2026-10-27"
+    "2026-10-28"
   ],
   "entries": [
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 1,
       "title": "Na Para Bang",
       "artist": "Mariah Deborah",
@@ -18,7 +18,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 2,
       "title": "Ain't In LA",
       "artist": "AD\u00c9LA",
@@ -30,7 +30,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 3,
       "title": "Nicole Kidman",
       "artist": "AD\u00c9LA",
@@ -42,7 +42,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 4,
       "title": "Stop The Wedding!",
       "artist": "Ashe",
@@ -54,7 +54,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 5,
       "title": "the cure",
       "artist": "Olivia Rodrigo",
@@ -66,7 +66,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 6,
       "title": "Baby 123 (feat. MADAM SAUCE)",
       "artist": "RAPROJECT SIX",
@@ -78,7 +78,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 7,
       "title": "Ako ang bagyo",
       "artist": "SHEAN",
@@ -90,7 +90,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 8,
       "title": "Mahal Magmahal",
       "artist": "Esremborak",
@@ -102,7 +102,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 9,
       "title": "Shuloks",
       "artist": "RAPROJECT SIX",
@@ -114,7 +114,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 10,
       "title": "Multo",
       "artist": "Cup of Joe",
@@ -126,7 +126,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 11,
       "title": "Pag-Ibig ay Kanibalismo II",
       "artist": "fitterkarma",
@@ -138,7 +138,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 12,
       "title": "Alabang",
       "artist": "RAPROJECT SIX",
@@ -150,20 +150,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 13,
-      "title": "Totoong tayo",
-      "artist": "Jin DC",
-      "album": "Totoong tayo - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/40/f2/3140f2d7-79f5-ef9a-eb9a-a097b27ad3ef/5063992655325.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/4c/e3/534ce3b5-8e3e-5849-5adb-0cc0549f7b7c/mzaf_3086558156272219794.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 14,
       "title": "Eyes Can't Lie",
       "artist": "RAPROJECT SIX",
       "album": "Eyes Can't Lie - Single",
@@ -174,7 +162,19 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 14,
+      "title": "Totoong tayo",
+      "artist": "Jin DC",
+      "album": "Totoong tayo - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/40/f2/3140f2d7-79f5-ef9a-eb9a-a097b27ad3ef/5063992655325.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/4c/e3/534ce3b5-8e3e-5849-5adb-0cc0549f7b7c/mzaf_3086558156272219794.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 15,
       "title": "stupid song",
       "artist": "Olivia Rodrigo",
@@ -186,7 +186,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 16,
       "title": "Kalapastangan",
       "artist": "fitterkarma",
@@ -198,7 +198,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 17,
       "title": "Panaginip",
       "artist": "nicole",
@@ -210,7 +210,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 18,
       "title": "Summer Crush",
       "artist": "HELLMERRY",
@@ -222,7 +222,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 19,
       "title": "Since Day One (feat. Flow G)",
       "artist": "Skusta Clee",
@@ -234,7 +234,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 20,
       "title": "Weng Weng (feat. Gaspari)",
       "artist": "Uncle Dags",
@@ -246,7 +246,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 21,
       "title": "Angel Of My Dreams",
       "artist": "JADE",
@@ -258,7 +258,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 22,
       "title": "drop dead",
       "artist": "Olivia Rodrigo",
@@ -270,7 +270,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 23,
       "title": "Housewife",
       "artist": "Tate McRae",
@@ -282,7 +282,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 24,
       "title": "Alam Ko Na (feat. Just Hush & Third Flo')",
       "artist": "DEN\u0232",
@@ -294,20 +294,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 25,
-      "title": "TMA",
-      "artist": "groundZERO Records, Tyler, Primera & ODP",
-      "album": "TMA - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/d9/29/1cd92973-8644-f3ce-b1a8-33172c21b31a/cover.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/99/1e/02991e03-6a16-1074-c9aa-75970ff0d09a/mzaf_9260652961475193521.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 26,
       "title": "Into You",
       "artist": "Ariana Grande",
       "album": "Dangerous Woman (Bonus Tracks Edition)",
@@ -318,20 +306,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 27,
-      "title": "Man I Need",
-      "artist": "Olivia Dean",
-      "album": "The Art of Loving",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/bb/5b/42bb5b21-2550-6205-bf3c-334b0e7d6199/mzaf_17462928687872215879.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 26,
+      "title": "TMA",
+      "artist": "groundZERO Records, Tyler, Primera & ODP",
+      "album": "TMA - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/d9/29/1cd92973-8644-f3ce-b1a8-33172c21b31a/cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/99/1e/02991e03-6a16-1074-c9aa-75970ff0d09a/mzaf_9260652961475193521.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 28,
+      "chart_date": "2026-10-28",
+      "rank": 27,
       "title": "Libu-Libong Buwan (Uuwian)",
       "artist": "Kyle Raphael",
       "album": "Libu-Libong Buwan (Uuwian) - Single",
@@ -342,20 +330,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 29,
-      "title": "Risk It All",
-      "artist": "Bruno Mars",
-      "album": "The Romantic",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/fc/d7/61fcd7e8-ea20-2f90-3672-09516cd050e6/mzaf_12696195794831485731.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 28,
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "album": "The Art of Loving",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/bb/5b/42bb5b21-2550-6205-bf3c-334b0e7d6199/mzaf_17462928687872215879.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 30,
+      "chart_date": "2026-10-28",
+      "rank": 29,
       "title": "So Easy (To Fall In Love)",
       "artist": "Olivia Dean",
       "album": "The Art of Loving",
@@ -366,8 +354,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 31,
+      "chart_date": "2026-10-28",
+      "rank": 30,
       "title": "supernatural",
       "artist": "Ariana Grande",
       "album": "eternal sunshine (slightly deluxe and also live)",
@@ -378,7 +366,19 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 31,
+      "title": "Risk It All",
+      "artist": "Bruno Mars",
+      "album": "The Romantic",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/fc/d7/61fcd7e8-ea20-2f90-3672-09516cd050e6/mzaf_12696195794831485731.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 32,
       "title": "Rosas (feat. Skusta Clee)",
       "artist": "Yuridope",
@@ -390,20 +390,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 33,
-      "title": "expectations",
-      "artist": "Olivia Rodrigo & Chappell Roan",
-      "album": "expectations - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/3c/b2/d23cb283-5f3e-7433-bc41-86c7d77c4503/26UM1IM29619.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/c7/d9/dac7d988-f12e-1d34-d4c4-7dd4f4845609/mzaf_17539801478792412522.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 34,
       "title": "thank u, next",
       "artist": "Ariana Grande",
       "album": "thank u, next (Bonus Videos)",
@@ -414,20 +402,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 35,
-      "title": "party 4 u",
-      "artist": "Charli xcx",
-      "album": "how i'm feeling now",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/5c/e9/1a5ce93c-aef4-6667-b7d1-7162203e1c39/190295229993.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/56/59/ad565928-39e7-e838-fe53-d802ed43028f/mzaf_6890154135250520322.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 36,
+      "chart_date": "2026-10-28",
+      "rank": 34,
       "title": "kahel na langit",
       "artist": "Maki",
       "album": "kahel na langit - Single",
@@ -438,7 +414,31 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 35,
+      "title": "expectations",
+      "artist": "Olivia Rodrigo & Chappell Roan",
+      "album": "expectations - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/3c/b2/d23cb283-5f3e-7433-bc41-86c7d77c4503/26UM1IM29619.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/c7/d9/dac7d988-f12e-1d34-d4c4-7dd4f4845609/mzaf_17539801478792412522.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 36,
+      "title": "party 4 u",
+      "artist": "Charli xcx",
+      "album": "how i'm feeling now",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/5c/e9/1a5ce93c-aef4-6667-b7d1-7162203e1c39/190295229993.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/56/59/ad565928-39e7-e838-fe53-d802ed43028f/mzaf_6890154135250520322.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 37,
       "title": "7 rings",
       "artist": "Ariana Grande",
@@ -450,20 +450,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 38,
-      "title": "hate that i made you love me",
-      "artist": "Ariana Grande",
-      "album": "hate that i made you love me - EP",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/83/7e/bd837ed0-ec1d-30a7-98fe-ad5352e73eed/26UMGIM72032.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/2d/73/6f2d735c-d2ed-b265-f1ca-b159d4929102/mzaf_16193878457579472915.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 39,
       "title": "Stuck with U",
       "artist": "Ariana Grande & Justin Bieber",
       "album": "Stuck with U - Single",
@@ -474,7 +462,19 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 39,
+      "title": "hate that i made you love me",
+      "artist": "Ariana Grande",
+      "album": "hate that i made you love me - EP",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/83/7e/bd837ed0-ec1d-30a7-98fe-ad5352e73eed/26UMGIM72032.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/2d/73/6f2d735c-d2ed-b265-f1ca-b159d4929102/mzaf_16193878457579472915.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 40,
       "title": "Kiss It Better",
       "artist": "Rihanna",
@@ -486,7 +486,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 41,
       "title": "Opalite",
       "artist": "Taylor Swift",
@@ -498,32 +498,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 42,
-      "title": "MATIKAS (feat. Smugglaz, Icetizy & Uncle Dags)",
-      "artist": "Gat Putch",
-      "album": "MATIKAS (feat. Smugglaz, Icetizy & Uncle Dags) - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/9f/32/639f32d7-26d3-807d-36ee-aeaffb975f9d/456378.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/ee/a9/37eea96c-a1ce-55e0-b867-94993c6657c4/mzaf_6547261005224843065.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 43,
-      "title": "Sa Susunod Na Lang",
-      "artist": "PdL, Skusta Clee & Yuri",
-      "album": "Sa Susunod Na Lang - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7a/13/0f/7a130fea-3709-ae79-71ce-9e15af319754/859728821509_cover.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/55/90/d055907c-de24-672d-a66f-29c789e624d0/mzaf_3963482612066666620.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 44,
       "title": "The Fate of Ophelia",
       "artist": "Taylor Swift",
       "album": "The Fate of Ophelia (The Chainsmokers Remix) - Single",
@@ -534,20 +510,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 45,
-      "title": "1990",
-      "artist": "Uncle Dags",
-      "album": "1990 - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/57/79/1357794e-6781-f39f-82e7-d82d88185563/426149.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/b4/e5/08b4e593-47f7-9195-a64e-ecb18213c9e8/mzaf_17997219947027118570.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 43,
+      "title": "MATIKAS (feat. Smugglaz, Icetizy & Uncle Dags)",
+      "artist": "Gat Putch",
+      "album": "MATIKAS (feat. Smugglaz, Icetizy & Uncle Dags) - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/9f/32/639f32d7-26d3-807d-36ee-aeaffb975f9d/456378.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/ee/a9/37eea96c-a1ce-55e0-b867-94993c6657c4/mzaf_6547261005224843065.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 46,
+      "chart_date": "2026-10-28",
+      "rank": 44,
       "title": "Palayo Sa Mundo",
       "artist": "Jolianne & Arthur Nery",
       "album": "Palayo Sa Mundo - Single",
@@ -558,8 +534,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 47,
+      "chart_date": "2026-10-28",
+      "rank": 45,
       "title": "purple",
       "artist": "Olivia Rodrigo",
       "album": "you seem pretty sad for a girl so in love",
@@ -570,20 +546,32 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 48,
-      "title": "positions",
-      "artist": "Ariana Grande",
-      "album": "Positions",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/c0/ce/e5c0ce05-4281-dd8e-6a93-86de7cf45621/20UMGIM94964.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/ab/17/f9ab1783-40e7-adb1-af16-7714dbf1b6a2/mzaf_1512992768776952922.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 46,
+      "title": "1990",
+      "artist": "Uncle Dags",
+      "album": "1990 - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/57/79/1357794e-6781-f39f-82e7-d82d88185563/426149.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/b4/e5/08b4e593-47f7-9195-a64e-ecb18213c9e8/mzaf_17997219947027118570.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 49,
+      "chart_date": "2026-10-28",
+      "rank": 47,
+      "title": "Sa Susunod Na Lang",
+      "artist": "PdL, Skusta Clee & Yuri",
+      "album": "Sa Susunod Na Lang - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7a/13/0f/7a130fea-3709-ae79-71ce-9e15af319754/859728821509_cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/55/90/d055907c-de24-672d-a66f-29c789e624d0/mzaf_3963482612066666620.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 48,
       "title": "back to friends",
       "artist": "sombr",
       "album": "I Barely Know Her",
@@ -594,32 +582,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 49,
+      "title": "positions",
+      "artist": "Ariana Grande",
+      "album": "Positions",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/c0/ce/e5c0ce05-4281-dd8e-6a93-86de7cf45621/20UMGIM94964.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/ab/17/f9ab1783-40e7-adb1-af16-7714dbf1b6a2/mzaf_1512992768776952922.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 50,
-      "title": "Halik Sobrang Diin Pt. 2 (feat. Louie Grammz & Mi'Kel)",
-      "artist": "Gat Putch",
-      "album": "Halik Sobrang Diin Pt. 2 (feat. Louie Grammz & Mi'Kel) - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/e9/e1/f0e9e171-e861-f053-793b-832709f2b651/415152.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/fc/a7/ccfca752-1758-f29b-9005-94567c80c034/mzaf_13512617528930003275.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 51,
-      "title": "Beauty and a Beat (feat. Nicki Minaj)",
-      "artist": "Justin Bieber",
-      "album": "Believe (Deluxe Edition)",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/b4/da/eab4da01-c422-c640-1ac3-97d746c5871c/mzaf_12363686639555987211.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 52,
       "title": "deja vu",
       "artist": "Olivia Rodrigo",
       "album": "SOUR (Video Version)",
@@ -630,32 +606,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 53,
-      "title": "About You",
-      "artist": "The 1975",
-      "album": "Being Funny In A Foreign Language",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/c7/98/1fc7988e-0a39-5724-1390-e45246250e24/198704825934_Cover.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/8c/64/d08c6440-e727-10ab-589c-e36d5afea47e/mzaf_15879604028025493401.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 51,
+      "title": "Halik Sobrang Diin Pt. 2 (feat. Louie Grammz & Mi'Kel)",
+      "artist": "Gat Putch",
+      "album": "Halik Sobrang Diin Pt. 2 (feat. Louie Grammz & Mi'Kel) - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/e9/e1/f0e9e171-e861-f053-793b-832709f2b651/415152.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/fc/a7/ccfca752-1758-f29b-9005-94567c80c034/mzaf_13512617528930003275.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 54,
-      "title": "Manchild",
-      "artist": "Sabrina Carpenter",
-      "album": "Manchild - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/50/a3/b750a392-cfaa-bedc-7d81-cf7a1718e960/25UMGIM76990.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/81/5e/f5815e66-259c-5ef6-8ed9-2b1b30e6cbe7/mzaf_13444579039308913021.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 55,
+      "chart_date": "2026-10-28",
+      "rank": 52,
       "title": "Fortnight (feat. Post Malone)",
       "artist": "Taylor Swift",
       "album": "Fortnight (feat. Post Malone) [BLOND:ISH Remix] - Single",
@@ -666,68 +630,44 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 56,
-      "title": "A Couple Minutes",
-      "artist": "Olivia Dean",
-      "album": "The Art of Loving",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/86/aa/c386aa57-9cd9-42d5-8406-7e805c33119e/mzaf_15443155590438636047.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 53,
+      "title": "Manchild",
+      "artist": "Sabrina Carpenter",
+      "album": "Manchild - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/50/a3/b750a392-cfaa-bedc-7d81-cf7a1718e960/25UMGIM76990.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/81/5e/f5815e66-259c-5ef6-8ed9-2b1b30e6cbe7/mzaf_13444579039308913021.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 57,
-      "title": "u + me = <3",
-      "artist": "Olivia Rodrigo",
-      "album": "you seem pretty sad for a girl so in love",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/9e/32/f69e3222-fe0f-1547-8095-cd91f75a7d0c/mzaf_8153099727443688207.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 54,
+      "title": "About You",
+      "artist": "The 1975",
+      "album": "Being Funny In A Foreign Language",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/c7/98/1fc7988e-0a39-5724-1390-e45246250e24/198704825934_Cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/8c/64/d08c6440-e727-10ab-589c-e36d5afea47e/mzaf_15879604028025493401.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 58,
-      "title": "Snooze",
-      "artist": "SZA",
-      "album": "SOS",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/a7/8e/5ca78e4e-245f-5021-858c-45a8057eb296/mzaf_4277583948632043282.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 59,
-      "title": "Walang Alam",
-      "artist": "Hev Abi",
-      "album": "Kung Alam Mo Lang",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/ff/a9/c2ffa9d2-5098-3399-7534-b6173aedc7c5/cover.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/4a/38/704a38ba-1924-a050-d5e4-444211e1df89/mzaf_11315698584057312026.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 60,
-      "title": "DAISIES",
+      "chart_date": "2026-10-28",
+      "rank": 55,
+      "title": "Beauty and a Beat (feat. Nicki Minaj)",
       "artist": "Justin Bieber",
-      "album": "SWAG II",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/cb/3e/e0cb3e1c-0dde-156d-d500-7943bc4ddebd/25UM1IM36272.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/ab/d4/e6abd4f4-3093-357d-0875-a6b8e1eff517/mzaf_9045537445188775222.plus.aac.p.m4a",
+      "album": "Believe (Deluxe Edition)",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/b4/da/eab4da01-c422-c640-1ac3-97d746c5871c/mzaf_12363686639555987211.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 61,
+      "chart_date": "2026-10-28",
+      "rank": 56,
       "title": "no tears left to cry",
       "artist": "Ariana Grande",
       "album": "Sweetener",
@@ -738,19 +678,79 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 62,
-      "title": "Patient Zero",
-      "artist": "Taylor Swift",
-      "album": "The Life of a Showgirl: The Encore",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/c8/21/ecc821bd-1252-51fe-08f0-f3d548dcc91b/mzaf_18965391367399255.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 57,
+      "title": "A Couple Minutes",
+      "artist": "Olivia Dean",
+      "album": "The Art of Loving",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/86/aa/c386aa57-9cd9-42d5-8406-7e805c33119e/mzaf_15443155590438636047.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 58,
+      "title": "Walang Alam",
+      "artist": "Hev Abi",
+      "album": "Kung Alam Mo Lang",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/ff/a9/c2ffa9d2-5098-3399-7534-b6173aedc7c5/cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/4a/38/704a38ba-1924-a050-d5e4-444211e1df89/mzaf_11315698584057312026.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 59,
+      "title": "u + me = <3",
+      "artist": "Olivia Rodrigo",
+      "album": "you seem pretty sad for a girl so in love",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/9e/32/f69e3222-fe0f-1547-8095-cd91f75a7d0c/mzaf_8153099727443688207.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 60,
+      "title": "Snooze",
+      "artist": "SZA",
+      "album": "SOS Deluxe: LANA",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/05/7d/73057d8f-846c-01b8-2760-6d3c3071c48a/196872790276.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/e7/e5/74e7e5f7-97f4-6da2-814c-a83c3c0a1d6a/mzaf_4759576650617827787.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 61,
+      "title": "DAISIES",
+      "artist": "Justin Bieber",
+      "album": "SWAG II",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/cb/3e/e0cb3e1c-0dde-156d-d500-7943bc4ddebd/25UM1IM36272.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/ab/d4/e6abd4f4-3093-357d-0875-a6b8e1eff517/mzaf_9045537445188775222.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 62,
+      "title": "Cruel Summer",
+      "artist": "Taylor Swift",
+      "album": "The More Lover Chapter - EP",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5c/be/5b/5cbe5bd4-4dd5-eb54-c22b-4f47305fcd04/23UMGIM27346.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/9b/6a/879b6a46-6418-5971-7e9d-141cc2307f64/mzaf_7067346696502856794.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 63,
       "title": "maggots for brains",
       "artist": "Olivia Rodrigo",
@@ -762,8 +762,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 64,
+      "title": "Patient Zero",
+      "artist": "Taylor Swift",
+      "album": "The Life of a Showgirl: The Encore",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/c8/21/ecc821bd-1252-51fe-08f0-f3d548dcc91b/mzaf_18965391367399255.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 65,
       "title": "Backburner",
       "artist": "NIKI",
       "album": "Nicole",
@@ -774,19 +786,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 65,
-      "title": "Cruel Summer",
-      "artist": "Taylor Swift",
-      "album": "The More Lover Chapter - EP",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5c/be/5b/5cbe5bd4-4dd5-eb54-c22b-4f47305fcd04/23UMGIM27346.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/9b/6a/879b6a46-6418-5971-7e9d-141cc2307f64/mzaf_7067346696502856794.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 66,
       "title": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
       "artist": "Taylor Swift",
@@ -798,44 +798,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 67,
-      "title": "honeybee",
-      "artist": "Olivia Rodrigo",
-      "album": "you seem pretty sad for a girl so in love",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/7f/68/077f68ac-3720-0963-8185-347458b4a3c8/mzaf_826887783104606101.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 68,
-      "title": "Dilaw",
-      "artist": "Maki",
-      "album": "Dilaw - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/2f/5e/5a2f5ecc-74b8-4e41-a101-26b169208c17/198588002179.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/dc/c1/52dcc11a-061e-44ee-464a-7e3a4ca925f7/mzaf_12998579520605676897.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 69,
-      "title": "Busy Woman",
-      "artist": "Sabrina Carpenter",
-      "album": "Short n' Sweet (Deluxe)",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/e5/14/fde514b9-db86-e88a-a56f-4bfada6fb110/mzaf_12361292430057670571.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 70,
       "title": "Guilty as Sin?",
       "artist": "Taylor Swift",
       "album": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
@@ -846,8 +810,32 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 71,
+      "chart_date": "2026-10-28",
+      "rank": 68,
+      "title": "Busy Woman",
+      "artist": "Sabrina Carpenter",
+      "album": "Short n' Sweet (Deluxe)",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/e5/14/fde514b9-db86-e88a-a56f-4bfada6fb110/mzaf_12361292430057670571.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 69,
+      "title": "Dilaw",
+      "artist": "Maki",
+      "album": "Dilaw - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/2f/5e/5a2f5ecc-74b8-4e41-a101-26b169208c17/198588002179.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/dc/c1/52dcc11a-061e-44ee-464a-7e3a4ca925f7/mzaf_12998579520605676897.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 70,
       "title": "34+35",
       "artist": "Ariana Grande",
       "album": "Positions",
@@ -858,20 +846,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 72,
-      "title": "Cinderella (feat. Ty Dolla $ign)",
-      "artist": "Mac Miller",
-      "album": "The Divine Feminine",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/22/09/66220922-80bd-7758-f9ab-601dcfae9077/mzaf_17552938916380030049.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 73,
+      "chart_date": "2026-10-28",
+      "rank": 71,
       "title": "Alam Mo Ba Girl",
       "artist": "Hev Abi",
       "album": "Kung Alam Mo Lang",
@@ -882,7 +858,31 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 72,
+      "title": "honeybee",
+      "artist": "Olivia Rodrigo",
+      "album": "you seem pretty sad for a girl so in love",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/7f/68/077f68ac-3720-0963-8185-347458b4a3c8/mzaf_826887783104606101.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 73,
+      "title": "Lover",
+      "artist": "Taylor Swift",
+      "album": "The More Lover Chapter - EP",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5c/be/5b/5cbe5bd4-4dd5-eb54-c22b-4f47305fcd04/23UMGIM27346.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/d6/f6/95d6f622-7268-1da5-a8a4-d0c6e4db0a11/mzaf_14098690876794938879.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 74,
       "title": "Mahika",
       "artist": "Adie & Janine Berdin",
@@ -894,7 +894,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 75,
       "title": "drivers license",
       "artist": "Olivia Rodrigo",
@@ -906,44 +906,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 76,
-      "title": "Lover",
-      "artist": "Taylor Swift",
-      "album": "The More Lover Chapter - EP",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5c/be/5b/5cbe5bd4-4dd5-eb54-c22b-4f47305fcd04/23UMGIM27346.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/d6/f6/95d6f622-7268-1da5-a8a4-d0c6e4db0a11/mzaf_14098690876794938879.plus.aac.p.m4a",
+      "title": "Cinderella (feat. Ty Dolla $ign)",
+      "artist": "Mac Miller",
+      "album": "The Divine Feminine",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/22/09/66220922-80bd-7758-f9ab-601dcfae9077/mzaf_17552938916380030049.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 77,
-      "title": "Isa lang",
-      "artist": "Arthur Nery",
-      "album": "Isa lang - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bf/63/0c/bf630c2e-4a33-629f-7bb8-ca43737bc08c/cover.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/e7/ac/24e7ac86-c947-4b93-3d42-fbc6fdaa49d4/mzaf_17717506291418073053.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 78,
-      "title": "Training Season",
-      "artist": "Dua Lipa",
-      "album": "PRIDE ARGENTINA 2024 VOL.II",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/62/e0/b562e0fa-bde1-e785-00e1-9a6d8190b5a6/5059460347205.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/85/7f/0b857ff3-8e32-34ef-b376-4818a2f5acd6/mzaf_11699593524310767250.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 79,
       "title": "ICED COFFEE O MANGO SHAKE",
       "artist": "Hev Abi",
       "album": "PAUTANG NG PAG-IBIG",
@@ -954,19 +930,43 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 80,
-      "title": "Blow My Mind (feat. Louie Grammz)",
-      "artist": "BLAZiNBONE",
-      "album": "Blow My Mind (feat. Louie Grammz) - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/0d/cc/a30dcc14-8db1-bf69-8fcd-10a8564b1e3f/478937.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/fd/9d/72fd9d58-3ece-43e1-64f7-e437dfeeabd7/mzaf_151553432250212694.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 78,
+      "title": "Isa lang",
+      "artist": "Arthur Nery",
+      "album": "Isa lang - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bf/63/0c/bf630c2e-4a33-629f-7bb8-ca43737bc08c/cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/e7/ac/24e7ac86-c947-4b93-3d42-fbc6fdaa49d4/mzaf_17717506291418073053.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 79,
+      "title": "Training Season",
+      "artist": "Dua Lipa",
+      "album": "PRIDE ARGENTINA 2024 VOL.II",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/62/e0/b562e0fa-bde1-e785-00e1-9a6d8190b5a6/5059460347205.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/85/7f/0b857ff3-8e32-34ef-b376-4818a2f5acd6/mzaf_11699593524310767250.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 80,
+      "title": "Ayoko Maging Kaibigan",
+      "artist": "kiddotin",
+      "album": "Ayoko Maging Kaibigan - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/a4/76/41a476c9-b519-c556-46c2-b1c71224db4c/cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/e3/74/b3e374e2-b35d-091d-e60d-e6864e2f8fa4/mzaf_3094026328994745477.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 81,
       "title": "Pahina",
       "artist": "Cup of Joe",
@@ -978,32 +978,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 82,
-      "title": "Taste",
-      "artist": "Sabrina Carpenter",
-      "album": "Short n' Sweet (Deluxe)",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/68/e5/f268e559-c2d6-2ab7-75e9-9d82deeacc74/mzaf_12284163589578842254.plus.aac.p.m4a",
+      "title": "Blow My Mind (feat. Louie Grammz)",
+      "artist": "BLAZiNBONE",
+      "album": "Blow My Mind (feat. Louie Grammz) - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/0d/cc/a30dcc14-8db1-bf69-8fcd-10a8564b1e3f/478937.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/fd/9d/72fd9d58-3ece-43e1-64f7-e437dfeeabd7/mzaf_151553432250212694.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 83,
-      "title": "Ayoko Maging Kaibigan",
-      "artist": "kiddotin",
-      "album": "Ayoko Maging Kaibigan - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/a4/76/41a476c9-b519-c556-46c2-b1c71224db4c/cover.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/e3/74/b3e374e2-b35d-091d-e60d-e6864e2f8fa4/mzaf_3094026328994745477.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 84,
       "title": "Lifetime",
       "artist": "Ben&Ben",
       "album": "Lifetime - Single",
@@ -1014,8 +1002,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 85,
+      "chart_date": "2026-10-28",
+      "rank": 84,
       "title": "One Last Time",
       "artist": "Ariana Grande",
       "album": "My Everything (Tenth Anniversary Edition)",
@@ -1026,19 +1014,31 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 86,
-      "title": "Chinay",
-      "artist": "La Mave",
-      "album": "Chinay - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/6a/ee/fb6aeecf-a180-ca3e-739e-217832b86f81/5063778844417_cover.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/b1/9a/f1b19ace-ace3-efd8-be75-a8282347480f/mzaf_5300058775233768972.plus.aac.p.m4a",
+      "chart_date": "2026-10-28",
+      "rank": 85,
+      "title": "Please Please Please",
+      "artist": "Sabrina Carpenter",
+      "album": "Short n' Sweet (Deluxe)",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/9b/76/459b7616-a9e1-2141-8f30-5c59391d5bd2/mzaf_1644643152248811763.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 86,
+      "title": "Taste",
+      "artist": "Sabrina Carpenter",
+      "album": "Short n' Sweet (Deluxe)",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/68/e5/f268e559-c2d6-2ab7-75e9-9d82deeacc74/mzaf_12284163589578842254.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 87,
       "title": "What Do You Mean?",
       "artist": "Justin Bieber",
@@ -1050,32 +1050,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 88,
-      "title": "Please Please Please",
-      "artist": "Sabrina Carpenter",
-      "album": "Short n' Sweet (Deluxe)",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/9b/76/459b7616-a9e1-2141-8f30-5c59391d5bd2/mzaf_1644643152248811763.plus.aac.p.m4a",
+      "title": "Chinay",
+      "artist": "La Mave",
+      "album": "Chinay - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/6a/ee/fb6aeecf-a180-ca3e-739e-217832b86f81/5063778844417_cover.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/b1/9a/f1b19ace-ace3-efd8-be75-a8282347480f/mzaf_5300058775233768972.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 89,
-      "title": "traitor",
-      "artist": "Olivia Rodrigo",
-      "album": "SOUR (Video Version)",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/76/46/48/76464884-0e9c-1951-a3f6-ce02f74c2b19/21UMGIM26093.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/0e/c2/9a0ec2b2-dc04-e88b-d7eb-a7a6cb4ff8f3/mzaf_12165909470959251106.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 90,
       "title": "No Scrubs",
       "artist": "TLC",
       "album": "FanMail",
@@ -1086,32 +1074,20 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 90,
+      "title": "Buenos Dias (feat. Fern.)",
+      "artist": "Uncle Dags",
+      "album": "Buenos Dias (feat. Fern.) - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/a5/86/daa586b4-058e-b623-74dd-ae1498f6f48b/488147.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/b3/91/09b391d4-781d-f6d4-0889-62aa62eeb1df/mzaf_14629497877276193775.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 91,
-      "title": "expectations",
-      "artist": "Olivia Rodrigo",
-      "album": "you seem pretty sad for a girl so in love",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/df/c0/8bdfc0e9-1f7b-8437-0f6a-1523c87e8d4a/mzaf_5536706325659515473.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 92,
-      "title": "Espresso",
-      "artist": "Sabrina Carpenter",
-      "album": "Espresso - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/09/fa/3a09fabd-7a71-d0d7-3e6a-7f3c4c89014e/24UMGIM32304.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/14/5f/48145fa9-a5b6-32a0-45e8-05af48e52b9c/mzaf_6315924685303002328.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 93,
       "title": "Die With A Smile",
       "artist": "Lady Gaga & Bruno Mars",
       "album": "Die With A Smile - Single",
@@ -1122,8 +1098,8 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 94,
+      "chart_date": "2026-10-28",
+      "rank": 92,
       "title": "City Girl",
       "artist": "Shanti Dope",
       "album": "City Girl - Single",
@@ -1134,8 +1110,56 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
+      "rank": 93,
+      "title": "traitor",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR (Video Version)",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/76/46/48/76464884-0e9c-1951-a3f6-ce02f74c2b19/21UMGIM26093.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/0e/c2/9a0ec2b2-dc04-e88b-d7eb-a7a6cb4ff8f3/mzaf_12165909470959251106.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 94,
+      "title": "Espresso",
+      "artist": "Sabrina Carpenter",
+      "album": "Espresso - Single",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/09/fa/3a09fabd-7a71-d0d7-3e6a-7f3c4c89014e/24UMGIM32304.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/14/5f/48145fa9-a5b6-32a0-45e8-05af48e52b9c/mzaf_6315924685303002328.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
       "rank": 95,
+      "title": "expectations",
+      "artist": "Olivia Rodrigo",
+      "album": "you seem pretty sad for a girl so in love",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/df/c0/8bdfc0e9-1f7b-8437-0f6a-1523c87e8d4a/mzaf_5536706325659515473.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 96,
+      "title": "Coming Up Roses",
+      "artist": "Harry Styles",
+      "album": "Kiss All The Time. Disco, Occasionally.",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/f1/8a/44f18a73-1e7b-90c1-8f0d-55e9f257463e/mzaf_12931732484760057017.plus.aac.p.m4a",
+      "weeks_on_chart": null,
+      "peak_position": null,
+      "last_week_position": null
+    },
+    {
+      "chart_date": "2026-10-28",
+      "rank": 97,
       "title": "New Rules",
       "artist": "Dua Lipa",
       "album": "Disc 6",
@@ -1146,31 +1170,7 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
-      "rank": 96,
-      "title": "The Apartment We Won't Share",
-      "artist": "NIKI",
-      "album": "Nicole",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/b6/51/19b6510e-4edb-1bc5-1aff-9d21c889cdae/190296084300.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/4f/65/864f6570-996d-aa68-ea6f-a625cb06cf4e/mzaf_16189447265177676376.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
-      "rank": 97,
-      "title": "Origimal (feat. RJD)",
-      "artist": "Uncle Dags",
-      "album": "IMPAKTO",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/65/51/fe/6551fe8e-1103-b4f6-7396-cb171efdce4c/425221.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/a8/0a/c9a80abb-031b-2a3a-81bc-9ee65850cbe9/mzaf_15516920093341663797.plus.aac.p.m4a",
-      "weeks_on_chart": null,
-      "peak_position": null,
-      "last_week_position": null
-    },
-    {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 98,
       "title": "Iris",
       "artist": "The Goo Goo Dolls",
@@ -1182,25 +1182,25 @@
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 99,
-      "title": "I Knew It, I Knew You (From \"Toy Story 5\")",
-      "artist": "Taylor Swift",
-      "album": "I Knew It, I Knew You (From \"Toy Story 5\") - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/c1/15/aec11538-c395-b88e-b0f9-7b5b07b8e676/ticket.zkazzkhn.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/7c/19/0a7c19af-41a8-e60d-f230-a5147fc94cf8/mzaf_3480598408829745361.plus.aac.p.m4a",
+      "title": "The Apartment We Won't Share",
+      "artist": "NIKI",
+      "album": "Nicole",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/b6/51/19b6510e-4edb-1bc5-1aff-9d21c889cdae/190296084300.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/4f/65/864f6570-996d-aa68-ea6f-a625cb06cf4e/mzaf_16189447265177676376.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
     },
     {
-      "chart_date": "2026-10-27",
+      "chart_date": "2026-10-28",
       "rank": 100,
-      "title": "Tequila Rose",
-      "artist": "HELLMERRY & Al James",
-      "album": "Tequila Rose - Single",
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/44/e9/82/44e98212-27cb-cb8f-b207-c4ec2a05d6bf/196871890304.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/e5/01/bfe50114-56fe-da8b-cd22-212b326653d4/mzaf_8068057962617574852.plus.aac.p.m4a",
+      "title": "Origimal (feat. RJD)",
+      "artist": "Uncle Dags",
+      "album": "IMPAKTO",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/65/51/fe/6551fe8e-1103-b4f6-7396-cb171efdce4c/425221.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/a8/0a/c9a80abb-031b-2a3a-81bc-9ee65850cbe9/mzaf_15516920093341663797.plus.aac.p.m4a",
       "weeks_on_chart": null,
       "peak_position": null,
       "last_week_position": null
