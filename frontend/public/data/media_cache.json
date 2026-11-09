@@ -986,9 +986,9 @@
       "album": "xperiment"
     },
     "deja vu::olivia rodrigo": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/5a/c2/835ac220-f31a-006f-b6a9-2acd29eb60d0/mzaf_13621843495437485054.plus.aac.p.m4a",
-      "album": "SOUR"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/76/46/48/76464884-0e9c-1951-a3f6-ce02f74c2b19/21UMGIM26093.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/56/6d/ba566d2a-e795-bd91-7328-0677ce337424/mzaf_1946157624385708716.plus.aac.p.m4a",
+      "album": "SOUR (Video Version)"
     },
     "demolition::fontaines d c": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/600x600bb.jpg",
@@ -2077,6 +2077,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/40/6d/3b406de9-9f6b-4b36-b370-dea12fee9903/mzaf_2464986632331164102.plus.aac.p.m4a",
       "album": "Dopamine Chamber"
+    },
+    "jingle bell rock::bobby helms": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e8/18/6b/e8186bf9-5696-e721-b273-a5f173caf8c1/18UMGIM07062.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/9c/34/029c34a9-7dd3-497d-2069-7d08c21c3641/mzaf_11113220787373983410.plus.aac.p.m4a",
+      "album": "Jingle Bell Rock / Captain Santa Claus (And His Reindeer Space Patrol) - Single"
     },
     "jolene::dolly parton": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/600x600bb.jpg",
