@@ -991,9 +991,9 @@
       "album": "xperiment"
     },
     "deja vu::olivia rodrigo": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/8f/9a/e48f9a09-9746-002c-f2c8-a93b5cc33714/mzaf_5415519464496583284.plus.aac.p.m4a",
-      "album": "SOUR (Video Version)"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/33/fd/32/33fd32b1-0e43-9b4a-8ed6-19643f23544e/21UMGIM26092.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/ac/c8/53acc8bb-266e-865a-5804-858054ff4bfb/mzaf_13996660059668824829.plus.aac.p.m4a",
+      "album": "SOUR"
     },
     "demolition::fontaines d c": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/600x600bb.jpg",
@@ -1590,7 +1590,7 @@
     },
     "good days::sza": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ef/09/cf/ef09cf1f-a057-6039-00d3-7b5d14c7eba1/886449006717.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/c3/d7/e4c3d7e2-f2ef-ff93-741d-016796c9165b/mzaf_6565547752011119032.plus.aac.p.m4a",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/99/ac/4599ac97-8bf6-87df-a99f-c48b01e46a0a/mzaf_17564279299822541670.plus.aac.p.m4a",
       "album": "Good Days - Single"
     },
     "good girl::cloonee prospa tristan henry": {
@@ -2045,9 +2045,9 @@
       "album": "ARIRANG"
     },
     "into you::ariana grande": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/40/14/6e401443-8c15-2f21-4d2c-effe972c3838/16UMGIM30042.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/eb/3d/afeb3dfa-4409-fa70-fc60-45aa76dd1b56/mzaf_13008636163254708650.plus.aac.p.m4a",
-      "album": "Dangerous Woman (Bonus Tracks Edition)"
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/70/0f/3f700f55-1c91-c890-8cb7-b8886f87b7f6/16UMGIM30042.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/f4/8f/e5f48f1b-ddc9-0c4c-5e15-94da4bef0d3f/mzaf_9147219823908813446.plus.aac.p.m4a",
+      "album": "Dangerous Woman (Video Album)"
     },
     "ipagdadamot kita feat ck yg::olg zak realest cram nateman": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/b3/41/deb341ae-2618-07ba-6341-8ae132476d1b/cover.jpg/600x600bb.jpg",
@@ -2907,8 +2907,8 @@
       "album": "ARIRANG"
     },
     "not like us::kendrick lamar": {
-      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/31/3a/3f/313a3fbc-bb8f-80c7-b5a2-e226869a38cd/24UMGIM51924.rgb.jpg/600x600bb.jpg",
-      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/e0/e8/2de0e874-cd0b-e9a9-e876-76be13a86662/mzaf_12385336780649591409.plus.aac.p.m4a",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/ef/b6/d0efb685-73be-fdee-58c9-be655f4cd4fd/24UMGIM51924.rgb.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/f8/f8/96f8f80b-dbb5-f2ca-714e-9c39d5dc6846/mzaf_4599292728755362943.plus.aac.p.m4a",
       "album": "Not Like Us - Single"
     },
     "not new to it::rod wave": {
@@ -3154,6 +3154,11 @@
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/600x600bb.jpg",
       "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/9e/79/769e79f5-3fbe-a416-4109-e57acaf7ebb7/mzaf_1472369971298162165.plus.aac.p.m4a",
       "album": "Party In the U.S.A. - Single"
+    },
+    "party with the boys::don toliver": {
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/a4/0c/8fa40cc9-4fcd-2b1c-5d9a-718917370a71/075679549983.jpg/600x600bb.jpg",
+      "preview_url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/85/49/af8549ae-f408-7b71-5249-1ce2995e4e46/mzaf_7912770490207172737.plus.aac.p.m4a",
+      "album": "Party With The Boys - Single"
     },
     "pass the water::lil durk": {
       "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/45/b0/c745b05a-04ee-104e-1c32-a3861d1ec0e6/602507370848.jpg/600x600bb.jpg",
